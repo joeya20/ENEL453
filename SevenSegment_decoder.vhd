@@ -34,9 +34,9 @@ begin
 				when "1001" => seven_seg(6 downto 0)<="1100111"; -- 9
 				-- students add this block ------
 				when "1010" => seven_seg(6 downto 0)<="1110111"; -- A
-				when "1011" => seven_seg(6 downto 0)<="1111100"; -- b
+				when "1011" => seven_seg(6 downto 0)<="1111111"; -- B
 				when "1100" => seven_seg(6 downto 0)<="0111001"; -- c
-				when "1101" => seven_seg(6 downto 0)<="1011110"; -- d
+				when "1101" => seven_seg(6 downto 0)<="1101111"; -- D
 				when "1110" => seven_seg(6 downto 0)<="1111001"; -- E
 				when "1111" => seven_seg(6 downto 0)<="1110001"; -- F
 				---------------------------------

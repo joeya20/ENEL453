@@ -19,7 +19,9 @@ Signal DP_in, Blank:  STD_LOGIC_VECTOR (5 downto 0);
 Signal switch_inputs: STD_LOGIC_VECTOR (12 downto 0);
 Signal bcd:           STD_LOGIC_VECTOR(15 DOWNTO 0);
 signal mux_out:		 STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal mux_out0:		 STD_LOGIC_VECTOR(15 DOWNTO 0);
 signal hex_in: 		 STD_LOGIC_VECTOR(15 DOWNTO 0); -- declaring intermediary signal to pad sw(7:0)
+signal gnd:				 STD_LOGIC_VECTOR(15 DOWNTO 0);
 
 Component SevenSegment is
     Port( Num_Hex0,Num_Hex1,Num_Hex2,Num_Hex3,Num_Hex4,Num_Hex5 : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -39,8 +41,8 @@ END Component;
 
 Component MUX2TO1 IS
 	PORT(
-		bin     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits
-		hex     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits
+		in0     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits
+		in1     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits
 		s       : in  std_logic;
 		mux_out : out std_logic_vector(15 downto 0) -- notice no semi-colon 
 		);
@@ -56,11 +58,20 @@ begin
    DP_in    <= "000000"; -- position of the decimal point in the display (1=LED on,0=LED off)
    Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
    hex_in	<= X"00" & sw(7 downto 0); -- appending sw(7:0) with zeros to make 16 bit mux input
+	gnd		<= X"0000";
 	
-MUX2TO1_ins : MUX2TO1
+MUX2TO1_ins0 : MUX2TO1
+				PORT MAP( 
+					in0 		=> gnd,
+					in1 		=> hex_in,
+					s		   => reset_n,
+					mux_out	=> mux_out0
+				);
+	
+MUX2TO1_ins1 : MUX2TO1
 					PORT MAP( 
-						bin 		=> bcd(15 downto 0),
-						hex 		=> hex_in,
+						in0 		=> bcd(15 downto 0),
+						in1 		=> mux_out0,
 						s   		=> sw(9),
 						mux_out	=> mux_out
 					);
@@ -83,7 +94,7 @@ SevenSegment_ins: SevenSegment
                           );
                                      
  
-LEDR(9 downto 0) <=SW(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
+LEDR(9 downto 0) <= SW(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
 switch_inputs <= "00000" & SW(7 downto 0);
 
 binary_bcd_ins: binary_bcd                               
