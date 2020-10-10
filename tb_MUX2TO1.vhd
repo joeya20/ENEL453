@@ -38,23 +38,22 @@ ARCHITECTURE behavior OF tb_MUX2TO1 IS
       begin
 		  assert false report "MUX2TO1 testbench started"; -- puts a note in the ModelSim transcript window (this line is just for convenience)
 		  wait for time_delay;
-		  in1 <= "0000"; in2 <= "0000"; 
+		  in1 <= "0000000000000000"; in2 <= "0000000000000000"; 
         wait for time_delay;
 		  s <= '0'; 
 		  wait for time_delay;
-		  in1 <= "0101"; in2 <= "1010"; 
+		  in1 <= "0101010101010101"; in2 <= "1010101010101010"; 
         wait for time_delay;
-		  in1 <= "1010"; in2 <= "0101"; 
+		  in1 <= "1010101010101010"; in2 <= "0101010101010101";
         wait for time_delay;
 		  s <= '1'; 
 		  wait for time_delay;
-		  in1 <= "0101"; in2 <= "1010"; 
+		  in1 <= "0101010101010101"; in2 <= "1010101010101010"; 
         wait for time_delay;
 		  s <= '0'; 
 		  wait for 10*time_delay; -- this extends the time by 10x the time_delay, for ease of veiwing waveforms
 		  assert false report "MUX2TO1 testbench completed"; -- puts a note in the ModelSim transcript window (this line is just for convenience)
         wait;	-- this wait without any time parameters just stops the simulation, otherwise it would repeat forever starting back at the top  
-
 	   end process;  
  
 END;

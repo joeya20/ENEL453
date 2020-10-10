@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M50DAF484ES) Path("C:/Users/JoeyD/OneDrive/Desktop/Third Year/3.ENEL453/lab1/output_files/") File("top_level.sof") MfrSpec(OpMask(1));
+		Device PartName(10M50DAF484ES) Path("C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/output_files/") File("top_level.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
