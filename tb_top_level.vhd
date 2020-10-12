@@ -65,31 +65,24 @@ begin
 		  
         -- Reset generation
         -- EDIT: Check that reset_n is really your reset signal
-        reset_n <= '0';
-        wait for 100 ns;
-        reset_n <= '1';
-        wait for 100 ns;
+        reset_n <= '0'; wait for 100 ns;
+        reset_n <= '1'; wait for 100 ns; wait for 1000 * TbPeriod;
 
         -- EDIT Add stimuli here
-		  sw <= "0000001001"; wait for 100 * TbPeriod;
-        sw <= "1000001001"; wait for 100 * TbPeriod;
-		  sw <= "0000001010"; wait for 100 * TbPeriod;
-		  sw <= "1000001010"; wait for 100 * TbPeriod;
-		  reset_n <= '0';
-        wait for 100 ns;
-        reset_n <= '1';
-        wait for 100 ns;
-		  sw <= "0000001001"; wait for 100 * TbPeriod;
-		  sw <= "1000001001"; wait for 100 * TbPeriod;
-		  sw <= "0001000001"; wait for 100 * TbPeriod;
-		  sw <= "1001000001"; wait for 100 * TbPeriod;
-		  sw <= "0010000000"; wait for 100 * TbPeriod;
-		  reset_n <= '0';
-        wait for 100 ns;
-        reset_n <= '1';
-        wait for 100 ns;
-		  sw <= "1010000000"; wait for 100 * TbPeriod;
-		  sw <= "1000000000"; wait for 100 * TbPeriod;
+		  sw <= "0000001001"; wait for 1000 * TbPeriod;
+        sw <= "1000001001"; wait for 1000 * TbPeriod;
+		  sw <= "0000001010"; wait for 1000 * TbPeriod;
+		  sw <= "1000001010"; wait for 1000 * TbPeriod;
+		  reset_n <= '0'; wait for 1000 * TbPeriod; 
+        reset_n <= '1'; wait for 1000 * TbPeriod;
+		  sw <= "0001000001"; wait for 1000 * TbPeriod;
+		  sw <= "1001000001"; wait for 1000 * TbPeriod;
+		  sw <= "0010000000"; wait for 1000 * TbPeriod;
+		  reset_n <= '0';    wait for 100 ns; wait for 1000 * TbPeriod; 
+        reset_n <= '1';    wait for 100 ns; wait for 1000 * TbPeriod; 
+		  sw <= "1010000000"; wait for 1000 * TbPeriod;
+		  sw <= "1011111111"; wait for 1000 * TbPeriod; 
+		  wait for 1000 * TbPeriod;
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
         wait;

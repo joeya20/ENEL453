@@ -10,25 +10,25 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/20.1
 Ebinary_bcd
-Z0 w1601999770
+Z0 w1602391406
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 27
-Z4 dC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1
-Z5 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/binary_bcd.vhd
-Z6 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/binary_bcd.vhd
+!i122 496
+Z4 d/home/yazan/Desktop/ENEL-453-Lab-1
+Z5 8/home/yazan/Desktop/ENEL-453-Lab-1/binary_bcd.vhd
+Z6 F/home/yazan/Desktop/ENEL-453-Lab-1/binary_bcd.vhd
 l0
 L8 1
 V0:9zdOIA`o`LF2cmkOC^P3
 !s100 gQzX;=HeN]3[lj0[@2mb]2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1602006047
+Z8 !s110 1602457789
 !i10b 1
-Z9 !s108 1602006046.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/binary_bcd.vhd|
-Z11 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/binary_bcd.vhd|
+Z9 !s108 1602457789.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/binary_bcd.vhd|
+Z11 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/binary_bcd.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -37,7 +37,7 @@ R1
 R2
 R3
 DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
-!i122 27
+!i122 496
 l27
 L17 68
 Vkk0@KWb1@9aV]WcFQb8d>1
@@ -52,44 +52,71 @@ R11
 !i113 1
 R12
 R13
+Ccfg_tb_mux2to1
+etb_MUX2TO1
+atb
+Z14 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
+DAx4 work 10 tb_mux2to1 2 tb 22 =UYE>bWmjCD@m10_1VI=z1
+R2
+R3
+Z15 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
+!i122 500
+Z16 w1602452477
+R4
+Z17 8/home/yazan/Desktop/ENEL-453-Lab-1/tb_MUX2TO1.vhd
+Z18 F/home/yazan/Desktop/ENEL-453-Lab-1/tb_MUX2TO1.vhd
+l0
+L55 1
+Ve8izW2[n24JS=G>S0`CaO0
+!s100 J@DHRZba3YTWX936zF`I80
+R7
+32
+R8
+!i10b 0
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/tb_MUX2TO1.vhd|
+Z20 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/tb_MUX2TO1.vhd|
+!i113 1
+R12
+R13
 Emux2to1
 R0
 R2
 R3
-!i122 28
+!i122 497
 R4
-Z14 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/MUX2TO1.vhd
-Z15 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/MUX2TO1.vhd
+Z21 8/home/yazan/Desktop/ENEL-453-Lab-1/MUX2TO1.vhd
+Z22 F/home/yazan/Desktop/ENEL-453-Lab-1/MUX2TO1.vhd
 l0
 L4 1
-VS>H9K27m26E:hEaz>Dg>f1
-!s100 7BOOi:L_S75Kbc<WCUaZ10
+V@0S`EKP00^0KG5?aDAn@53
+!s100 RO3T[f^VWjWjU>4@HiXBV0
 R7
 32
 R8
 !i10b 1
-Z16 !s108 1602006047.000000
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/MUX2TO1.vhd|
-Z18 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/MUX2TO1.vhd|
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/MUX2TO1.vhd|
+Z24 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/MUX2TO1.vhd|
 !i113 1
 R12
 R13
 Abehavior
 R2
 R3
-DEx4 work 7 mux2to1 0 22 S>H9K27m26E:hEaz>Dg>f1
-!i122 28
+R14
+!i122 497
 l13
 L12 6
-VkPN>PZCA0;F:D_mK9hJ1W1
-!s100 LHdJ:d<Fi9IgiXE:D1LUk2
+VfVUU`<XQ^7T<4EBOFU?De3
+!s100 8zIME]K9O<eKE<V6BEOYP2
 R7
 32
 R8
 !i10b 1
-R16
-R17
-R18
+R9
+R23
+R24
 !i113 1
 R12
 R13
@@ -97,10 +124,10 @@ Esevensegment
 R0
 R2
 R3
-!i122 29
+!i122 498
 R4
-Z19 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment.vhd
-Z20 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment.vhd
+Z25 8/home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment.vhd
+Z26 F/home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment.vhd
 l0
 L5 1
 VbD[XAzC][MhHDE[[CL3O@3
@@ -109,9 +136,9 @@ R7
 32
 R8
 !i10b 1
-R16
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment.vhd|
-Z22 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment.vhd|
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment.vhd|
+Z28 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment.vhd|
 !i113 1
 R12
 R13
@@ -119,7 +146,7 @@ Abehavioral
 R2
 R3
 DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
-!i122 29
+!i122 498
 l20
 L11 50
 VZg=eT^T6U1XLQZSJ:@@gb3
@@ -128,20 +155,20 @@ R7
 32
 R8
 !i10b 1
-R16
-R21
-R22
+R9
+R27
+R28
 !i113 1
 R12
 R13
 Esevensegment_decoder
-Z23 w1602004036
+R0
 R2
 R3
-!i122 30
+!i122 499
 R4
-Z24 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment_decoder.vhd
-Z25 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment_decoder.vhd
+Z29 8/home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment_decoder.vhd
+Z30 F/home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment_decoder.vhd
 l0
 L5 1
 VKjE^A[JI58zIZ_l229BiF2
@@ -150,9 +177,9 @@ R7
 32
 R8
 !i10b 1
-R16
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment_decoder.vhd|
-Z27 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/SevenSegment_decoder.vhd|
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment_decoder.vhd|
+Z32 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment_decoder.vhd|
 !i113 1
 R12
 R13
@@ -160,7 +187,7 @@ Abehavioral
 R2
 R3
 DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
-!i122 30
+!i122 499
 l17
 L13 41
 VG3hVD5C8G24Y5@Gz8RQQi2
@@ -169,20 +196,20 @@ R7
 32
 R8
 !i10b 1
-R16
-R26
-R27
+R9
+R31
+R32
 !i113 1
 R12
 R13
 Etb_mux2to1
-Z28 w1602000763
+R16
 R2
 R3
-!i122 31
+!i122 500
 R4
-Z29 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_MUX2TO1.vhd
-Z30 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_MUX2TO1.vhd
+R17
+R18
 l0
 L4 1
 VIb@2L6>4m?I`INR>md?>;2
@@ -191,92 +218,112 @@ R7
 32
 R8
 !i10b 1
-R16
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_MUX2TO1.vhd|
-Z32 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_MUX2TO1.vhd|
-!i113 1
-R12
-R13
-Abehavior
-R2
-R3
-DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
-!i122 31
-l25
-L7 53
-V3W3CC[H[_De>>We`F]fJb0
-!s100 Ol<[XUZ9fc6R]<HT]AzSe2
-R7
-32
-R8
-!i10b 1
-R16
-R31
-R32
-!i113 1
-R12
-R13
-Etb_top_level
-Z33 w1602005992
-R2
-R3
-!i122 33
-R4
-Z34 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_top_level.vhd
-Z35 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_top_level.vhd
-l0
-L8 1
-VzIJcR]GGPS23@TVK:g=SK1
-!s100 2e@ZcHec5JS2MgNF8KA`21
-R7
-32
-Z36 !s110 1602006048
-!i10b 1
-Z37 !s108 1602006048.000000
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_top_level.vhd|
-Z39 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/tb_top_level.vhd|
+R9
+R19
+R20
 !i113 1
 R12
 R13
 Atb
 R2
 R3
-Z40 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
-!i122 33
-l41
-Z41 L11 83
-VYC^IOnU<zGP1W>_8TEAFM2
-!s100 F8aeaWKV2ofRY?1^66;Zl2
+R15
+!i122 500
+l25
+L7 45
+V=UYE>bWmjCD@m10_1VI=z1
+!s100 Q9Y[N;5[M]5D2=??4RIDM0
 R7
 32
-R36
+R8
 !i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R15
+!i122 129
+l25
+L7 44
+VTD7XV]H9DD52GDUV8<N643
+!s100 cZEE8cSA^C4<<z1V4=XMC3
+R7
+32
+!s110 1602399813
+!i10b 1
+!s108 1602399813.000000
+R19
+R20
+!i113 1
+R12
+R13
+w1602400289
+Etb_top_level
+Z33 w1602452181
+R2
+R3
+!i122 501
+R4
+Z34 8/home/yazan/Desktop/ENEL-453-Lab-1/tb_top_level.vhd
+Z35 F/home/yazan/Desktop/ENEL-453-Lab-1/tb_top_level.vhd
+l0
+L8 1
+VzIJcR]GGPS23@TVK:g=SK1
+!s100 2e@ZcHec5JS2MgNF8KA`21
+R7
+32
+R8
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/tb_top_level.vhd|
+Z37 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/tb_top_level.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
+!i122 501
+l41
+L11 81
+VdF?SEXPBJRBHOK3:1T5;L2
+!s100 k4K<OH8P68fWoAKcL5^PB2
+R7
+32
+R8
+!i10b 1
+R9
+R36
 R37
-R38
-R39
 !i113 1
 R12
 R13
 Etop_level
-Z42 w1602003737
+R0
 R1
 R2
 R3
-!i122 32
+!i122 502
 R4
-Z43 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/top_level.vhd
-Z44 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/top_level.vhd
+Z38 8/home/yazan/Desktop/ENEL-453-Lab-1/top_level.vhd
+Z39 F/home/yazan/Desktop/ENEL-453-Lab-1/top_level.vhd
 l0
 L5 1
 Vi>6@SWYK@B>Yg8j<lbGPL3
 !s100 T@DoB]X1H^oAEfVSO8O=[1
 R7
 32
-R36
+R8
 !i10b 1
-R16
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/top_level.vhd|
-Z46 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/top_level.vhd|
+R9
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/top_level.vhd|
+Z41 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/top_level.vhd|
 !i113 1
 R12
 R13
@@ -284,19 +331,19 @@ Abehavioral
 R1
 R2
 R3
-DEx4 work 9 top_level 0 22 i>6@SWYK@B>Yg8j<lbGPL3
-!i122 32
-l49
-L15 83
-VH1aE9hX6kRd@E]_NAT8CR3
-!s100 nV0`f70UUGF14:hnUZ2Cl0
+Z42 DEx4 work 9 top_level 0 22 i>6@SWYK@B>Yg8j<lbGPL3
+!i122 502
+l51
+Z43 L15 94
+Z44 V_m8[n<J^[dBBl7G>LR3^D0
+Z45 !s100 c_`m:N8H0;mR9UY@>2B?H2
 R7
 32
-R36
+R8
 !i10b 1
-R16
-R45
-R46
+R9
+R40
+R41
 !i113 1
 R12
 R13

@@ -1,0 +1,63 @@
+/home/yazan/Desktop/ENEL-453-Lab-1/MUX2TO1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/MUX2TO1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX2TO1
+-- Compiling architecture BEHAVIOR of MUX2TO1
+
+} {} {}} /home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment
+-- Compiling architecture Behavioral of SevenSegment
+
+} {} {}} /home/yazan/Desktop/ENEL-453-Lab-1/binary_bcd.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/binary_bcd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity binary_bcd
+-- Compiling architecture behavior of binary_bcd
+
+} {} {}} /home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/SevenSegment_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment_decoder
+-- Compiling architecture Behavioral of SevenSegment_decoder
+
+} {} {}} /home/yazan/Desktop/ENEL-453-Lab-1/tb_MUX2TO1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/tb_MUX2TO1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_MUX2TO1
+-- Compiling architecture tb of tb_MUX2TO1
+-- Compiling configuration cfg_tb_MUX2TO1
+-- Loading entity tb_MUX2TO1
+-- Loading architecture tb of tb_MUX2TO1
+-- Loading entity MUX2TO1
+
+} {} {}} /home/yazan/Desktop/ENEL-453-Lab-1/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture Behavioral of top_level
+
+} {} {}} /home/yazan/Desktop/ENEL-453-Lab-1/tb_top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/yazan/Desktop/ENEL-453-Lab-1/tb_top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_top_level
+-- Compiling architecture tb of tb_top_level
+
+} {} {}}
