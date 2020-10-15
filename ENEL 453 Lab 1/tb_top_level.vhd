@@ -70,7 +70,7 @@ begin
 
         -- EDIT Add stimuli here
 		  sw <= "0000001001"; wait for 1000 * TbPeriod;
-        sw <= "1000001001"; wait for 1000 * TbPeriod;
+                 sw <= "1000001001"; wait for 1000 * TbPeriod;
 		  sw <= "0000001010"; wait for 1000 * TbPeriod;
 		  sw <= "1000001010"; wait for 1000 * TbPeriod;
 		  reset_n <= '0'; wait for 1000 * TbPeriod; 

@@ -1,0 +1,20 @@
+
+State Machine - |top_level|binary_bcd:binary_bcd_ins|CurentState
+Name CurentState.s6 CurentState.S5 CurentState.S4 CurentState.S3 CurentState.S2 CurentState.S1 CurentState.S0 
+CurentState.S0 0 0 0 0 0 0 0 
+CurentState.S1 0 0 0 0 0 1 1 
+CurentState.S2 0 0 0 0 1 0 1 
+CurentState.S3 0 0 0 1 0 0 1 
+CurentState.S4 0 0 1 0 0 0 1 
+CurentState.S5 0 1 0 0 0 0 1 
+CurentState.s6 1 0 0 0 0 0 1 
+
+State Machine - |top_level|binary_bcd:binary_bcd_ins|\bcd_process:NextState
+Name \bcd_process:NextState.s6 \bcd_process:NextState.S5 \bcd_process:NextState.S4 \bcd_process:NextState.S3 \bcd_process:NextState.S2 \bcd_process:NextState.S1 \bcd_process:NextState.S0 
+\bcd_process:NextState.S0 0 0 0 0 0 0 0 
+\bcd_process:NextState.S1 0 0 0 0 0 1 1 
+\bcd_process:NextState.S2 0 0 0 0 1 0 1 
+\bcd_process:NextState.S3 0 0 0 1 0 0 1 
+\bcd_process:NextState.S4 0 0 1 0 0 0 1 
+\bcd_process:NextState.S5 0 1 0 0 0 0 1 
+\bcd_process:NextState.s6 1 0 0 0 0 0 1 
