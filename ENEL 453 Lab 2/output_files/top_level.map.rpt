@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_level
-Tue Oct 20 12:42:45 2020
+Tue Oct 20 14:39:24 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -18,13 +18,14 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  10. Registers Removed During Synthesis
  11. General Register Statistics
  12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Port Connectivity Checks: "binary_bcd:binary_bcd_ins"
- 14. Port Connectivity Checks: "SevenSegment:SevenSegment_ins"
- 15. Port Connectivity Checks: "MUX4TO1:MUX4TO1_ins0"
- 16. Port Connectivity Checks: "MUX2TO1:Hex_reset"
- 17. Post-Synthesis Netlist Statistics for Top Partition
- 18. Elapsed Time Per Partition
- 19. Analysis & Synthesis Messages
+ 13. Parameter Settings for User Entity Instance: debounce:btn_debounce
+ 14. Port Connectivity Checks: "binary_bcd:binary_bcd_ins"
+ 15. Port Connectivity Checks: "SevenSegment:SevenSegment_ins"
+ 16. Port Connectivity Checks: "MUX4TO1:MUX4TO1_ins0"
+ 17. Port Connectivity Checks: "MUX2TO1:Hex_reset"
+ 18. Post-Synthesis Netlist Statistics for Top Partition
+ 19. Elapsed Time Per Partition
+ 20. Analysis & Synthesis Messages
 
 
 
@@ -51,16 +52,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 20 12:42:45 2020       ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 20 14:39:24 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 261                                         ;
-;     Total combinational functions  ; 220                                         ;
-;     Dedicated logic registers      ; 120                                         ;
-; Total registers                    ; 120                                         ;
-; Total pins                         ; 70                                          ;
+; Total logic elements               ; 295                                         ;
+;     Total combinational functions  ; 252                                         ;
+;     Dedicated logic registers      ; 144                                         ;
+; Total registers                    ; 144                                         ;
+; Total pins                         ; 71                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -169,25 +170,27 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                              ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                       ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------+---------+
-; MUX2TO1.vhd                      ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd              ;         ;
-; MUX4TO1.vhd                      ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd              ;         ;
-; top_level.vhd                    ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd            ;         ;
-; SevenSegment_decoder.vhd         ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd ;         ;
-; SevenSegment.vhd                 ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd         ;         ;
-; binary_bcd.vhd                   ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd           ;         ;
-; Register_16bits.vhd              ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd      ;         ;
-; Register_10bits.vhd              ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd      ;         ;
-; Synchronizer.vhd                 ; yes             ; User VHDL File  ; C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd         ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                      ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
+; debounce.vhd                     ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd             ;         ;
+; MUX2TO1.vhd                      ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd              ;         ;
+; MUX4TO1.vhd                      ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd              ;         ;
+; top_level.vhd                    ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd            ;         ;
+; SevenSegment_decoder.vhd         ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd ;         ;
+; SevenSegment.vhd                 ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd         ;         ;
+; binary_bcd.vhd                   ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd           ;         ;
+; Register_16bits.vhd              ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd      ;         ;
+; Register_10bits.vhd              ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd      ;         ;
+; Synchronizer.vhd                 ; yes             ; User VHDL File  ; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd         ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -195,30 +198,30 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 261       ;
+; Estimated Total logic elements              ; 295       ;
 ;                                             ;           ;
-; Total combinational functions               ; 220       ;
+; Total combinational functions               ; 252       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 102       ;
-;     -- 3 input functions                    ; 25        ;
-;     -- <=2 input functions                  ; 93        ;
+;     -- 4 input functions                    ; 111       ;
+;     -- 3 input functions                    ; 26        ;
+;     -- <=2 input functions                  ; 115       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 156       ;
-;     -- arithmetic mode                      ; 64        ;
+;     -- normal mode                          ; 168       ;
+;     -- arithmetic mode                      ; 84        ;
 ;                                             ;           ;
-; Total registers                             ; 120       ;
-;     -- Dedicated logic registers            ; 120       ;
+; Total registers                             ; 144       ;
+;     -- Dedicated logic registers            ; 144       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 70        ;
+; I/O pins                                    ; 71        ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 120       ;
-; Total fan-out                               ; 1195      ;
-; Average fan-out                             ; 2.49      ;
+; Maximum fan-out                             ; 144       ;
+; Total fan-out                               ; 1384      ;
+; Average fan-out                             ; 2.57      ;
 +---------------------------------------------+-----------+
 
 
@@ -227,7 +230,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                            ; Entity Name          ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------+----------------------+--------------+
-; |top_level                                   ; 220 (0)             ; 120 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 70   ; 0            ; 0          ; |top_level                                                                     ; top_level            ; work         ;
+; |top_level                                   ; 252 (0)             ; 144 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 71   ; 0            ; 0          ; |top_level                                                                     ; top_level            ; work         ;
 ;    |MUX4TO1:MUX4TO1_ins0|                    ; 25 (25)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|MUX4TO1:MUX4TO1_ins0                                                ; MUX4TO1              ; work         ;
 ;    |Register_16bits:Number_storer|           ; 16 (16)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Register_16bits:Number_storer                                       ; Register_16bits      ; work         ;
 ;    |SevenSegment:SevenSegment_ins|           ; 28 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|SevenSegment:SevenSegment_ins                                       ; SevenSegment         ; work         ;
@@ -238,7 +241,8 @@ https://fpgasoftware.intel.com/eula.
 ;    |Synchronizer:Synchronizer_ins0|          ; 0 (0)               ; 20 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Synchronizer:Synchronizer_ins0                                      ; Synchronizer         ; work         ;
 ;       |Register_10bits:Register_10bits_ins0| ; 0 (0)               ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Synchronizer:Synchronizer_ins0|Register_10bits:Register_10bits_ins0 ; Register_10bits      ; work         ;
 ;       |Register_10bits:Register_10bits_ins1| ; 0 (0)               ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Synchronizer:Synchronizer_ins0|Register_10bits:Register_10bits_ins1 ; Register_10bits      ; work         ;
-;    |binary_bcd:binary_bcd_ins|               ; 151 (151)           ; 84 (84)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|binary_bcd:binary_bcd_ins                                           ; binary_bcd           ; work         ;
+;    |binary_bcd:binary_bcd_ins|               ; 153 (153)           ; 84 (84)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|binary_bcd:binary_bcd_ins                                           ; binary_bcd           ; work         ;
+;    |debounce:btn_debounce|                   ; 30 (30)             ; 24 (24)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|debounce:btn_debounce                                               ; debounce             ; work         ;
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -296,12 +300,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 120   ;
-; Number of registers using Synchronous Clear  ; 19    ;
+; Total registers                              ; 144   ;
+; Number of registers using Synchronous Clear  ; 40    ;
 ; Number of registers using Synchronous Load   ; 4     ;
 ; Number of registers using Asynchronous Clear ; 77    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 79    ;
+; Number of registers using Clock Enable       ; 116   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -311,15 +315,27 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
-; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[12] ;
-; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[7]  ;
+; 3:1                ; 21 bits   ; 42 LEs        ; 21 LEs               ; 21 LEs                 ; Yes        ; |top_level|debounce:btn_debounce|count[14]          ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[8]  ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[4]  ;
 ; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[13] ;
-; 8:1                ; 4 bits    ; 20 LEs        ; 8 LEs                ; 12 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[19] ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 8 LEs                ; 12 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[20] ;
 ; 10:1               ; 4 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[24] ;
-; 12:1               ; 4 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[28] ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |top_level|binary_bcd:binary_bcd_ins|bcd_signal[25] ;
 ; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |top_level|MUX4TO1:MUX4TO1_ins0|Mux4                ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |top_level|MUX4TO1:MUX4TO1_ins0|Mux12               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: debounce:btn_debounce ;
++----------------+----------+----------------------------------------+
+; Parameter Name ; Value    ; Type                                   ;
++----------------+----------+----------------------------------------+
+; clk_freq       ; 50000000 ; Signed Integer                         ;
+; stable_time    ; 30       ; Signed Integer                         ;
++----------------+----------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-------------------------------------------------------+
@@ -380,26 +396,27 @@ Encoding Type:  One-Hot
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 70                          ;
-; cycloneiii_ff         ; 120                         ;
+; boundary_port         ; 71                          ;
+; cycloneiii_ff         ; 144                         ;
 ;     CLR               ; 5                           ;
-;     ENA               ; 7                           ;
+;     ENA               ; 23                          ;
 ;     ENA CLR           ; 53                          ;
 ;     ENA CLR SCLR      ; 15                          ;
 ;     ENA CLR SCLR SLD  ; 4                           ;
-;     plain             ; 36                          ;
-; cycloneiii_lcell_comb ; 225                         ;
-;     arith             ; 64                          ;
-;         2 data inputs ; 64                          ;
-;     normal            ; 161                         ;
+;     ENA SCLR          ; 21                          ;
+;     plain             ; 23                          ;
+; cycloneiii_lcell_comb ; 257                         ;
+;     arith             ; 84                          ;
+;         2 data inputs ; 84                          ;
+;     normal            ; 173                         ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 9                           ;
-;         2 data inputs ; 24                          ;
-;         3 data inputs ; 25                          ;
-;         4 data inputs ; 102                         ;
+;         1 data inputs ; 10                          ;
+;         2 data inputs ; 25                          ;
+;         3 data inputs ; 26                          ;
+;         4 data inputs ; 111                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 8.00                        ;
-; Average LUT depth     ; 3.94                        ;
+; Average LUT depth     ; 3.78                        ;
 +-----------------------+-----------------------------+
 
 
@@ -418,86 +435,93 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Oct 20 12:42:33 2020
+    Info: Processing started: Tue Oct 20 14:39:15 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab1 -c top_level
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file mux2to1.vhd
-    Info (12022): Found design unit 1: MUX2TO1-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd Line: 12
-    Info (12023): Found entity 1: MUX2TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file mux4to1.vhd
-    Info (12022): Found design unit 1: MUX4TO1-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd Line: 14
-    Info (12023): Found entity 1: MUX4TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd Line: 4
-Info (12021): Found 3 design units, including 1 entities, in source file tb_mux2to1.vhd
-    Info (12022): Found design unit 1: tb_MUX2TO1-tb File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd Line: 7
-    Info (12022): Found design unit 2: cfg_tb_MUX2TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd Line: 55
-    Info (12023): Found entity 1: tb_MUX2TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file debounce.vhd
+    Info (12022): Found design unit 1: debounce-logic File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd Line: 39
+    Info (12023): Found entity 1: debounce File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd Line: 29
+Info (12021): Found 2 design units, including 1 entities, in source file tb_debounce.vhd
+    Info (12022): Found design unit 1: tb_debounce-Behavioral File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd Line: 13
+    Info (12023): Found entity 1: tb_debounce File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file MUX2TO1.vhd
+    Info (12022): Found design unit 1: MUX2TO1-BEHAVIOR File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd Line: 12
+    Info (12023): Found entity 1: MUX2TO1 File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file MUX4TO1.vhd
+    Info (12022): Found design unit 1: MUX4TO1-BEHAVIOR File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd Line: 14
+    Info (12023): Found entity 1: MUX4TO1 File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd Line: 4
+Info (12021): Found 3 design units, including 1 entities, in source file tb_MUX2TO1.vhd
+    Info (12022): Found design unit 1: tb_MUX2TO1-tb File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd Line: 7
+    Info (12022): Found design unit 2: cfg_tb_MUX2TO1 File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd Line: 55
+    Info (12023): Found entity 1: tb_MUX2TO1 File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file top_level.vhd
-    Info (12022): Found design unit 1: top_level-Behavioral File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 15
-    Info (12023): Found entity 1: top_level File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file sevensegment_decoder.vhd
-    Info (12022): Found design unit 1: SevenSegment_decoder-Behavioral File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd Line: 13
-    Info (12023): Found entity 1: SevenSegment_decoder File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file sevensegment.vhd
-    Info (12022): Found design unit 1: SevenSegment-Behavioral File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd Line: 11
-    Info (12023): Found entity 1: SevenSegment File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd Line: 5
+    Info (12022): Found design unit 1: top_level-Behavioral File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 16
+    Info (12023): Found entity 1: top_level File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file SevenSegment_decoder.vhd
+    Info (12022): Found design unit 1: SevenSegment_decoder-Behavioral File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd Line: 13
+    Info (12023): Found entity 1: SevenSegment_decoder File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file SevenSegment.vhd
+    Info (12022): Found design unit 1: SevenSegment-Behavioral File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd Line: 11
+    Info (12023): Found entity 1: SevenSegment File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file binary_bcd.vhd
-    Info (12022): Found design unit 1: binary_bcd-behavior File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd Line: 17
-    Info (12023): Found entity 1: binary_bcd File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd Line: 8
+    Info (12022): Found design unit 1: binary_bcd-behavior File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd Line: 17
+    Info (12023): Found entity 1: binary_bcd File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file tb_top_level.vhd
-    Info (12022): Found design unit 1: tb_top_level-tb File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd Line: 11
-    Info (12023): Found entity 1: tb_top_level File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd Line: 8
-Info (12021): Found 2 design units, including 1 entities, in source file register_16bits.vhd
-    Info (12022): Found design unit 1: Register_16bits-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd Line: 13
-    Info (12023): Found entity 1: Register_16bits File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file register_10bits.vhd
-    Info (12022): Found design unit 1: Register_10bits-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd Line: 12
-    Info (12023): Found entity 1: Register_10bits File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file synchronizer.vhd
-    Info (12022): Found design unit 1: Synchronizer-Behavioural File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd Line: 12
-    Info (12023): Found entity 1: Synchronizer File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd Line: 5
+    Info (12022): Found design unit 1: tb_top_level-tb File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd Line: 11
+    Info (12023): Found entity 1: tb_top_level File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file Register_16bits.vhd
+    Info (12022): Found design unit 1: Register_16bits-BEHAVIOR File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd Line: 14
+    Info (12023): Found entity 1: Register_16bits File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file Register_10bits.vhd
+    Info (12022): Found design unit 1: Register_10bits-BEHAVIOR File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd Line: 12
+    Info (12023): Found entity 1: Register_10bits File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file Synchronizer.vhd
+    Info (12022): Found design unit 1: Synchronizer-Behavioural File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd Line: 12
+    Info (12023): Found entity 1: Synchronizer File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd Line: 5
 Info (12127): Elaborating entity "top_level" for the top level hierarchy
-Info (12128): Elaborating entity "Synchronizer" for hierarchy "Synchronizer:Synchronizer_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 96
-Info (12128): Elaborating entity "Register_10bits" for hierarchy "Synchronizer:Synchronizer_ins0|Register_10bits:Register_10bits_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd Line: 28
-Info (12128): Elaborating entity "Register_16bits" for hierarchy "Register_16bits:Number_storer" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 103
-Info (12128): Elaborating entity "MUX2TO1" for hierarchy "MUX2TO1:Hex_reset" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 111
-Info (12128): Elaborating entity "MUX4TO1" for hierarchy "MUX4TO1:MUX4TO1_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 119
-Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:SevenSegment_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 129
-Info (12128): Elaborating entity "SevenSegment_decoder" for hierarchy "SevenSegment:SevenSegment_ins|SevenSegment_decoder:decoder0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd Line: 24
-Info (12128): Elaborating entity "binary_bcd" for hierarchy "binary_bcd:binary_bcd_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 147
+Info (12128): Elaborating entity "debounce" for hierarchy "debounce:btn_debounce" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 106
+Info (12128): Elaborating entity "Synchronizer" for hierarchy "Synchronizer:Synchronizer_ins0" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 113
+Info (12128): Elaborating entity "Register_10bits" for hierarchy "Synchronizer:Synchronizer_ins0|Register_10bits:Register_10bits_ins0" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd Line: 28
+Info (12128): Elaborating entity "Register_16bits" for hierarchy "Register_16bits:Number_storer" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 120
+Info (12128): Elaborating entity "MUX2TO1" for hierarchy "MUX2TO1:Hex_reset" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 129
+Info (12128): Elaborating entity "MUX4TO1" for hierarchy "MUX4TO1:MUX4TO1_ins0" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 137
+Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:SevenSegment_ins" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 147
+Info (12128): Elaborating entity "SevenSegment_decoder" for hierarchy "SevenSegment:SevenSegment_ins|SevenSegment_decoder:decoder0" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd Line: 24
+Info (12128): Elaborating entity "binary_bcd" for hierarchy "binary_bcd:binary_bcd_ins" File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 165
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX2[7]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX3[7]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX4[7]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
-    Warning (13410): Pin "HEX5[7]" is stuck at VCC File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 10
+    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX2[7]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX3[7]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX4[7]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
+    Warning (13410): Pin "HEX5[7]" is stuck at VCC File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd Line: 11
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 7 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 331 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 12 input pins
+Info (21057): Implemented 366 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
     Info (21059): Implemented 58 output pins
-    Info (21061): Implemented 261 logic cells
+    Info (21061): Implemented 295 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4787 megabytes
-    Info: Processing ended: Tue Oct 20 12:42:45 2020
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:28
+    Info: Peak virtual memory: 441 megabytes
+    Info: Processing ended: Tue Oct 20 14:39:24 2020
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:21
 
 

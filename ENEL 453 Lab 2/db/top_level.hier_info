@@ -1,10 +1,12 @@
 |top_level
+clk => debounce:btn_debounce.clk
 clk => Synchronizer:Synchronizer_ins0.clk
 clk => Register_16bits:Number_storer.clk
 clk => binary_bcd:binary_bcd_ins.clk
 reset_n => Register_16bits:Number_storer.reset_n
 reset_n => MUX2TO1:Hex_reset.s
 reset_n => binary_bcd:binary_bcd_ins.reset_n
+set => debounce:btn_debounce.button
 SW[0] => Synchronizer:Synchronizer_ins0.A[0]
 SW[1] => Synchronizer:Synchronizer_ins0.A[1]
 SW[2] => Synchronizer:Synchronizer_ins0.A[2]
@@ -73,6 +75,35 @@ HEX5[4] << SevenSegment:SevenSegment_ins.Hex5[4]
 HEX5[5] << SevenSegment:SevenSegment_ins.Hex5[5]
 HEX5[6] << SevenSegment:SevenSegment_ins.Hex5[6]
 HEX5[7] << SevenSegment:SevenSegment_ins.Hex5[7]
+
+
+|top_level|debounce:btn_debounce
+clk => result~reg0.CLK
+clk => flipflops[0].CLK
+clk => flipflops[1].CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+button => flipflops[0].DATAIN
+result <= result~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level|Synchronizer:Synchronizer_ins0
@@ -199,6 +230,22 @@ reset_n => Q.OUTPUTSELECT
 reset_n => Q.OUTPUTSELECT
 reset_n => Q.OUTPUTSELECT
 reset_n => Q.OUTPUTSELECT
+enable => Q[0]~reg0.ENA
+enable => Q[1]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[4]~reg0.ENA
+enable => Q[5]~reg0.ENA
+enable => Q[6]~reg0.ENA
+enable => Q[7]~reg0.ENA
+enable => Q[8]~reg0.ENA
+enable => Q[9]~reg0.ENA
+enable => Q[10]~reg0.ENA
+enable => Q[11]~reg0.ENA
+enable => Q[12]~reg0.ENA
+enable => Q[13]~reg0.ENA
+enable => Q[14]~reg0.ENA
+enable => Q[15]~reg0.ENA
 D[0] => Q.DATAA
 D[1] => Q.DATAA
 D[2] => Q.DATAA
