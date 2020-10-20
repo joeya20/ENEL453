@@ -14,15 +14,18 @@ end top_level;
 
 architecture Behavioral of top_level is
 
+-- signals
 Signal Num_Hex0, Num_Hex1, Num_Hex2, Num_Hex3, Num_Hex4, Num_Hex5 : STD_LOGIC_VECTOR (3 downto 0):= (others=>'0');   
-Signal DP_in, Blank:            STD_LOGIC_VECTOR (5 downto 0);
-Signal switch_inputs:           STD_LOGIC_VECTOR (12 downto 0);
-Signal bcd:                     STD_LOGIC_VECTOR(15 DOWNTO 0);
-signal mux_out:		 STD_LOGIC_VECTOR(15 DOWNTO 0);
-signal mux_out0:		 STD_LOGIC_VECTOR(15 DOWNTO 0);
-signal hex_in: 		 STD_LOGIC_VECTOR(15 DOWNTO 0); -- declaring intermediary signal to pad sw(7:0)
-signal gnd:				 STD_LOGIC_VECTOR(15 DOWNTO 0);
-
+Signal DP_in, Blank:   	STD_LOGIC_VECTOR (5 downto 0);
+Signal switch_inputs:  	STD_LOGIC_VECTOR(12 downto 0);
+Signal bcd:        		STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal hex_mux_out:	 	STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal mux_out:		 	STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal hex_in: 		 	STD_LOGIC_VECTOR(15 DOWNTO 0); -- declaring intermediary signal to pad sw(7:0)
+signal gnd:				 	STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal default:			STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal stored_number:	STD_LOGIC_VECTOR(15 DOWNTO 0);
+-- Components
 Component SevenSegment is
     Port( Num_Hex0,Num_Hex1,Num_Hex2,Num_Hex3,Num_Hex4,Num_Hex5 : in  STD_LOGIC_VECTOR (3 downto 0);
           Hex0,Hex1,Hex2,Hex3,Hex4,Hex5                         : out STD_LOGIC_VECTOR (7 downto 0);
@@ -48,6 +51,26 @@ Component MUX2TO1 IS
 		);
 END Component;
 
+Component MUX4TO1 IS
+	PORT(
+		in0     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits	hex
+      in1     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits	bcd
+      in2     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits	stored
+      in3     : in  std_logic_vector(15 downto 0); -- changed input to 16 bits	5A5A
+      s       : in  std_logic_vector( 1 downto 0); -- 2 bit select input
+      mux_out : out std_logic_vector(15 downto 0) -- notice no semi-colon 
+      );
+END Component;
+
+Component Register_16bits IS
+	PORT(
+		clk		: in 	std_logic;
+		reset_n	: in 	std_logic;
+		D			: in 	std_logic_vector(15 downto 0);
+		Q			: out	std_logic_vector(15 downto 0)
+	);
+END Component;			
+						
 begin
    Num_Hex0 <= mux_out(3  downto  0); 
    Num_Hex1 <= mux_out(7  downto  4);
@@ -59,22 +82,33 @@ begin
    Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
    hex_in	<= X"00" & sw(7 downto 0); -- appending sw(7:0) with zeros to make 16 bit mux input
 	gnd		<= X"0000";
+	default 	<= X"5A5A";
 	
-MUX2TO1_ins0 : MUX2TO1
-				PORT MAP( 
-					in0 		=> gnd,
-					in1 		=> hex_in,
-					s		   => reset_n,
-					mux_out	=> mux_out0
-				);
+Number_storer: Register_16bits
+						PORT MAP(
+							clk		=> clk,
+							reset_n	=> reset_n,
+							D			=> mux_out,
+							Q			=> stored_number
+						);
 	
-MUX2TO1_ins1 : MUX2TO1
-					PORT MAP( 
-						in0 		=> bcd(15 downto 0),
-						in1 		=> mux_out0,
-						s   		=> sw(9),
-						mux_out	=> mux_out
-					);
+Hex_reset : MUX2TO1
+						PORT MAP( 
+							in0 		=> gnd,
+							in1 		=> hex_in,
+							s		   => reset_n,
+							mux_out	=> hex_mux_out
+						);
+	
+MUX4TO1_ins0 : MUX4TO1
+						PORT MAP( 
+							in0 		=> bcd(15 downto 0),
+							in1 		=> hex_mux_out,
+							in2		=> stored_number,
+							in3		=> default,
+							s   		=> sw(9 downto 8),
+							mux_out	=> mux_out
+						);
 					
 SevenSegment_ins: SevenSegment
                   PORT MAP( Num_Hex0 => Num_Hex0,
@@ -92,17 +126,18 @@ SevenSegment_ins: SevenSegment
                             DP_in    => DP_in,
 									 Blank    => Blank
                           );
-                                     
- 
+
+
+binary_bcd_ins: binary_bcd                               
+						PORT MAP(
+							clk      => clk,                          
+							reset_n  => reset_n,                                 
+							binary   => switch_inputs,    
+							bcd      => bcd         
+							);
+		
+		
 LEDR(9 downto 0) <= SW(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
 switch_inputs <= "00000" & SW(7 downto 0);
 
-binary_bcd_ins: binary_bcd                               
-   PORT MAP(
-      clk      => clk,                          
-      reset_n  => reset_n,                                 
-      binary   => switch_inputs,    
-      bcd      => bcd         
-      );
-		
 end Behavioral;
