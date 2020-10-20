@@ -25,6 +25,7 @@ signal hex_in: 		 	STD_LOGIC_VECTOR(15 DOWNTO 0); -- declaring intermediary sign
 signal gnd:				 	STD_LOGIC_VECTOR(15 DOWNTO 0);
 signal default:			STD_LOGIC_VECTOR(15 DOWNTO 0);
 signal stored_number:	STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal sync_output:		STD_LOGIC_VECTOR (9 downto 0);
 -- Components
 Component SevenSegment is
     Port( Num_Hex0,Num_Hex1,Num_Hex2,Num_Hex3,Num_Hex4,Num_Hex5 : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -70,7 +71,14 @@ Component Register_16bits IS
 		Q			: out	std_logic_vector(15 downto 0)
 	);
 END Component;			
-						
+
+Component Synchronizer is
+    Port ( clk  	: in  STD_LOGIC;
+				A		: in	STD_LOGIC_VECTOR(9 downto 0);
+				G		: out	STD_LOGIC_VECTOR(9 downto 0)
+          );
+end Component;
+	
 begin
    Num_Hex0 <= mux_out(3  downto  0); 
    Num_Hex1 <= mux_out(7  downto  4);
@@ -80,10 +88,18 @@ begin
    Num_Hex5 <= "0000";   
    DP_in    <= "000000"; -- position of the decimal point in the display (1=LED on,0=LED off)
    Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
-   hex_in	<= X"00" & sw(7 downto 0); -- appending sw(7:0) with zeros to make 16 bit mux input
+   hex_in	<= X"00" & sync_output(7 downto 0); -- appending sw(7:0) with zeros to make 16 bit mux input
 	gnd		<= X"0000";
 	default 	<= X"5A5A";
 	
+	
+Synchronizer_ins0 : Synchronizer
+						PORT MAP(
+							clk	=> clk,
+							A		=> sw(9 downto 0),
+							G		=> sync_output
+						);
+						
 Number_storer: Register_16bits
 						PORT MAP(
 							clk		=> clk,
@@ -106,7 +122,7 @@ MUX4TO1_ins0 : MUX4TO1
 							in1 		=> hex_mux_out,
 							in2		=> stored_number,
 							in3		=> default,
-							s   		=> sw(9 downto 8),
+							s   		=> sync_output(9 downto 8),
 							mux_out	=> mux_out
 						);
 					
@@ -137,7 +153,7 @@ binary_bcd_ins: binary_bcd
 							);
 		
 		
-LEDR(9 downto 0) <= SW(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
-switch_inputs <= "00000" & SW(7 downto 0);
+LEDR(9 downto 0) <= sync_output(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
+switch_inputs <= "00000" & sync_output(7 downto 0);
 
 end Behavioral;

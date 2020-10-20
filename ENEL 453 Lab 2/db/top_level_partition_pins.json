@@ -156,6 +156,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
 					"name" : "SW[0]",
 					"strict" : false
 				},
@@ -193,14 +201,6 @@
 				},
 				{
 					"name" : "SW[9]",
-					"strict" : false
-				},
-				{
-					"name" : "reset_n",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
 					"strict" : false
 				}
 			]
