@@ -17,14 +17,14 @@ Component debounce IS
           stable_time : INTEGER  );
   PORT(
     clk     : IN  STD_LOGIC;  --input clock
-    button  : IN  STD_LOGIC;  --input signal to be debounced
-    reset_n : IN  STD_LOGIC;  --active-low reset
+    button  : IN  STD_LOGIC;   --input signal to be debounced
+    --reset_n : IN  STD_LOGIC;  --active-low reset
     result  : OUT STD_LOGIC   --debounced signal
     );
 END Component;
 
 -- input signals
-signal clk, button, reset_n : STD_LOGIC;  
+signal clk, button: STD_LOGIC;  
 -- output signals
 signal result : STD_LOGIC;
 
@@ -38,17 +38,17 @@ signal stable_time_tb :  time := 10 ms;
 signal some_delay     :  time := 3 ns;
 
    -- Clock period definitions
-constant clk_period : time := 10 ns; -- this is a 100 MHz clock
+constant clk_period : time := 20 ns; -- this is a 100 MHz clock
 
 begin
   
 debounce1 : debounce
             generic map(clk_freq     => 50_000_000, -- change this value if different from default
-				             stable_time => 10)         -- change this value if different from default
+				             stable_time => 30)         -- change this value if different from default
 				port map(
 				   clk     => clk,
 					button  => button,
-					reset_n => reset_n,
+					--reset_n => reset_n
 					result  => result
                );
 
@@ -62,22 +62,22 @@ debounce1 : debounce
        end process; 
     
        -- Reset process
-       reset_proc : process
-       begin        
-          -- hold reset state for 100 ns.
-            reset_n <= '1';
-          wait for 100 ns;    
-            reset_n <= '0';
-          wait for 100 ns;
-            reset_n <= '1';            
-          wait;
-       end process;
+--       reset_proc : process
+--       begin        
+--          -- hold reset state for 100 ns.
+--            reset_n <= '1';
+--          wait for 100 ns;    
+--            reset_n <= '0';
+--          wait for 100 ns;
+--            reset_n <= '1';            
+--          wait;
+--       end process;
        
        -- Stimulus process
        stim_proc : process
        begin        
           -- initial state.
-          Test_State <= Resetting;
+          --Test_State <= Resetting;
             button <= '0';  
           wait for 300 ns;
           
