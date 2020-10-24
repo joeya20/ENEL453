@@ -17,22 +17,14 @@ Component debounce IS
           stable_time : INTEGER  );
   PORT(
     clk     : IN  STD_LOGIC;  --input clock
-<<<<<<< HEAD
-    button  : IN  STD_LOGIC;   --input signal to be debounced
-    --reset_n : IN  STD_LOGIC;  --active-low reset
-=======
     button  : IN  STD_LOGIC;  --input signal to be debounced
->>>>>>> af749f3d0db2b2e48bb485a0fca579bccf67f124
     result  : OUT STD_LOGIC   --debounced signal
     );
 END Component;
 
 -- input signals
-<<<<<<< HEAD
-signal clk, button: STD_LOGIC;  
-=======
+
 signal clk, button : STD_LOGIC;  
->>>>>>> af749f3d0db2b2e48bb485a0fca579bccf67f124
 -- output signals
 signal result : STD_LOGIC;
 
@@ -46,11 +38,8 @@ signal stable_time_tb :  time := 10 ms;
 signal some_delay     :  time := 3 ns;
 
    -- Clock period definitions
-<<<<<<< HEAD
-constant clk_period : time := 20 ns; -- this is a 100 MHz clock
-=======
+
 constant clk_period : time := 20 ns; -- this is a 50 MHz clock
->>>>>>> af749f3d0db2b2e48bb485a0fca579bccf67f124
 
 begin
   
@@ -60,10 +49,7 @@ debounce1 : debounce
 				port map(
 				   clk     => clk,
 					button  => button,
-<<<<<<< HEAD
-					--reset_n => reset_n
-=======
->>>>>>> af749f3d0db2b2e48bb485a0fca579bccf67f124
+
 					result  => result
                );
 
@@ -75,22 +61,7 @@ debounce1 : debounce
             clk <= '1';
             wait for clk_period/2;
        end process; 
-<<<<<<< HEAD
-    
-       -- Reset process
---       reset_proc : process
---       begin        
---          -- hold reset state for 100 ns.
---            reset_n <= '1';
---          wait for 100 ns;    
---            reset_n <= '0';
---          wait for 100 ns;
---            reset_n <= '1';            
---          wait;
---       end process;
-=======
->>>>>>> af749f3d0db2b2e48bb485a0fca579bccf67f124
-       
+  
        -- Stimulus process
        stim_proc : process
        begin        
