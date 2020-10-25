@@ -14,15 +14,13 @@ end Register_16bits; -- can also be written as "end entity;" or just "end;"
 architecture BEHAVIOR of Register_16bits is
 	begin
 	
-		process(clk)
+		process(clk, reset_n)
 		begin
-			if rising_edge(clk) then
+			if reset_n = '0' then
+				Q <= X"0000";
+			elsif rising_edge(clk) then
 				if enable = '0' then
-					if reset_n = '0' then
-						Q <= X"0000";
-					else
 						Q <= D;
-					end if;
 				end if;
 			end if;
 		end process;
