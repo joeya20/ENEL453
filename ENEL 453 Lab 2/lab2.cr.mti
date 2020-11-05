@@ -1,4 +1,4 @@
-{C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd}
+{C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\JoeyD\Desktop\Third Year\3.ENEL453\ENEL-453-Lab-1\ENEL 453 Lab 2\tb_top_level.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -50,6 +50,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity SevenSegment
 -- Compiling architecture Behavioral of SevenSegment
+
+} {} {}} {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_16bits
+-- Compiling architecture BEHAVIOR of Register_16bits
 
 } {} {}} {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -110,6 +118,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity top_level
 -- Compiling architecture Behavioral of top_level
 
+} {} {}} {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_debounce
+-- Compiling architecture Behavioral of tb_debounce
+
 } {} {}} {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -121,14 +137,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity tb_Register_16bits
 -- Loading architecture tb of tb_Register_16bits
 -- Loading entity Register_16bits
-
-} {} {}} {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity tb_debounce
--- Compiling architecture Behavioral of tb_debounce
 
 } {} {}} {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020

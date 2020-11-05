@@ -14,7 +14,7 @@ Z0 w1602783068
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 681
+!i122 776
 Z4 dC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2
 Z5 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd
 Z6 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd
@@ -24,9 +24,9 @@ V0:9zdOIA`o`LF2cmkOC^P3
 !s100 gQzX;=HeN]3[lj0[@2mb]2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1603580815
+Z8 !s110 1603645542
 !i10b 1
-Z9 !s108 1603580815.000000
+Z9 !s108 1603645541.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd|
 Z11 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/binary_bcd.vhd|
 !i113 1
@@ -37,7 +37,7 @@ R1
 R2
 R3
 DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
-!i122 681
+!i122 776
 l27
 L17 68
 Vkk0@KWb1@9aV]WcFQb8d>1
@@ -60,7 +60,7 @@ DAx4 work 10 tb_mux2to1 2 tb 22 =UYE>bWmjCD@m10_1VI=z1
 R2
 R3
 Z15 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
-!i122 689
+!i122 786
 Z16 w1602783069
 R4
 Z17 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd
@@ -71,9 +71,9 @@ Ve8izW2[n24JS=G>S0`CaO0
 !s100 J@DHRZba3YTWX936zF`I80
 R7
 32
-Z19 !s110 1603580818
+Z19 !s110 1603645548
 !i10b 0
-Z20 !s108 1603580818.000000
+Z20 !s108 1603645548.000000
 Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd|
 Z22 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX2TO1.vhd|
 !i113 1
@@ -87,7 +87,7 @@ DAx4 work 10 tb_mux4to1 2 tb 22 fUGh>>me2XV`EzUggSRmz0
 R2
 R3
 Z24 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
-!i122 694
+!i122 787
 Z25 w1603386464
 R4
 Z26 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX4TO1.vhd
@@ -98,9 +98,9 @@ V=39e8?E[27mP?fWY9K^AB1
 !s100 :H2YA_:X7c9a^RXTRjQR]1
 R7
 32
-Z28 !s110 1603580820
+Z28 !s110 1603645549
 !i10b 0
-Z29 !s108 1603580820.000000
+Z29 !s108 1603645549.000000
 Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX4TO1.vhd|
 Z31 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_MUX4TO1.vhd|
 !i113 1
@@ -114,7 +114,7 @@ DAx4 work 18 tb_register_16bits 2 tb 22 IkF8geDkU3Z]BbEQKAza82
 R2
 R3
 Z33 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
-!i122 693
+!i122 788
 Z34 w1603385251
 R4
 Z35 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd
@@ -125,11 +125,11 @@ VH:>OcdKOc[@DA^;O;>Y;o2
 !s100 @P1T9HA_TOOnG5PL<mJEf1
 R7
 32
-R28
+Z37 !s110 1603645550
 !i10b 0
 R29
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd|
-Z38 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd|
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd|
+Z39 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_Register_16bits.vhd|
 !i113 1
 R12
 R13
@@ -137,49 +137,49 @@ Ccfg_tb_synchronizer
 etb_Synchronizer
 atb
 R1
-Z39 DEx4 work 12 synchronizer 0 22 cL9DF<=QzC1j;_kLEK_NL0
+Z40 DEx4 work 12 synchronizer 0 22 cL9DF<=QzC1j;_kLEK_NL0
 DAx4 work 15 tb_synchronizer 2 tb 22 Rc`cfm5JREK6Si@BTJaJk0
 R2
 R3
-Z40 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
-!i122 690
-Z41 w1603384174
+Z41 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
+!i122 789
+Z42 w1603384174
 R4
-Z42 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd
-Z43 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd
+Z43 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd
+Z44 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd
 l0
 L64 1
 V[_;BQHX1g00bao:z2F[ln2
 !s100 olJAFj4z8Vj9Uld1W^lZV1
 R7
 32
-Z44 !s110 1603580819
+R37
 !i10b 0
-R20
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd|
-Z46 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd|
+Z45 !s108 1603645550.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd|
+Z47 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_synchronizer.vhd|
 !i113 1
 R12
 R13
 Edebounce
-Z47 w1603575661
+Z48 w1603575661
 R2
 R3
-!i122 695
+!i122 777
 R4
-Z48 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd
-Z49 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd
+Z49 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd
+Z50 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd
 l0
 L29 1
 V@:59AM=ljIR?D1gDRW7W=0
 !s100 <M9fi1iYe2@AWXSd<LhWz0
 R7
 32
-R28
+Z51 !s110 1603645543
 !i10b 1
-R29
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd|
-Z51 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd|
+Z52 !s108 1603645542.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd|
+Z54 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/debounce.vhd|
 !i113 1
 R12
 R13
@@ -187,40 +187,40 @@ Alogic
 R2
 R3
 DEx4 work 8 debounce 0 22 @:59AM=ljIR?D1gDRW7W=0
-!i122 695
+!i122 777
 l42
 L39 24
 VX^;WOnj0o;zdPQgHU2;6H0
 !s100 QQ@O34Z;U0>19GRHL9J`V1
 R7
 32
-R28
-!i10b 1
-R29
-R50
 R51
+!i10b 1
+R52
+R53
+R54
 !i113 1
 R12
 R13
 Emux2to1
-Z52 w1602792837
+Z55 w1602792837
 R2
 R3
-!i122 682
+!i122 778
 R4
-Z53 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd
-Z54 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd
+Z56 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd
+Z57 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd
 l0
 L4 1
 V@0S`EKP00^0KG5?aDAn@53
 !s100 RO3T[f^VWjWjU>4@HiXBV0
 R7
 32
-Z55 !s110 1603580816
+R51
 !i10b 1
-R9
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd|
-Z57 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd|
+Z58 !s108 1603645543.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd|
+Z60 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX2TO1.vhd|
 !i113 1
 R12
 R13
@@ -228,40 +228,40 @@ Abehavior
 R2
 R3
 R14
-!i122 682
+!i122 778
 l13
 L12 6
 VfVUU`<XQ^7T<4EBOFU?De3
 !s100 8zIME]K9O<eKE<V6BEOYP2
 R7
 32
-R55
+R51
 !i10b 1
-R9
-R56
-R57
+R58
+R59
+R60
 !i113 1
 R12
 R13
 Emux4to1
-Z58 w1602793114
+Z61 w1602793114
 R2
 R3
-!i122 683
+!i122 779
 R4
-Z59 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd
-Z60 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd
+Z62 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd
+Z63 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd
 l0
 L4 1
 V[zRz8eD]aLAP@NoU2QMDB1
 !s100 :FdOZ7B58d2^Cl:W3BIiV2
 R7
 32
-R55
+Z64 !s110 1603645544
 !i10b 1
-Z61 !s108 1603580816.000000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd|
-Z63 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd|
+R58
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd|
+Z66 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/MUX4TO1.vhd|
 !i113 1
 R12
 R13
@@ -269,40 +269,40 @@ Abehavior
 R2
 R3
 R23
-!i122 683
+!i122 779
 l15
 L14 8
 VE^KN_nTQ>z=`MNahH4B2i3
 !s100 ?JkOaJCbYz21_Vc8O9H4P0
 R7
 32
-R55
+R64
 !i10b 1
-R61
-R62
-R63
+R58
+R65
+R66
 !i113 1
 R12
 R13
 Eregister_10bits
-Z64 w1603218874
+Z67 w1603218874
 R2
 R3
-!i122 684
+!i122 780
 R4
-Z65 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd
-Z66 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd
+Z68 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd
+Z69 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd
 l0
 L4 1
 VW]`NWUn3Q?oS;V5K1CIMN2
 !s100 ll3UzCaXC]=4NLh:TI14o1
 R7
 32
-R55
+Z70 !s110 1603645545
 !i10b 1
-R61
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd|
-Z68 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd|
+Z71 !s108 1603645544.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd|
+Z73 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_10bits.vhd|
 !i113 1
 R12
 R13
@@ -310,40 +310,40 @@ Abehavior
 R2
 R3
 DEx4 work 15 register_10bits 0 22 W]`NWUn3Q?oS;V5K1CIMN2
-!i122 684
+!i122 780
 l13
 L12 10
 VCe;1YA6`bi4niLJUWFH4X3
 !s100 mSzCmeiSe=V32_I=<6d=L1
 R7
 32
-R55
+R70
 !i10b 1
-R61
-R67
-R68
+R71
+R72
+R73
 !i113 1
 R12
 R13
 Eregister_16bits
-Z69 w1603226964
+Z74 w1603588311
 R2
 R3
-!i122 685
+!i122 781
 R4
-Z70 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd
-Z71 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd
+Z75 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd
+Z76 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd
 l0
 L4 1
 V_NQ?1=L0AlzJ?kT1<Lf6C3
 !s100 9B>6XaYc[d]Gm9B8o`Sb]2
 R7
 32
-Z72 !s110 1603580817
+R70
 !i10b 1
-R61
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd|
-Z74 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd|
+Z77 !s108 1603645545.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd|
+Z79 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Register_16bits.vhd|
 !i113 1
 R12
 R13
@@ -351,55 +351,14 @@ Abehavior
 R2
 R3
 R32
-!i122 685
+!i122 781
 l15
-L14 17
-V3NEU=<LAmf:3XM:JYmKDY2
-!s100 5DbO`g8dnlDAR>Tz6jPN]1
+L14 15
+VlX;R^C`lU7b<Y`JHFR>8K1
+!s100 9l]Ag3aCW1`VmS5co:NCI3
 R7
 32
-R72
-!i10b 1
-R61
-R73
-R74
-!i113 1
-R12
-R13
-Esevensegment
-R0
-R2
-R3
-!i122 686
-R4
-Z75 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd
-Z76 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd
-l0
-L5 1
-VbD[XAzC][MhHDE[[CL3O@3
-!s100 OmVSC`U@3RF?cbR0BYfoK3
-R7
-32
-R72
-!i10b 1
-Z77 !s108 1603580817.000000
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd|
-Z79 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd|
-!i113 1
-R12
-R13
-Abehavioral
-R2
-R3
-DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
-!i122 686
-l20
-Z80 L11 50
-VZg=eT^T6U1XLQZSJ:@@gb3
-!s100 dcYihQ@U4TXj]105NfLck3
-R7
-32
-R72
+R70
 !i10b 1
 R77
 R78
@@ -407,40 +366,40 @@ R79
 !i113 1
 R12
 R13
-Esevensegment_decoder
+Esevensegment
 R0
 R2
 R3
-!i122 687
+!i122 782
 R4
-Z81 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd
-Z82 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd
+Z80 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd
+Z81 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd
 l0
 L5 1
-VKjE^A[JI58zIZ_l229BiF2
-!s100 5AALkiToOD1k>]CGcBo?e0
+VbD[XAzC][MhHDE[[CL3O@3
+!s100 OmVSC`U@3RF?cbR0BYfoK3
 R7
 32
-R72
+Z82 !s110 1603645546
 !i10b 1
 R77
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd|
-Z84 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd|
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd|
+Z84 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment.vhd|
 !i113 1
 R12
 R13
 Abehavioral
 R2
 R3
-DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
-!i122 687
-l17
-L13 41
-VG3hVD5C8G24Y5@Gz8RQQi2
-!s100 UnNnHNcOkEJ?F<]0Q;CPb2
+DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
+!i122 782
+l20
+Z85 L11 50
+VZg=eT^T6U1XLQZSJ:@@gb3
+!s100 dcYihQ@U4TXj]105NfLck3
 R7
 32
-R72
+R82
 !i10b 1
 R77
 R83
@@ -448,26 +407,67 @@ R84
 !i113 1
 R12
 R13
+Esevensegment_decoder
+R0
+R2
+R3
+!i122 783
+R4
+Z86 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd
+Z87 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd
+l0
+L5 1
+VKjE^A[JI58zIZ_l229BiF2
+!s100 5AALkiToOD1k>]CGcBo?e0
+R7
+32
+Z88 !s110 1603645547
+!i10b 1
+Z89 !s108 1603645546.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd|
+Z91 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/SevenSegment_decoder.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
+!i122 783
+l17
+L13 41
+VG3hVD5C8G24Y5@Gz8RQQi2
+!s100 UnNnHNcOkEJ?F<]0Q;CPb2
+R7
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 1
+R12
+R13
 Esynchronizer
-Z85 w1603218739
+Z92 w1603218739
 R1
 R2
 R3
-!i122 688
+!i122 784
 R4
-Z86 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd
-Z87 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd
+Z93 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd
+Z94 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd
 l0
 L5 1
 VcL9DF<=QzC1j;_kLEK_NL0
 !s100 OoMbjl;7BEU6JVP@K`_191
 R7
 32
-R19
+R88
 !i10b 1
-R77
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd|
-Z89 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd|
+Z95 !s108 1603645547.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd|
+Z97 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/Synchronizer.vhd|
 !i113 1
 R12
 R13
@@ -475,60 +475,60 @@ Abehavioural
 R1
 R2
 R3
-R39
-!i122 688
+R40
+!i122 784
 l26
 L12 30
 VFaToG[G?gHW>?94gaHF>^2
 !s100 ^6]E`m>DXIcJ1_ko[LVgW3
 R7
 32
-R19
-!i10b 1
-R77
 R88
-R89
+!i10b 1
+R95
+R96
+R97
 !i113 1
 R12
 R13
 Etb_debounce
-Z90 w1603580789
+Z98 w1603580789
 R2
 R3
-!i122 696
+!i122 785
 R4
-Z91 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd
-Z92 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd
+Z99 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd
+Z100 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd
 l0
 L10 1
 VfC6XFVHOhZjf4l8gcO63:1
 !s100 GoKCFGem1>AF?3<JI:R:30
 R7
 32
-Z93 !s110 1603580821
+R19
 !i10b 1
-Z94 !s108 1603580821.000000
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd|
-Z96 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd|
+R95
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd|
+Z102 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_debounce.vhd|
 !i113 1
 R12
 R13
 Abehavioral
 R2
 R3
-Z97 DEx4 work 11 tb_debounce 0 22 fC6XFVHOhZjf4l8gcO63:1
-!i122 696
+DEx4 work 11 tb_debounce 0 22 fC6XFVHOhZjf4l8gcO63:1
+!i122 785
 l43
 L13 130
 Vz]4@5;<;kRDK>cZhhC8Se3
 !s100 1l?LmfhB<nn^OjzfZ3ZzA1
 R7
 32
-R93
+R19
 !i10b 1
-R94
 R95
-R96
+R101
+R102
 !i113 1
 R12
 R13
@@ -536,7 +536,7 @@ Etb_mux2to1
 R16
 R2
 R3
-!i122 689
+!i122 786
 R4
 R17
 R18
@@ -558,7 +558,7 @@ Atb
 R2
 R3
 R15
-!i122 689
+!i122 786
 l25
 L7 45
 V=UYE>bWmjCD@m10_1VI=z1
@@ -600,7 +600,7 @@ Etb_mux4to1
 R25
 R2
 R3
-!i122 694
+!i122 787
 R4
 R26
 R27
@@ -622,7 +622,7 @@ Atb
 R2
 R3
 R24
-!i122 694
+!i122 787
 l29
 L11 47
 VfUGh>>me2XV`EzUggSRmz0
@@ -641,7 +641,7 @@ Etb_register_16bits
 R34
 R2
 R3
-!i122 693
+!i122 788
 R4
 R35
 R36
@@ -651,11 +651,11 @@ VFzV@^Kl6L8ELdkPK22:z:0
 !s100 QFL9=iA@:I72o`9ZKQV2`3
 R7
 32
-R28
+R37
 !i10b 1
 R29
-R37
 R38
+R39
 !i113 1
 R12
 R13
@@ -663,81 +663,81 @@ Atb
 R2
 R3
 R33
-!i122 693
+!i122 788
 l27
 L7 68
 VIkF8geDkU3Z]BbEQKAza82
 !s100 7C?^Rbz@fi[nFNC6G1j5F0
 R7
 32
-R28
+R37
 !i10b 1
 R29
-R37
 R38
+R39
 !i113 1
 R12
 R13
 Etb_synchronizer
-R41
+R42
 R2
 R3
-!i122 690
+!i122 789
 R4
-R42
 R43
+R44
 l0
 L8 1
 VeLKCQWi];U]XmbE2aVB_e0
 !s100 OSTJhXDBDlYCj;XjRhJ<f1
 R7
 32
-R19
+R37
 !i10b 1
-R20
 R45
 R46
+R47
 !i113 1
 R12
 R13
 Atb
 R2
 R3
-R40
-!i122 690
+R41
+!i122 789
 l27
-R80
+R85
 VRc`cfm5JREK6Si@BTJaJk0
 !s100 Ia^SF]gf:V;54^=e`RFBO3
 R7
 32
-R19
+R37
 !i10b 1
-R20
 R45
 R46
+R47
 !i113 1
 R12
 R13
 Etb_top_level
-Z98 w1603580769
+Z103 w1603645176
 R2
 R3
-!i122 691
+!i122 790
 R4
-Z99 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd
-Z100 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd
+Z104 8C:\Users\JoeyD\Desktop\Third Year\3.ENEL453\ENEL-453-Lab-1\ENEL 453 Lab 2\tb_top_level.vhd
+Z105 FC:\Users\JoeyD\Desktop\Third Year\3.ENEL453\ENEL-453-Lab-1\ENEL 453 Lab 2\tb_top_level.vhd
 l0
 L8 1
 VzIJcR]GGPS23@TVK:g=SK1
 !s100 2e@ZcHec5JS2MgNF8KA`21
 R7
 32
-R44
+Z106 !s110 1603645551
 !i10b 1
-Z101 !s108 1603580819.000000
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd|
-Z103 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/tb_top_level.vhd|
+R45
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\JoeyD\Desktop\Third Year\3.ENEL453\ENEL-453-Lab-1\ENEL 453 Lab 2\tb_top_level.vhd|
+Z108 !s107 C:\Users\JoeyD\Desktop\Third Year\3.ENEL453\ENEL-453-Lab-1\ENEL 453 Lab 2\tb_top_level.vhd|
 !i113 1
 R12
 R13
@@ -745,41 +745,41 @@ Atb
 R2
 R3
 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
-!i122 691
-l41
-L11 81
-VEkbTn3_>^=bkNhE=U9lf<2
-!s100 8UF0PbAD3Deh`ncME4UkO2
+!i122 790
+l43
+L11 98
+VT7zMJQ6P<i`Hh`GP5f_UH2
+!s100 o_?g:c5<1oAOFbU42V3HV2
 R7
 32
-R44
+R106
 !i10b 1
-R101
-R102
-R103
+R45
+R107
+R108
 !i113 1
 R12
 R13
 Etop_level
-R69
+Z109 w1603588966
 R1
 R2
 R3
-!i122 692
+!i122 791
 R4
-Z104 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd
-Z105 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd
+Z110 8C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd
+Z111 FC:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd
 l0
 L5 1
 VJ>i=b?HTEonYb6mVVBOz63
 !s100 ^B3U@=LKB7ZfCO=mX4XB13
 R7
 32
-R44
+Z112 !s110 1603645552
 !i10b 1
-R101
-Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd|
-Z107 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd|
+Z113 !s108 1603645551.000000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd|
+Z115 !s107 C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 2/top_level.vhd|
 !i113 1
 R12
 R13
@@ -787,19 +787,19 @@ Abehavioral
 R1
 R2
 R3
-DEx4 work 9 top_level 0 22 J>i=b?HTEonYb6mVVBOz63
-!i122 692
+Z116 DEx4 work 9 top_level 0 22 J>i=b?HTEonYb6mVVBOz63
+!i122 791
 l93
-L16 162
-VHji1K:D2f0U`C<23ZNYEb3
-!s100 zD=iN0`?bN;16Ha?OdCF@2
+Z117 L16 162
+Z118 VY3ZiTc]U40DH>Ofi1K;af3
+Z119 !s100 6S2E]?H6Q4c`JQJ>VfIMY0
 R7
 32
-R44
+R112
 !i10b 1
-R101
-R106
-R107
+R113
+R114
+R115
 !i113 1
 R12
 R13
