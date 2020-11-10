@@ -110,7 +110,15 @@ Component Synchronizer is
 				G		: out	STD_LOGIC_VECTOR(9 downto 0)
           );
 end Component;
-	
+
+Component blank_select IS
+   PORT(
+      num1     	: in  STD_LOGIC_VECTOR(3 downto 0);
+      num2			: in  STD_LOGIC_VECTOR(3 downto 0);
+      blank_out  	: out STD_LOGIC_VECTOR(5 DOWNTO 0)
+		);           
+END Component;
+
 begin
    Num_Hex0 <= reg_out(3  downto  0); 
    Num_Hex1 <= reg_out(7  downto  4);
@@ -118,7 +126,7 @@ begin
    Num_Hex3 <= reg_out(15 downto 12);
    Num_Hex4 <= "0000";
    Num_Hex5 <= "0000";   
-   Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
+   --Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
 					
 ADC_ins0		: ADC_Data
 					PORT MAP (
@@ -142,36 +150,7 @@ Synchronizer_ins0 : Synchronizer
 							A		=> sw(9 downto 0),
 							G		=> sync_output
 						);
---						
---Hex_Register: Re
---						
---Voltage_Register: Register_16bits
---					PORT MAP	(
---						clk		=> clk,
---						reset_n	=> reset_n,
---						enable	=> debounce_result,
---						D			=> bcd_voltage,
---						Q			=> reg_ADC_voltage
---					);
---					
---Distance_Register: Register_16bits
---					PORT MAP	(
---						clk		=> clk,
---						reset_n	=> reset_n,
---						enable	=> debounce_result,
---						D			=> bcd_distance,
---						Q			=> reg_ADC_distance
---					);
---
---ADC_out_Register: Register_16bits
---					PORT MAP	(
---						clk		=> clk,
---						reset_n	=> reset_n,
---						enable	=> debounce_result,
---						D			=> "0000" & ADC_avg_out,
---						Q			=> reg_ADC_out
---					);
-
+						
 Hold_Register: Register_16bits
 						PORT MAP(
 						clk		=> clk,
@@ -216,6 +195,13 @@ MUX4TO1_ins1 : MUX4TO1
 							in3		=> X"0000",
 							s   		=> sync_output(9 downto 8),
 							mux_out	=> DP_in
+						);
+						
+blank_select_ins0: blank_select
+						PORT MAP(
+							num1		=> Num_Hex3,
+							num2		=> Num_Hex2,
+							blank_out => blank
 						);
 					
 SevenSegment_ins: SevenSegment
