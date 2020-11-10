@@ -1,6 +1,6 @@
 -- Testbench automatically generated online
 -- at https://vhdl.lapinoo.net
--- Generation date : 6.10.2020 16:32:38 UTC
+-- Generation date : 10.11.2020 18:59:53 UTC
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -13,7 +13,7 @@ architecture tb of tb_top_level is
     component top_level
         port (clk     : in std_logic;
               reset_n : in std_logic;
-				  set		 : in std_logic;
+              set     : in std_logic;
               SW      : in std_logic_vector (9 downto 0);
               LEDR    : out std_logic_vector (9 downto 0);
               HEX0    : out std_logic_vector (7 downto 0);
@@ -26,7 +26,7 @@ architecture tb of tb_top_level is
 
     signal clk     : std_logic;
     signal reset_n : std_logic;
-	 signal set 	 : std_logic;
+    signal set     : std_logic;
     signal SW      : std_logic_vector (9 downto 0);
     signal LEDR    : std_logic_vector (9 downto 0);
     signal HEX0    : std_logic_vector (7 downto 0);
@@ -45,7 +45,7 @@ begin
     dut : top_level
     port map (clk     => clk,
               reset_n => reset_n,
-				  set		 => set,
+              set     => set,
               SW      => SW,
               LEDR    => LEDR,
               HEX0    => HEX0,
@@ -64,45 +64,33 @@ begin
     stimuli : process
     begin
         -- EDIT Adapt initialization as needed
+       
         SW <= (others => '0');
-		  set <= '1'; wait for 31 ms;
+		  set <= '1'; wait for 31 ms; 
+
+
         -- Reset generation
         -- EDIT: Check that reset_n is really your reset signal
-        reset_n <= '0'; wait for 100 ns;
-        reset_n <= '1'; wait for 100 ns; wait for 1000 * TbPeriod;
-
-        -- testing 5A5A; output should be 5A5A regardless of sw(7:0) and reset_n
-        sw <= "1100000000"; 	wait for 1000000 * TbPeriod;
-        sw <= "1111111111"; 	wait for 1000000 * TbPeriod;
-		reset_n <= '0';			wait for 1000000 * TbPeriod;
-        reset_n <= '1';			wait for 1000000 * TbPeriod;
-		  -- testing output 9 for decimal and hex
-        sw <= "0000001001"; 	wait for 1000000 * TbPeriod;
-		  sw <= "0100001001"; 	wait for 1000000 * TbPeriod;
-		  -- testing output 10 for decimal and hex
-        sw <= "0000001010"; 	wait for 1000000 * TbPeriod;
-		sw <= "0100001010"; 	wait for 1000000 * TbPeriod;
-		  -- testing output 255 for decimal and hex
-        sw <= "0011111111"; 	wait for 1000000 * TbPeriod;
-		sw <= "0111111111"; 	wait for 1000000 * TbPeriod;
-		  -- testing reset for decimal and hex
-		  reset_n <= '0';		wait for 1000000 * TbPeriod;
-        sw <= "0011111111"; 	wait for 1000000 * TbPeriod;
-		sw <= "0111111111"; 	wait for 1000000 * TbPeriod;
-		reset_n <= '1';			wait for 1000000 * TbPeriod;
-		  -- testing store value
-		set <= '0'; 			wait for 31 ms;
-		set <= '1'; 			wait for 31 ms;
-		sw <= "1001011010"; 	wait for 1000000 * TbPeriod; -- displays FF
-		sw <= "0011111111"; 	wait for 1000000 * TbPeriod;
-		set <= '0'; 			wait for 31 ms;
-		set <= '1'; 			wait for 31 ms;
-		sw <= "1001100110";		wait for 1000000 * TbPeriod; -- displays 255
-		reset_n <= '0';			wait for 1000000 * TbPeriod;
-		reset_n <= '1';			wait for 1000000 * TbPeriod;
+        reset_n <= '0';
+        wait for 100 ns;
+        reset_n <= '1';
+        wait for 100 ns;
+		  
+		  
+        -- EDIT Add stimuli here
+        wait for 1000 * TbPeriod;
+		  SW <= "0011111111"; wait for 1000 * TbPeriod; 				  -- mode 1, hex
+		  SW <= "0111111111"; wait for 1000 * TbPeriod; 				  -- mode 2, distance
+		  set <= '0'; wait for 31 ms;		  --  testing hold value
+		  set <= '1'; wait for 31 ms;	
+		  SW <= "1011111111"; wait for 1000 * TbPeriod; 				  -- mode 3, voltage
+		  SW <= "1111111111"; wait for 1000 * TbPeriod; 				  -- mode 4, average
+		  
+		  
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
-        wait;
+        assert false report "Simulation ended" severity failure; -- need this line to halt the testbench  
     end process;
 
 end tb;
+

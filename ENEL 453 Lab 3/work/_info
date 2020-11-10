@@ -13,7 +13,7 @@ Eadc_conversion_wrapper
 Z0 w1604598150
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 71
+!i122 464
 Z3 dC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3
 Z4 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd
 Z5 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd
@@ -23,9 +23,9 @@ VB?86R5UoX7S2lmRYIzIMS2
 !s100 KH;=f<oN;9WCTDm@QNBBJ1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1605035230
+Z7 !s110 1605043179
 !i10b 1
-Z8 !s108 1605035230.000000
+Z8 !s108 1605043178.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd|
 Z10 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Asimulation
 R1
 R2
 Z13 DEx4 work 22 adc_conversion_wrapper 0 22 B?86R5UoX7S2lmRYIzIMS2
-!i122 71
+!i122 464
 l32
 L29 69
 Vi2kh07eNkFdL;49Y3n6MP2
@@ -54,7 +54,7 @@ Artl
 R1
 R2
 R13
-!i122 71
+!i122 464
 l20
 L11 17
 V0hdTc:nn_LghWHZXNG^5S1
@@ -70,11 +70,11 @@ R10
 R11
 R12
 Eadc_data
-Z14 w1605033277
+Z14 w1605037008
 Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
-!i122 72
+!i122 465
 R3
 Z16 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd
 Z17 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd
@@ -86,9 +86,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd|
-Z19 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd|
+Z18 !s108 1605043179.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd|
+Z20 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd|
 !i113 1
 R11
 R12
@@ -97,8 +97,8 @@ R13
 R15
 R1
 R2
-Z20 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
-!i122 72
+Z21 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
+!i122 465
 l62
 L15 91
 V4PJKQIG`Se:_:eSMWUG@W3
@@ -107,9 +107,9 @@ R6
 32
 R7
 !i10b 1
-R8
 R18
 R19
+R20
 !i113 1
 R11
 R12
@@ -118,19 +118,19 @@ R0
 R15
 R1
 R2
-!i122 73
+!i122 466
 R3
-Z21 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd
-Z22 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd
+Z22 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd
+Z23 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd
 l0
-Z23 L10 1
+Z24 L10 1
 V_CUX^0>VNcl[Eh>P]8Za^3
 !s100 PTQlD5=WnNQ@eNmcPZ4:[2
 R6
 32
-Z24 !s110 1605035231
+Z25 !s110 1605043180
 !i10b 1
-Z25 !s108 1605035231.000000
+R18
 Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd|
 Z27 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd|
 !i113 1
@@ -141,16 +141,16 @@ R15
 R1
 R2
 DEx4 work 11 averager256 0 22 _CUX^0>VNcl[Eh>P]8Za^3
-!i122 73
+!i122 466
 l40
 L26 51
 VoijEB27YM`KgdZIRB`IQg3
 !s100 6o`Dj@Wf2BWP3nOC9TX]X3
 R6
 32
-R24
-!i10b 1
 R25
+!i10b 1
+R18
 R26
 R27
 !i113 1
@@ -161,7 +161,7 @@ R0
 R15
 R1
 R2
-!i122 74
+!i122 467
 R3
 Z28 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd
 Z29 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd
@@ -171,11 +171,11 @@ V0:9zdOIA`o`LF2cmkOC^P3
 !s100 gQzX;=HeN]3[lj0[@2mb]2
 R6
 32
-R24
-!i10b 1
 R25
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd|
-Z31 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd|
+!i10b 1
+Z30 !s108 1605043180.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd|
+Z32 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd|
 !i113 1
 R11
 R12
@@ -184,59 +184,59 @@ R15
 R1
 R2
 DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
-!i122 74
+!i122 467
 l27
 L17 68
 Vkk0@KWb1@9aV]WcFQb8d>1
 !s100 :^^564DjXHL3Y8gXOzS=f0
 R6
 32
-R24
-!i10b 1
 R25
+!i10b 1
 R30
 R31
+R32
 !i113 1
 R11
 R12
 Eblank_select
-Z32 w1605032653
+Z33 w1605032653
 R1
 R2
-!i122 75
+!i122 468
 R3
-Z33 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd
-Z34 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd
+Z34 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd
+Z35 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd
 l0
 L4 1
 VEb`O[RiXn79^Z]hNfB<Pd3
 !s100 zKPdi[h]LjSchc9RdEgJ61
 R6
 32
-R24
+Z36 !s110 1605043181
 !i10b 1
-R25
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd|
-Z36 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd|
+R30
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd|
+Z38 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd|
 !i113 1
 R11
 R12
 Abehavioural
 R1
 R2
-Z37 DEx4 work 12 blank_select 0 22 Eb`O[RiXn79^Z]hNfB<Pd3
-!i122 75
+Z39 DEx4 work 12 blank_select 0 22 Eb`O[RiXn79^Z]hNfB<Pd3
+!i122 468
 l14
 L13 7
 VoM2hHcMb23dOkIPAiako]1
 !s100 F=bjX^3g`zmnmA<I;5`CG0
 R6
 32
-R24
-!i10b 1
-R25
-R35
 R36
+!i10b 1
+R30
+R37
+R38
 !i113 1
 R11
 R12
@@ -244,135 +244,135 @@ Ccfg_tb_adc_data
 etb_ADC_Data
 atb
 R15
-R20
+R21
 DAx4 work 11 tb_adc_data 2 tb 22 2[P3WYUn^GW[A6j=>UhNJ0
 R1
 R2
-Z38 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
-!i122 85
-Z39 w1604598151
+Z40 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
+!i122 478
+Z41 w1604598151
 R3
-Z40 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd
-Z41 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd
+Z42 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd
+Z43 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd
 l0
-Z42 L78 1
+Z44 L78 1
 V<XCj?3HN7YR>koNkEm^`j0
 !s100 DhEC5OjeD1dD8XhZK6HkV3
 R6
 32
-Z43 !s110 1605035234
+Z45 !s110 1605043185
 !i10b 0
-Z44 !s108 1605035234.000000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd|
-Z46 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd|
+Z46 !s108 1605043184.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd|
+Z48 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_blank_select
 etb_blank_select
 atb
-R37
+R39
 DAx4 work 15 tb_blank_select 2 tb 22 7M9Dz]9U[3mnYfDhUzg^d0
 R1
 R2
-Z47 DEx4 work 15 tb_blank_select 0 22 jSVc77J3aW;EKKz2<VSeN0
-!i122 94
-Z48 w1605034443
+Z49 DEx4 work 15 tb_blank_select 0 22 jSVc77J3aW;EKKz2<VSeN0
+!i122 488
+Z50 w1605034443
 R3
-Z49 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd
-Z50 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd
+Z51 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd
+Z52 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd
 l0
 L49 1
 Vl8^;:kUo;hNIFj7;CUHPh3
 !s100 7b;6j^:7[=m3FliDH_kTF0
 R6
 32
-Z51 !s110 1605035237
+Z53 !s110 1605043189
 !i10b 0
-Z52 !s108 1605035237.000000
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd|
-Z54 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd|
+Z54 !s108 1605043189.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd|
+Z56 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_mux2to1
 etb_MUX2TO1
 atb
-Z55 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
+Z57 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
 DAx4 work 10 tb_mux2to1 2 tb 22 =UYE>bWmjCD@m10_1VI=z1
 R1
 R2
-Z56 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
-!i122 87
-R39
+Z58 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
+!i122 480
+R41
 R3
-Z57 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd
-Z58 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd
+Z59 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd
+Z60 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd
 l0
 L55 1
 Ve8izW2[n24JS=G>S0`CaO0
 !s100 J@DHRZba3YTWX936zF`I80
 R6
 32
-Z59 !s110 1605035235
+R45
 !i10b 0
-Z60 !s108 1605035235.000000
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd|
-Z62 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd|
+Z61 !s108 1605043185.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd|
+Z63 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_mux4to1
 etb_MUX4TO1
 atb
-Z63 DEx4 work 7 mux4to1 0 22 [zRz8eD]aLAP@NoU2QMDB1
+Z64 DEx4 work 7 mux4to1 0 22 [zRz8eD]aLAP@NoU2QMDB1
 DAx4 work 10 tb_mux4to1 2 tb 22 fUGh>>me2XV`EzUggSRmz0
 R1
 R2
-Z64 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
-!i122 88
-R39
+Z65 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
+!i122 481
+R41
 R3
-Z65 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd
-Z66 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd
+Z66 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd
+Z67 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd
 l0
 L61 1
 V=39e8?E[27mP?fWY9K^AB1
 !s100 :H2YA_:X7c9a^RXTRjQR]1
 R6
 32
-R59
+Z68 !s110 1605043186
 !i10b 0
-R60
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd|
-Z68 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd|
+Z69 !s108 1605043186.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd|
+Z71 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_register_16bits
 etb_Register_16bits
 atb
-Z69 DEx4 work 15 register_16bits 0 22 _NQ?1=L0AlzJ?kT1<Lf6C3
+Z72 DEx4 work 15 register_16bits 0 22 _NQ?1=L0AlzJ?kT1<Lf6C3
 DAx4 work 18 tb_register_16bits 2 tb 22 IkF8geDkU3Z]BbEQKAza82
 R1
 R2
-Z70 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
-!i122 89
-R39
+Z73 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
+!i122 482
+R41
 R3
-Z71 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd
-Z72 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd
+Z74 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd
+Z75 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd
 l0
-R42
+R44
 VH:>OcdKOc[@DA^;O;>Y;o2
 !s100 @P1T9HA_TOOnG5PL<mJEf1
 R6
 32
-Z73 !s110 1605035236
+R68
 !i10b 0
-R60
-Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd|
-Z75 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd|
+R69
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd|
+Z77 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd|
 !i113 1
 R11
 R12
@@ -380,27 +380,27 @@ Ccfg_tb_synchronizer
 etb_Synchronizer
 atb
 R15
-Z76 DEx4 work 12 synchronizer 0 22 cL9DF<=QzC1j;_kLEK_NL0
+Z78 DEx4 work 12 synchronizer 0 22 cL9DF<=QzC1j;_kLEK_NL0
 DAx4 work 15 tb_synchronizer 2 tb 22 Rc`cfm5JREK6Si@BTJaJk0
 R1
 R2
-Z77 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
-!i122 90
-R39
+Z79 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
+!i122 483
+R41
 R3
-Z78 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd
-Z79 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd
+Z80 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd
+Z81 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd
 l0
 L64 1
 V[_;BQHX1g00bao:z2F[ln2
 !s100 olJAFj4z8Vj9Uld1W^lZV1
 R6
 32
-R73
+Z82 !s110 1605043187
 !i10b 0
-Z80 !s108 1605035236.000000
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd|
-Z82 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd|
+R69
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd|
+Z84 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd|
 !i113 1
 R11
 R12
@@ -408,49 +408,49 @@ Ccfg_tb_top_level
 etb_top_level
 atb
 R15
-DEx4 work 9 top_level 0 22 J>i=b?HTEonYb6mVVBOz63
+Z85 DEx4 work 9 top_level 0 22 J>i=b?HTEonYb6mVVBOz63
 DAx4 work 12 tb_top_level 2 tb 22 Em<C`NLfZ;NX<jG9OT^g:3
 R1
 R2
-Z83 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
-!i122 91
-Z84 w1605035163
+Z86 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
+!i122 115
+w1605035163
 R3
-Z85 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd
-Z86 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd
+Z87 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd
+Z88 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd
 l0
 L94 1
 VF8FZoa6?@00IiV>az=7Nk2
 !s100 7GJUF6X7J5Bm2Vik9_a0i3
 R6
 32
-R73
+!s110 1605037027
 !i10b 0
-R80
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd|
-Z88 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd|
+!s108 1605037027.000000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd|
+Z90 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_top_level.vhd|
 !i113 1
 R11
 R12
 Edebounce
-R39
+R41
 R1
 R2
-!i122 76
+!i122 469
 R3
-Z89 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd
-Z90 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd
+Z91 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd
+Z92 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd
 l0
 L29 1
 V@:59AM=ljIR?D1gDRW7W=0
 !s100 <M9fi1iYe2@AWXSd<LhWz0
 R6
 32
-Z91 !s110 1605035232
+R36
 !i10b 1
-R25
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd|
-Z93 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd|
+Z93 !s108 1605043181.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd|
+Z95 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd|
 !i113 1
 R11
 R12
@@ -458,25 +458,25 @@ Alogic
 R1
 R2
 DEx4 work 8 debounce 0 22 @:59AM=ljIR?D1gDRW7W=0
-!i122 76
+!i122 469
 l42
 L39 24
 VX^;WOnj0o;zdPQgHU2;6H0
 !s100 QQ@O34Z;U0>19GRHL9J`V1
 R6
 32
-R91
+R36
 !i10b 1
-R25
-R92
 R93
+R94
+R95
 !i113 1
 R11
 R12
 Plut_pkg
 R1
 R2
-!i122 77
+!i122 470
 R0
 R3
 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/LUT_pkg.vhd
@@ -487,9 +487,9 @@ VbWdDCoM1SjBZgaG42W0M^0
 !s100 bbO2hX<1WN4QSFa?=Lbzl3
 R6
 32
-R91
+Z96 !s110 1605043182
 !i10b 1
-Z94 !s108 1605035232.000000
+R93
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/LUT_pkg.vhd|
 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/LUT_pkg.vhd|
 !i113 1
@@ -499,40 +499,40 @@ Emux2to1
 R0
 R1
 R2
-!i122 78
+!i122 471
 R3
-Z95 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd
-Z96 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd
+Z97 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd
+Z98 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd
 l0
 L4 1
 V@0S`EKP00^0KG5?aDAn@53
 !s100 RO3T[f^VWjWjU>4@HiXBV0
 R6
 32
-R91
+R96
 !i10b 1
-R94
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd|
-Z98 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd|
+Z99 !s108 1605043182.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd|
+Z101 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R1
 R2
-R55
-!i122 78
+R57
+!i122 471
 l13
 L12 6
 VfVUU`<XQ^7T<4EBOFU?De3
 !s100 8zIME]K9O<eKE<V6BEOYP2
 R6
 32
-R91
+R96
 !i10b 1
-R94
-R97
-R98
+R99
+R100
+R101
 !i113 1
 R11
 R12
@@ -540,40 +540,40 @@ Emux4to1
 R0
 R1
 R2
-!i122 79
+!i122 472
 R3
-Z99 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd
-Z100 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd
+Z102 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd
+Z103 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd
 l0
 L4 1
 V[zRz8eD]aLAP@NoU2QMDB1
 !s100 :FdOZ7B58d2^Cl:W3BIiV2
 R6
 32
-R91
+R96
 !i10b 1
-R94
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd|
-Z102 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd|
+R99
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd|
+Z105 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R1
 R2
-R63
-!i122 79
+R64
+!i122 472
 l15
 L14 8
 VE^KN_nTQ>z=`MNahH4B2i3
 !s100 ?JkOaJCbYz21_Vc8O9H4P0
 R6
 32
-Z103 !s110 1605035233
+R96
 !i10b 1
-R94
-R101
-R102
+R99
+R104
+R105
 !i113 1
 R11
 R12
@@ -581,21 +581,21 @@ Eregister_10bits
 R0
 R1
 R2
-!i122 80
+!i122 473
 R3
-Z104 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd
-Z105 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd
+Z106 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd
+Z107 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd
 l0
 L4 1
 VW]`NWUn3Q?oS;V5K1CIMN2
 !s100 ll3UzCaXC]=4NLh:TI14o1
 R6
 32
-R103
+Z108 !s110 1605043183
 !i10b 1
-Z106 !s108 1605035233.000000
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd|
-Z108 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd|
+R99
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd|
+Z110 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd|
 !i113 1
 R11
 R12
@@ -603,18 +603,18 @@ Abehavior
 R1
 R2
 DEx4 work 15 register_10bits 0 22 W]`NWUn3Q?oS;V5K1CIMN2
-!i122 80
+!i122 473
 l13
 L12 10
 VCe;1YA6`bi4niLJUWFH4X3
 !s100 mSzCmeiSe=V32_I=<6d=L1
 R6
 32
-R103
-!i10b 1
-R106
-R107
 R108
+!i10b 1
+R99
+R109
+R110
 !i113 1
 R11
 R12
@@ -622,40 +622,40 @@ Eregister_16bits
 R0
 R1
 R2
-!i122 81
+!i122 474
 R3
-Z109 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd
-Z110 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd
+Z111 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd
+Z112 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd
 l0
 L4 1
 V_NQ?1=L0AlzJ?kT1<Lf6C3
 !s100 9B>6XaYc[d]Gm9B8o`Sb]2
 R6
 32
-R103
+R108
 !i10b 1
-R106
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd|
-Z112 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd|
+Z113 !s108 1605043183.000000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd|
+Z115 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R1
 R2
-R69
-!i122 81
+R72
+!i122 474
 l15
 L14 15
 Vg7<AzXYE_kQfiem^08?B`0
 !s100 `j;6a]ZzHUR9b>2S[haS<2
 R6
 32
-R103
+R108
 !i10b 1
-R106
-R111
-R112
+R113
+R114
+R115
 !i113 1
 R11
 R12
@@ -663,21 +663,21 @@ Esevensegment
 R0
 R1
 R2
-!i122 82
+!i122 475
 R3
-Z113 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd
-Z114 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd
+Z116 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd
+Z117 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd
 l0
 L5 1
 VbD[XAzC][MhHDE[[CL3O@3
 !s100 OmVSC`U@3RF?cbR0BYfoK3
 R6
 32
-R103
+Z118 !s110 1605043184
 !i10b 1
-R106
-Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd|
-Z116 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd|
+R113
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd|
+Z120 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd|
 !i113 1
 R11
 R12
@@ -685,18 +685,18 @@ Abehavioral
 R1
 R2
 DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
-!i122 82
+!i122 475
 l20
-Z117 L11 50
+Z121 L11 50
 VZg=eT^T6U1XLQZSJ:@@gb3
 !s100 dcYihQ@U4TXj]105NfLck3
 R6
 32
-R103
+R118
 !i10b 1
-R106
-R115
-R116
+R113
+R119
+R120
 !i113 1
 R11
 R12
@@ -704,21 +704,21 @@ Esevensegment_decoder
 R0
 R1
 R2
-!i122 83
+!i122 476
 R3
-Z118 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd
-Z119 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd
+Z122 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd
+Z123 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd
 l0
 L5 1
 VKjE^A[JI58zIZ_l229BiF2
 !s100 5AALkiToOD1k>]CGcBo?e0
 R6
 32
-R43
+R118
 !i10b 1
-R44
-Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd|
-Z121 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd|
+R46
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd|
+Z125 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd|
 !i113 1
 R11
 R12
@@ -726,18 +726,18 @@ Abehavioral
 R1
 R2
 DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
-!i122 83
+!i122 476
 l17
 L13 41
 VG3hVD5C8G24Y5@Gz8RQQi2
 !s100 UnNnHNcOkEJ?F<]0Q;CPb2
 R6
 32
-R43
+R118
 !i10b 1
-R44
-R120
-R121
+R46
+R124
+R125
 !i113 1
 R11
 R12
@@ -746,21 +746,21 @@ R0
 R15
 R1
 R2
-!i122 84
+!i122 477
 R3
-Z122 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd
-Z123 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd
+Z126 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd
+Z127 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd
 l0
 L5 1
 VcL9DF<=QzC1j;_kLEK_NL0
 !s100 OoMbjl;7BEU6JVP@K`_191
 R6
 32
-R43
+R118
 !i10b 1
-R44
-Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd|
-Z125 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd|
+R46
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd|
+Z129 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd|
 !i113 1
 R11
 R12
@@ -768,123 +768,123 @@ Abehavioural
 R15
 R1
 R2
-R76
-!i122 84
+R78
+!i122 477
 l26
 L12 30
 VFaToG[G?gHW>?94gaHF>^2
 !s100 ^6]E`m>DXIcJ1_ko[LVgW3
 R6
 32
-R43
+R118
 !i10b 1
-R44
-R124
-R125
+R46
+R128
+R129
 !i113 1
 R11
 R12
 Etb_adc_data
-R39
+R41
 R1
 R2
-!i122 85
+!i122 478
 R3
-R40
-R41
+R42
+R43
 l0
 L8 1
 V[?lm[l=lU]Mf^aJ=5DKVD1
 !s100 L7OQmLjBP@S1i0=olKf6?2
 R6
 32
-R43
-!i10b 1
-R44
 R45
+!i10b 1
 R46
+R47
+R48
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R38
-!i122 85
+R40
+!i122 478
 l36
 L11 64
 V2[P3WYUn^GW[A6j=>UhNJ0
 !s100 4XmK:gNE:_LWeL4ZWVYU91
 R6
 32
-R43
-!i10b 1
-R44
 R45
+!i10b 1
 R46
+R47
+R48
 !i113 1
 R11
 R12
 Etb_blank_select
-R48
+R50
 R1
 R2
-!i122 94
+!i122 488
 R3
-R49
-R50
+R51
+R52
 l0
 L8 1
 VjSVc77J3aW;EKKz2<VSeN0
 !s100 ^lLS5:gj`7TdIMmeFa`0g3
 R6
 32
-R51
-!i10b 1
-R52
 R53
+!i10b 1
 R54
+R55
+R56
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R47
-!i122 94
+R49
+!i122 488
 l23
-Z126 L11 35
-Z127 V7M9Dz]9U[3mnYfDhUzg^d0
-Z128 !s100 kW@B7UA^Xo[lzf6lkI[MH2
+Z130 L11 35
+Z131 V7M9Dz]9U[3mnYfDhUzg^d0
+Z132 !s100 kW@B7UA^Xo[lzf6lkI[MH2
 R6
 32
-R51
-!i10b 1
-R52
 R53
+!i10b 1
 R54
+R55
+R56
 !i113 1
 R11
 R12
 Etb_debounce
-R39
+R41
 R1
 R2
-!i122 86
+!i122 479
 R3
-Z129 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd
-Z130 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd
+Z133 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd
+Z134 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd
 l0
-R23
+R24
 VfC6XFVHOhZjf4l8gcO63:1
 !s100 GoKCFGem1>AF?3<JI:R:30
 R6
 32
-R59
+R45
 !i10b 1
-R44
-Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd|
-Z132 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd|
+R61
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd|
+Z136 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd|
 !i113 1
 R11
 R12
@@ -892,291 +892,311 @@ Abehavioral
 R1
 R2
 DEx4 work 11 tb_debounce 0 22 fC6XFVHOhZjf4l8gcO63:1
-!i122 86
+!i122 479
 l43
 L13 130
 Vz]4@5;<;kRDK>cZhhC8Se3
 !s100 1l?LmfhB<nn^OjzfZ3ZzA1
 R6
 32
-R59
+R45
 !i10b 1
-R44
-R131
-R132
+R61
+R135
+R136
 !i113 1
 R11
 R12
 Etb_mux2to1
-R39
+R41
 R1
 R2
-!i122 87
+!i122 480
 R3
-R57
-R58
+R59
+R60
 l0
 L4 1
 VIb@2L6>4m?I`INR>md?>;2
 !s100 MXTn`=C41mc0Pab1_8j`P0
 R6
 32
-R59
+R45
 !i10b 1
-R60
 R61
 R62
+R63
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R56
-!i122 87
+R58
+!i122 480
 l25
 L7 45
 V=UYE>bWmjCD@m10_1VI=z1
 !s100 Q9Y[N;5[M]5D2=??4RIDM0
 R6
 32
-R59
+R45
 !i10b 1
-R60
 R61
 R62
+R63
 !i113 1
 R11
 R12
 Etb_mux4to1
-R39
+R41
 R1
 R2
-!i122 88
+!i122 481
 R3
-R65
 R66
+R67
 l0
 L8 1
 VWE<afC8WU7fQ_oB`A203J2
 !s100 g?aTQ81l9bHihkJfXCgT`3
 R6
 32
-R59
-!i10b 1
-R60
-R67
 R68
+!i10b 1
+R69
+R70
+R71
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R64
-!i122 88
+R65
+!i122 481
 l29
 L11 47
 VfUGh>>me2XV`EzUggSRmz0
 !s100 8Li63`T9o[e;BBm82O13C2
 R6
 32
-R59
-!i10b 1
-R60
-R67
 R68
+!i10b 1
+R69
+R70
+R71
 !i113 1
 R11
 R12
 Etb_register_16bits
-R39
+R41
 R1
 R2
-!i122 89
+!i122 482
 R3
-R71
-R72
+R74
+R75
 l0
 L4 1
 VFzV@^Kl6L8ELdkPK22:z:0
 !s100 QFL9=iA@:I72o`9ZKQV2`3
 R6
 32
-R73
+R68
 !i10b 1
-R60
-R74
-R75
+R69
+R76
+R77
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R70
-!i122 89
+R73
+!i122 482
 l27
 L7 68
 VIkF8geDkU3Z]BbEQKAza82
 !s100 7C?^Rbz@fi[nFNC6G1j5F0
 R6
 32
-R73
+R68
 !i10b 1
-R60
-R74
-R75
+R69
+R76
+R77
 !i113 1
 R11
 R12
 Etb_synchronizer
-R39
+R41
 R1
 R2
-!i122 90
+!i122 483
 R3
-R78
-R79
+R80
+R81
 l0
 L8 1
 VeLKCQWi];U]XmbE2aVB_e0
 !s100 OSTJhXDBDlYCj;XjRhJ<f1
 R6
 32
-R73
-!i10b 1
-R80
-R81
 R82
+!i10b 1
+R69
+R83
+R84
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R77
-!i122 90
+R79
+!i122 483
 l27
-R117
+R121
 VRc`cfm5JREK6Si@BTJaJk0
 !s100 Ia^SF]gf:V;54^=e`RFBO3
 R6
 32
-R73
-!i10b 1
-R80
-R81
 R82
+!i10b 1
+R69
+R83
+R84
 !i113 1
 R11
 R12
 Etb_top_level
-R84
+Z137 w1605043158
 R1
 R2
-!i122 91
+!i122 484
 R3
-R85
-R86
+R87
+R88
 l0
 L8 1
 VzIJcR]GGPS23@TVK:g=SK1
 !s100 2e@ZcHec5JS2MgNF8KA`21
 R6
 32
-R73
+R82
 !i10b 1
-R80
-R87
-R88
+Z138 !s108 1605043187.000000
+R89
+R90
 !i113 1
 R11
 R12
 Atb
 R1
 R2
-R83
-!i122 91
+R86
+!i122 484
 l43
-L11 80
-VEm<C`NLfZ;NX<jG9OT^g:3
-!s100 GZd_aWD]<JX:RL]NfSZ0K1
+L11 85
+V:>@W^^=Il?Q<32bKK?QLQ2
+!s100 DzBg[?87M0INfzD`I9YZC2
 R6
 32
-R73
+R82
 !i10b 1
-R80
-R87
-R88
+R138
+R89
+R90
 !i113 1
 R11
 R12
 Etop_level
-R32
+Z139 w1605036236
 R15
 R1
 R2
-!i122 92
+!i122 485
 R3
-8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd
-FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd
+Z140 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd
+Z141 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd
 l0
 L5 1
 VJ>i=b?HTEonYb6mVVBOz63
 !s100 ^B3U@=LKB7ZfCO=mX4XB13
 R6
 32
-R51
+Z142 !s110 1605043188
 !i10b 1
-R80
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd|
-!s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd|
+R138
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd|
+Z144 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+R85
+!i122 485
+l122
+L16 214
+VQX^QDDE;<kQc]e=34a`5M0
+!s100 Eo[P2kCS49Hj6fLbn_2c]0
+R6
+32
+R142
+!i10b 1
+R138
+R143
+R144
 !i113 1
 R11
 R12
 Evoltage2distance_array2
-R39
-Z133 DPx4 work 7 lut_pkg 0 22 bWdDCoM1SjBZgaG42W0M^0
+R41
+Z145 DPx4 work 7 lut_pkg 0 22 bWdDCoM1SjBZgaG42W0M^0
 R15
 R1
 R2
-!i122 93
+!i122 486
 R3
-Z134 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd
-Z135 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd
+Z146 8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd
+Z147 FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd
 l0
 L24 1
 V=NDCVZciz^K^bX6GaO`oT3
 !s100 `A`mdf8ondemfJ_=[hYQd1
 R6
 32
-R51
+R142
 !i10b 1
-R52
-Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd|
-Z137 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd|
+Z148 !s108 1605043188.000000
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd|
+Z150 !s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R133
+R145
 R15
 R1
 R2
 DEx4 work 23 voltage2distance_array2 0 22 =NDCVZciz^K^bX6GaO`oT3
-!i122 93
+!i122 486
 l35
 L32 11
 VEeH?6UUEXf92ElUkXFl4d3
 !s100 [6Lk_@eYiRP^?7Woz^lK[0
 R6
 32
-R51
+R142
 !i10b 1
-R52
-R136
-R137
+R148
+R149
+R150
 !i113 1
 R11
 R12

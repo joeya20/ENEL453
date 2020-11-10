@@ -64,8 +64,10 @@ begin
     stimuli : process
     begin
         -- EDIT Adapt initialization as needed
-        set <= '0';
+       
         SW <= (others => '0');
+		  set <= '1'; wait for 31 ms;wait for 1000 * TbPeriod;  
+
 
         -- Reset generation
         -- EDIT: Check that reset_n is really your reset signal
@@ -73,25 +75,22 @@ begin
         wait for 100 ns;
         reset_n <= '1';
         wait for 100 ns;
-
+		  
+		  
         -- EDIT Add stimuli here
         wait for 1000 * TbPeriod;
-		  SW(9 downto 8) <= "00";  wait for 1000 * TbPeriod; -- mode 1, hex
-		  SW(9 downto 8) <= "01";  wait for 1000 * TbPeriod; -- mode 2, distance
-		  set <= '1'; wait for 1000 * TbPeriod;				  -- testing hold value
-		  SW(9 downto 8) <= "10";  wait for 1000 * TbPeriod; -- mode 3, voltage
-		  SW(9 downto 8) <= "11";  wait for 1000 * TbPeriod; -- mode 4, average
+		  SW <= "0011111111"; wait for 1000 * TbPeriod; 				  -- mode 1, hex
+		  SW <= "0111111111"; wait for 1000 * TbPeriod; 				  -- mode 2, distance
+		  set <= '0'; wait for 31 ms;		wait for 1000 * TbPeriod;  
+		  set <= '1'; wait for 31 ms;	wait for 1000 * TbPeriod; 
+		  SW <= "1011111111"; wait for 1000 * TbPeriod; 				  -- mode 3, voltage
+		  SW <= "1111111111"; wait for 1000 * TbPeriod; 				  -- mode 4, average
+		  
 		  
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
-        wait;
+        assert false report "Simulation ended" severity failure; -- need this line to halt the testbench  
     end process;
 
 end tb;
 
--- Configuration block below is required by some simulators. Usually no need to edit.
-
-configuration cfg_tb_top_level of tb_top_level is
-    for tb
-    end for;
-end cfg_tb_top_level;
