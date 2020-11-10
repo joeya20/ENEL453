@@ -25,7 +25,7 @@ signal sync_output:		STD_LOGIC_VECTOR (9 downto 0);
 signal mux_out:		 	STD_LOGIC_VECTOR(15 DOWNTO 0);
 signal reg_out:		 	STD_LOGIC_VECTOR(15 DOWNTO 0);
 -- hex mode signals
---signal hex_mux_out:	 	STD_LOGIC_VECTOR(15 DOWNTO 0);
+signal hex_mux_in:	 	STD_LOGIC_VECTOR(15 DOWNTO 0);
 -- voltage mode signals
 signal ADC_voltage:		STD_LOGIC_VECTOR(12 downto 0);
 signal bcd_voltage:		STD_LOGIC_VECTOR(15 downto 0);
@@ -36,7 +36,7 @@ signal bcd_distance:		STD_LOGIC_VECTOR(15 downto 0);
 --signal reg_ADC_distance:STD_LOGIC_VECTOR(15 downto 0);
 -- adc out signals
 signal ADC_avg_out:		STD_LOGIC_VECTOR(11 downto 0);
---signal reg_ADC_out:		STD_LOGIC_VECTOR(15 downto 0);
+signal ADC_avg_mux_in:	STD_LOGIC_VECTOR(15 downto 0);
 
 -- Components
 Component SevenSegment is
@@ -125,7 +125,9 @@ begin
    Num_Hex2 <= reg_out(11 downto  8);
    Num_Hex3 <= reg_out(15 downto 12);
    Num_Hex4 <= "0000";
-   Num_Hex5 <= "0000";   
+   Num_Hex5 <= "0000";  
+	hex_mux_in <= X"00" & sync_output(7 downto 0);
+	ADC_avg_mux_in <= X"0" & ADC_avg_out;
    --Blank    <= "110000"; -- blank the 2 MSB 7-segment displays (1=7-seg display off, 0=7-seg display on)
 					
 ADC_ins0		: ADC_Data
@@ -179,10 +181,10 @@ binary_bcd_ins1: binary_bcd
 
 MUX4TO1_ins0 : MUX4TO1
 						PORT MAP( 
-							in0 		=> X"00" & sync_output(7 downto 0),
+							in0 		=> hex_mux_in,
 							in1 		=> bcd_distance,
 							in2		=> bcd_voltage,
-							in3		=> X"0" & ADC_avg_out,
+							in3		=> ADC_avg_mux_in,
 							s   		=> sync_output(9 downto 8),
 							mux_out	=> mux_out
 						);
@@ -190,8 +192,8 @@ MUX4TO1_ins0 : MUX4TO1
 MUX4TO1_ins1 : MUX4TO1
 						PORT MAP( 
 							in0 		=> X"0000",
-							in1 		=> X"00" & "00000100",
-							in2		=> X"00" & "00001000",
+							in1 		=> X"0004",
+							in2		=> X"0008",
 							in3		=> X"0000",
 							s   		=> sync_output(9 downto 8),
 							mux_out	=> DP_in

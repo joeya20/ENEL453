@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_level
-Tue Nov 10 11:21:33 2020
+Tue Nov 10 12:17:19 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -99,7 +99,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 10 11:21:33 2020       ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 10 12:17:19 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -1516,7 +1516,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:37     ;
+; Top            ; 00:00:35     ;
 +----------------+--------------+
 
 
@@ -1526,7 +1526,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Nov 10 11:20:43 2020
+    Info: Processing started: Tue Nov 10 12:16:32 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c top_level
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1633,7 +1633,7 @@ Info (12021): Found 3 design units, including 1 entities, in source file tb_mux4
     Info (12023): Found entity 1: tb_MUX4TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd Line: 8
 Info (12127): Elaborating entity "top_level" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at top_level.vhd(23): object "switch_inputs" assigned a value but never read File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 23
-Info (12128): Elaborating entity "ADC_Data" for hierarchy "ADC_Data:ADC_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 131
+Info (12128): Elaborating entity "ADC_Data" for hierarchy "ADC_Data:ADC_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 133
 Info (12128): Elaborating entity "voltage2distance_array2" for hierarchy "ADC_Data:ADC_ins0|voltage2distance_array2:voltage2distance_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd Line: 64
 Info (12129): Elaborating entity "ADC_Conversion_wrapper" using architecture "A:rtl" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd Line: 72
 Info (12128): Elaborating entity "ADC_Conversion" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd Line: 21
@@ -1692,14 +1692,14 @@ Info (12128): Elaborating entity "altera_reset_controller" for hierarchy "ADC_Da
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.v Line: 208
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_req_sync_uq1" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.v Line: 220
 Info (12128): Elaborating entity "averager256" for hierarchy "ADC_Data:ADC_ins0|averager256:averager" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd Line: 78
-Info (12128): Elaborating entity "debounce" for hierarchy "debounce:btn_debounce" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 140
-Info (12128): Elaborating entity "Synchronizer" for hierarchy "Synchronizer:Synchronizer_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 147
+Info (12128): Elaborating entity "debounce" for hierarchy "debounce:btn_debounce" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 142
+Info (12128): Elaborating entity "Synchronizer" for hierarchy "Synchronizer:Synchronizer_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 149
 Info (12128): Elaborating entity "Register_10bits" for hierarchy "Synchronizer:Synchronizer_ins0|Register_10bits:Register_10bits_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd Line: 28
-Info (12128): Elaborating entity "Register_16bits" for hierarchy "Register_16bits:Hold_Register" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 154
-Info (12128): Elaborating entity "binary_bcd" for hierarchy "binary_bcd:binary_bcd_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 163
-Info (12128): Elaborating entity "MUX4TO1" for hierarchy "MUX4TO1:MUX4TO1_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 180
-Info (12128): Elaborating entity "blank_select" for hierarchy "blank_select:blank_select_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 200
-Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:SevenSegment_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 207
+Info (12128): Elaborating entity "Register_16bits" for hierarchy "Register_16bits:Hold_Register" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 156
+Info (12128): Elaborating entity "binary_bcd" for hierarchy "binary_bcd:binary_bcd_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 165
+Info (12128): Elaborating entity "MUX4TO1" for hierarchy "MUX4TO1:MUX4TO1_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 182
+Info (12128): Elaborating entity "blank_select" for hierarchy "blank_select:blank_select_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 202
+Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:SevenSegment_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 209
 Info (12128): Elaborating entity "SevenSegment_decoder" for hierarchy "SevenSegment:SevenSegment_ins|SevenSegment_decoder:decoder0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd Line: 24
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
@@ -1773,10 +1773,10 @@ Info (21057): Implemented 10066 device resources after synthesis - the final res
     Info (21061): Implemented 9993 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 39 warnings
-    Info: Peak virtual memory: 4853 megabytes
-    Info: Processing ended: Tue Nov 10 11:21:33 2020
-    Info: Elapsed time: 00:00:50
-    Info: Total CPU time (on all processors): 00:01:04
+    Info: Peak virtual memory: 4852 megabytes
+    Info: Processing ended: Tue Nov 10 12:17:19 2020
+    Info: Elapsed time: 00:00:47
+    Info: Total CPU time (on all processors): 00:01:02
 
 
 +------------------------------------------+
