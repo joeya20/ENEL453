@@ -1,0 +1,223 @@
+{C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_MUX4TO1
+-- Compiling architecture tb of tb_MUX4TO1
+-- Compiling configuration cfg_tb_MUX4TO1
+-- Loading entity tb_MUX4TO1
+-- Loading architecture tb of tb_MUX4TO1
+-- Loading entity MUX4TO1
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment_decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment_decoder
+-- Compiling architecture Behavioral of SevenSegment_decoder
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADC_Data
+-- Compiling architecture rtl of ADC_Data
+-- Loading entity ADC_Conversion_wrapper
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture Behavioral of top_level
+** Error: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd(182): (vcom-1436) Actual expression (infix expression) of formal "in0" is not globally static.
+** Error: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd(185): (vcom-1436) Actual expression (infix expression) of formal "in3" is not globally static.
+** Note: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd(227): VHDL Compiler exiting
+
+} {9.0 11.0} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_Register_16bits
+-- Compiling architecture tb of tb_Register_16bits
+-- Compiling configuration cfg_tb_Register_16bits
+-- Loading entity tb_Register_16bits
+-- Loading architecture tb of tb_Register_16bits
+-- Loading entity Register_16bits
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_debounce.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_debounce
+-- Compiling architecture Behavioral of tb_debounce
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/averager256.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity averager256
+-- Compiling architecture rtl of averager256
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_blank_select.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_blank_select
+-- Compiling architecture tb of tb_blank_select
+-- Compiling configuration cfg_tb_blank_select
+-- Loading entity tb_blank_select
+-- Loading architecture tb of tb_blank_select
+-- Loading entity blank_select
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/debounce.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity debounce
+-- Compiling architecture logic of debounce
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/LUT_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/LUT_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package LUT_pkg
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/voltage2distance_array2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LUT_pkg
+-- Compiling entity voltage2distance_array2
+-- Compiling architecture behavior of voltage2distance_array2
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/blank_select.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity blank_select
+-- Compiling architecture behavioural of blank_select
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_10bits
+-- Compiling architecture BEHAVIOR of Register_10bits
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX2TO1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX2TO1
+-- Compiling architecture BEHAVIOR of MUX2TO1
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/MUX4TO1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX4TO1
+-- Compiling architecture BEHAVIOR of MUX4TO1
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_synchronizer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_Synchronizer
+-- Compiling architecture tb of tb_Synchronizer
+-- Compiling configuration cfg_tb_Synchronizer
+-- Loading entity tb_Synchronizer
+-- Loading architecture tb of tb_Synchronizer
+-- Loading package NUMERIC_STD
+-- Loading entity Synchronizer
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment
+-- Compiling architecture Behavioral of SevenSegment
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX2TO1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_MUX2TO1
+-- Compiling architecture tb of tb_MUX2TO1
+-- Compiling configuration cfg_tb_MUX2TO1
+-- Loading entity tb_MUX2TO1
+-- Loading architecture tb of tb_MUX2TO1
+-- Loading entity MUX2TO1
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADC_Conversion_wrapper
+-- Compiling architecture RTL of ADC_Conversion_wrapper
+-- Compiling architecture simulation of ADC_Conversion_wrapper
+-- Loading entity ADC_Conversion_wrapper
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/binary_bcd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity binary_bcd
+-- Compiling architecture behavior of binary_bcd
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_16bits
+-- Compiling architecture BEHAVIOR of Register_16bits
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_ADC_data.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_ADC_Data
+-- Compiling architecture tb of tb_ADC_Data
+-- Compiling configuration cfg_tb_ADC_Data
+-- Loading entity tb_ADC_Data
+-- Loading architecture tb of tb_ADC_Data
+-- Loading package NUMERIC_STD
+-- Loading entity ADC_Data
+
+} {} {}} {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Synchronizer
+-- Compiling architecture Behavioural of Synchronizer
+
+} {} {}}

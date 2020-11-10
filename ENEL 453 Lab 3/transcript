@@ -1,0 +1,25 @@
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd failed with 2 errors.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of tb_blank_select.vhd was successful.
+# 24 compiles, 1 failed with 2 errors.

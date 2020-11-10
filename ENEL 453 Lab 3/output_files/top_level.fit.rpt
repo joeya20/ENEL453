@@ -1,5 +1,5 @@
 Fitter report for top_level
-Tue Nov 10 11:22:25 2020
+Tue Nov 10 11:28:21 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -72,7 +72,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Nov 10 11:22:25 2020       ;
+; Fitter Status                      ; Successful - Tue Nov 10 11:28:21 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -158,14 +158,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.47        ;
+; Average used               ; 1.31        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  16.0%      ;
-;     Processor 3            ;  15.6%      ;
-;     Processor 4            ;  15.5%      ;
+;     Processor 2            ;  10.6%      ;
+;     Processor 3            ;  10.3%      ;
+;     Processor 4            ;  10.2%      ;
 +----------------------------+-------------+
 
 
@@ -449,7 +449,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.pin.
+The pin-out file can be found in C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.pin.
 
 
 +-----------------------------------------------------------------------+
@@ -5158,9 +5158,9 @@ Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors
 Info (119006): Selected device 10M50DAF484C6GES for design "top_level"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|pll7" as MAX 10 PLL type File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 150
-    Info (15099): Implementing clock multiplication of 1, clock division of 2, and phase shift of 0 degrees (0 ps) for ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|wire_pll7_clk[0] port File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 150
-    Info (15099): Implementing clock multiplication of 1, clock division of 25, and phase shift of 0 degrees (0 ps) for ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|wire_pll7_clk[1] port File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 150
+Info (15535): Implemented PLL "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|pll7" as MAX 10 PLL type File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 150
+    Info (15099): Implementing clock multiplication of 1, clock division of 2, and phase shift of 0 degrees (0 ps) for ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|wire_pll7_clk[0] port File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 150
+    Info (15099): Implementing clock multiplication of 1, clock division of 25, and phase shift of 0 degrees (0 ps) for ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|wire_pll7_clk[1] port File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 150
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -5201,12 +5201,12 @@ Info (332164): Evaluating HDL-embedded SDC commands
 Info (332104): Reading SDC File: 'adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.sdc'
 Info (332104): Reading SDC File: 'adc_qsys/adc_qsys/synthesis/submodules/altera_modular_adc_control.sdc'
 Info (332104): Reading SDC File: 'top_level.SDC'
-Warning (332174): Ignored filter at top_level.sdc(9): ADC_CLK_10 could not be matched with a port File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
-Warning (332049): Ignored create_clock at top_level.sdc(9): Argument <targets> is an empty collection File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
-    Info (332050): create_clock -period "10.0 MHz" [get_ports ADC_CLK_10] File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
-Warning (332174): Ignored filter at top_level.sdc(11): MAX10_CLK2_50 could not be matched with a port File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
-Warning (332049): Ignored create_clock at top_level.sdc(11): Argument <targets> is an empty collection File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
-    Info (332050): create_clock -period "50.0 MHz" [get_ports MAX10_CLK2_50] File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
+Warning (332174): Ignored filter at top_level.sdc(9): ADC_CLK_10 could not be matched with a port File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
+Warning (332049): Ignored create_clock at top_level.sdc(9): Argument <targets> is an empty collection File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
+    Info (332050): create_clock -period "10.0 MHz" [get_ports ADC_CLK_10] File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
+Warning (332174): Ignored filter at top_level.sdc(11): MAX10_CLK2_50 could not be matched with a port File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
+Warning (332049): Ignored create_clock at top_level.sdc(11): Argument <targets> is an empty collection File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
+    Info (332050): create_clock -period "50.0 MHz" [get_ports MAX10_CLK2_50] File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
 Info (332110): Deriving PLL clocks
     Info (332110): create_generated_clock -source {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|inclk[0]} -divide_by 2 -duty_cycle 50.00 -name {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[0]} {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[0]}
     Info (332110): create_generated_clock -source {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|inclk[0]} -divide_by 25 -duty_cycle 50.00 -name {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[1]} {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[1]}
@@ -5221,9 +5221,9 @@ Info (332111): Found 3 clocks
     Info (332111):   40.000 ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[0]
     Info (332111):  500.000 ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[1]
     Info (332111):   20.000          clk
-Info (176353): Automatically promoted node ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|wire_pll7_clk[0] (placed in counter C1 of PLL_1) File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 192
+Info (176353): Automatically promoted node ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|adc_qsys_altpll_sys:altpll_sys|adc_qsys_altpll_sys_altpll_oc92:sd1|wire_pll7_clk[0] (placed in counter C1 of PLL_1) File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/adc_qsys_altpll_sys.v Line: 192
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
-Info (176353): Automatically promoted node clk~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 6
+Info (176353): Automatically promoted node clk~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 6
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
 Info (176233): Starting register packing
 Info (176235): Finished register packing
@@ -5346,54 +5346,54 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_R[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:05
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:10
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:02
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:03
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:16
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:34
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 3% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 21% of the available device resources in the region that extends from location X33_Y22 to location X44_Y32
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:07
-Info (11888): Total time spent on timing analysis during the Fitter is 6.03 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:12
+Info (11888): Total time spent on timing analysis during the Fitter is 9.89 seconds.
 Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:09
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:12
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 13 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin clk uses I/O standard 3.3-V LVTTL at P11 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 6
-    Info (169178): Pin reset_n uses I/O standard 3.3 V Schmitt Trigger at A7 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 7
-    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at C10 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at C11 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at D12 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[3] uses I/O standard 3.3-V LVTTL at C12 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at A12 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at B12 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[6] uses I/O standard 3.3-V LVTTL at A13 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[7] uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[8] uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin SW[9] uses I/O standard 3.3-V LVTTL at F15 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
-    Info (169178): Pin set uses I/O standard 3.3 V Schmitt Trigger at B8 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 8
-Info (144001): Generated suppressed messages file C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.fit.smsg
+    Info (169178): Pin clk uses I/O standard 3.3-V LVTTL at P11 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 6
+    Info (169178): Pin reset_n uses I/O standard 3.3 V Schmitt Trigger at A7 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 7
+    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at C10 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at C11 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at D12 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[3] uses I/O standard 3.3-V LVTTL at C12 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at A12 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at B12 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[6] uses I/O standard 3.3-V LVTTL at A13 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[7] uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[8] uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin SW[9] uses I/O standard 3.3-V LVTTL at F15 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 9
+    Info (169178): Pin set uses I/O standard 3.3 V Schmitt Trigger at B8 File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 8
+Info (144001): Generated suppressed messages file C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 129 warnings
-    Info: Peak virtual memory: 5699 megabytes
-    Info: Processing ended: Tue Nov 10 11:22:27 2020
-    Info: Elapsed time: 00:00:53
-    Info: Total CPU time (on all processors): 00:01:44
+    Info: Peak virtual memory: 5679 megabytes
+    Info: Processing ended: Tue Nov 10 11:28:24 2020
+    Info: Elapsed time: 00:01:31
+    Info: Total CPU time (on all processors): 00:02:27
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.fit.smsg.
+The suppressed messages can be found in C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.fit.smsg.
 
 
