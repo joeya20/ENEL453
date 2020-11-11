@@ -447,9 +447,7 @@ set_global_assignment -name VHDL_FILE tb_ADC_data.vhd
 set_global_assignment -name VHDL_FILE tb_synchronizer.vhd
 set_global_assignment -name VHDL_FILE debounce.vhd
 set_global_assignment -name VHDL_FILE tb_debounce.vhd
-set_global_assignment -name VHDL_FILE MUX2TO1.vhd
 set_global_assignment -name VHDL_FILE MUX4TO1.vhd
-set_global_assignment -name VHDL_FILE tb_MUX2TO1.vhd
 set_global_assignment -name SDC_FILE top_level.SDC
 set_global_assignment -name VHDL_FILE top_level.vhd
 set_global_assignment -name SDC_FILE top_level.sdc

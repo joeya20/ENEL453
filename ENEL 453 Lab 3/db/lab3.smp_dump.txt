@@ -1,5 +1,5 @@
 
-State Machine - |top_level|binary_bcd:binary_bcd_ins1|CurentState
+State Machine - |top_level|binary_bcd:distance_binary_bcd|CurentState
 Name CurentState.s6 CurentState.S5 CurentState.S4 CurentState.S3 CurentState.S2 CurentState.S1 CurentState.S0 
 CurentState.S0 0 0 0 0 0 0 0 
 CurentState.S1 0 0 0 0 0 1 1 
@@ -9,7 +9,7 @@ CurentState.S4 0 0 1 0 0 0 1
 CurentState.S5 0 1 0 0 0 0 1 
 CurentState.s6 1 0 0 0 0 0 1 
 
-State Machine - |top_level|binary_bcd:binary_bcd_ins1|\bcd_process:NextState
+State Machine - |top_level|binary_bcd:distance_binary_bcd|\bcd_process:NextState
 Name \bcd_process:NextState.s6 \bcd_process:NextState.S5 \bcd_process:NextState.S4 \bcd_process:NextState.S3 \bcd_process:NextState.S2 \bcd_process:NextState.S1 \bcd_process:NextState.S0 
 \bcd_process:NextState.S0 0 0 0 0 0 0 0 
 \bcd_process:NextState.S1 0 0 0 0 0 1 1 
@@ -19,7 +19,7 @@ Name \bcd_process:NextState.s6 \bcd_process:NextState.S5 \bcd_process:NextState.
 \bcd_process:NextState.S5 0 1 0 0 0 0 1 
 \bcd_process:NextState.s6 1 0 0 0 0 0 1 
 
-State Machine - |top_level|binary_bcd:binary_bcd_ins0|CurentState
+State Machine - |top_level|binary_bcd:voltage_binary_bcd|CurentState
 Name CurentState.s6 CurentState.S5 CurentState.S4 CurentState.S3 CurentState.S2 CurentState.S1 CurentState.S0 
 CurentState.S0 0 0 0 0 0 0 0 
 CurentState.S1 0 0 0 0 0 1 1 
@@ -29,7 +29,7 @@ CurentState.S4 0 0 1 0 0 0 1
 CurentState.S5 0 1 0 0 0 0 1 
 CurentState.s6 1 0 0 0 0 0 1 
 
-State Machine - |top_level|binary_bcd:binary_bcd_ins0|\bcd_process:NextState
+State Machine - |top_level|binary_bcd:voltage_binary_bcd|\bcd_process:NextState
 Name \bcd_process:NextState.s6 \bcd_process:NextState.S5 \bcd_process:NextState.S4 \bcd_process:NextState.S3 \bcd_process:NextState.S2 \bcd_process:NextState.S1 \bcd_process:NextState.S0 
 \bcd_process:NextState.S0 0 0 0 0 0 0 0 
 \bcd_process:NextState.S1 0 0 0 0 0 1 1 
