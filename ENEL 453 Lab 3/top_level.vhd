@@ -151,7 +151,6 @@ switch_synchronizer: Synchronizer
 	PORT MAP(
 		clk		=> clk,
 		enable	=> debounce_result,
-		reset_n	=> reset_n,
 		A			=> sw(9 downto 0),
 		G			=> sync_output
 	);
