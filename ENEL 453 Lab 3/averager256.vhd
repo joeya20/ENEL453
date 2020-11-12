@@ -33,6 +33,7 @@ signal REG_ARRAY : Register_Array(2**N downto 1);
 
 type temporary is array(integer range <>) of integer;
 signal tmp : temporary((2**N)-1 downto 1);
+signal pipeline_register: temporary((2**N)-1 downto 1);
 
 signal tmplast : std_logic_vector(2**N-1 downto 0);
 constant Zeros : STD_LOGIC_VECTOR(11 downto 0) := (others => '0');
@@ -41,24 +42,24 @@ begin
 
    shift_reg : process(clk, reset_n)
    begin
+		-- reset behaviour
       if(reset_n = '0') then
-      
          LoopA1: for i in 1 to 2**N loop
             REG_ARRAY(i) <= Zeros;
          end loop LoopA1;
+			LoopA3: for i in 1 to (2**N)-1 loop
+				pipeline_register(i)	<= 0;
+			end loop LoopA3;
          Q          <= (others => '0');
-         -- Q_high_res <= (others => '0');
          
       elsif rising_edge(clk) then
          if EN = '1' then
-         
             REG_ARRAY(1) <= Din;
             LoopA2: for i in 1 to 2**N-1 loop
                REG_ARRAY(i+1) <= REG_ARRAY(i);
+					pipeline_register(i) <= tmp(i);
             end loop LoopA2;
-            Q          <= tmplast(N+bits downto N); 
-            -- Q_high_res <= tmplast(N+bits downto N-X);
-            
+            Q <= tmplast(N+bits downto N); 
          end if;
       end if;
    end process shift_reg;
@@ -68,7 +69,7 @@ begin
    end generate LoopB1;
    
    LoopB2: for i in ((2**N)/2)+1 to (2**N)-1 generate
-      tmp(i) <= tmp(2*(i-(2**N)/2)-1) + tmp(2*(i-(2**N)/2));
+      tmp(i) <= pipeline_register(2*(i-(2**N)/2)-1) + pipeline_register(2*(i-((2**N)/2)));
    end generate LoopB2;
    
    tmplast <= std_logic_vector(to_unsigned(tmp((2**N)-1), tmplast'length));
