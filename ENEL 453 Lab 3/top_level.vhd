@@ -104,9 +104,11 @@ END Component;
 
 Component Synchronizer IS
 	PORT( 
-		clk  	: in  STD_LOGIC;
-		A		: in	STD_LOGIC_VECTOR(9 downto 0);
-		G		: out	STD_LOGIC_VECTOR(9 downto 0)
+		clk  		: in  STD_LOGIC;
+		enable	: in 	STD_LOGIC;
+		reset_n	: in STD_LOGIC;
+		A			: in	STD_LOGIC_VECTOR(9 downto 0);
+		G			: out	STD_LOGIC_VECTOR(9 downto 0)
 	);
 END Component;
 
@@ -129,7 +131,7 @@ Num_Hex5 <= "0000";
 hex_mux_in <= X"00" & sync_output(7 downto 0);
 ADC_avg_mux_in <= X"0" & ADC_avg_out;
 					
-ADC_ins0 : ADC_Data
+ADC_ins0: ADC_Data
 	PORT MAP (
 		clk		=> clk,
 		reset_n 	=> reset_n,
@@ -138,18 +140,20 @@ ADC_ins0 : ADC_Data
 		ADC_out 	=> ADC_avg_out
 	);
 
-btn_debounce : debounce 
+btn_debounce: debounce 
 	PORT MAP (
 		clk      => clk,
 		button   => set,
 		result   => debounce_result
 	);
 	
-switch_synchronizer : Synchronizer
+switch_synchronizer: Synchronizer
 	PORT MAP(
-		clk	=> clk,
-		A		=> sw(9 downto 0),
-		G		=> sync_output
+		clk		=> clk,
+		enable	=> debounce_result,
+		reset_n	=> reset_n,
+		A			=> sw(9 downto 0),
+		G			=> sync_output
 	);
 						
 Hold_Register: Register_16bits
@@ -161,7 +165,7 @@ Hold_Register: Register_16bits
 		Q			=> reg_out
 	);
 
-voltage_binary_bcd : binary_bcd                               
+voltage_binary_bcd: binary_bcd                               
 	PORT MAP(
 		clk      => clk,                          
 		reset_n  => reset_n,                                 
@@ -169,7 +173,7 @@ voltage_binary_bcd : binary_bcd
 		bcd      => bcd_voltage      
 	);
 							
-distance_binary_bcd : binary_bcd                               
+distance_binary_bcd: binary_bcd                               
 	PORT MAP(
 		clk      => clk,                          
 		reset_n  => reset_n,                                 
@@ -178,7 +182,7 @@ distance_binary_bcd : binary_bcd
 	);
 							
 
-data_MUX4TO1 : MUX4TO1
+data_MUX4TO1: MUX4TO1
 	PORT MAP( 
 		in0 		=> hex_mux_in,
 		in1 		=> bcd_distance,
@@ -188,7 +192,7 @@ data_MUX4TO1 : MUX4TO1
 		mux_out	=> mux_out
 	);
 						
-DP_MUX4TO1 : MUX4TO1
+DP_MUX4TO1: MUX4TO1
 	PORT MAP( 
 		in0 		=> X"0000",
 		in1 		=> X"0004",
@@ -203,7 +207,7 @@ blank_select_ins0: blank_select
 		state		=> sync_output(9 downto 8),
 		num1		=> Num_Hex3,
 		num2		=> Num_Hex2,
-		blank_out => blank
+		blank_out=> blank
 	);
 					
 SevenSegment_ins: SevenSegment
@@ -224,6 +228,6 @@ SevenSegment_ins: SevenSegment
 		Blank    => Blank
 	);
 
-LEDR(9 downto 0) <= sync_output(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
+LEDR(9 downto 0) <= sw(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
 
 end Behavioral;

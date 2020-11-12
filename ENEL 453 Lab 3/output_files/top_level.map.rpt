@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_level
-Wed Nov 11 11:40:26 2020
+Thu Nov 12 14:23:08 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -99,13 +99,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 11 11:40:26 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 12 14:23:08 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 10,059                                      ;
-;     Total combinational functions  ; 6,876                                       ;
+; Total logic elements               ; 10,196                                      ;
+;     Total combinational functions  ; 7,013                                       ;
 ;     Dedicated logic registers      ; 6,905                                       ;
 ; Total registers                    ; 6905                                        ;
 ; Total pins                         ; 71                                          ;
@@ -217,7 +217,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.1%      ;
 ;     Processor 3            ;   0.1%      ;
 ;     Processor 4            ;   0.1%      ;
 +----------------------------+-------------+
@@ -299,16 +299,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 10,059    ;
+; Estimated Total logic elements              ; 10,196    ;
 ;                                             ;           ;
-; Total combinational functions               ; 6876      ;
+; Total combinational functions               ; 7013      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 2805      ;
-;     -- 3 input functions                    ; 3600      ;
-;     -- <=2 input functions                  ; 471       ;
+;     -- 4 input functions                    ; 2944      ;
+;     -- 3 input functions                    ; 3596      ;
+;     -- <=2 input functions                  ; 473       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 3420      ;
+;     -- normal mode                          ; 3557      ;
 ;     -- arithmetic mode                      ; 3456      ;
 ;                                             ;           ;
 ; Total registers                             ; 6905      ;
@@ -324,8 +324,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 6816      ;
-; Total fan-out                               ; 50137     ;
-; Average fan-out                             ; 3.60      ;
+; Total fan-out                               ; 50725     ;
+; Average fan-out                             ; 3.61      ;
 +---------------------------------------------+-----------+
 
 
@@ -334,8 +334,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                                                                                                                                                                                           ; Entity Name                            ; Library Name ;
 +------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+--------------+
-; |top_level                                                                         ; 6876 (1)            ; 6905 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 71   ; 0            ; 0          ; |top_level                                                                                                                                                                                                                                                                                    ; top_level                              ; work         ;
-;    |ADC_Data:ADC_ins0|                                                             ; 6546 (0)            ; 6716 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0                                                                                                                                                                                                                                                                  ; ADC_Data                               ; work         ;
+; |top_level                                                                         ; 7013 (1)            ; 6905 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 71   ; 0            ; 0          ; |top_level                                                                                                                                                                                                                                                                                    ; top_level                              ; work         ;
+;    |ADC_Data:ADC_ins0|                                                             ; 6683 (0)            ; 6716 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0                                                                                                                                                                                                                                                                  ; ADC_Data                               ; work         ;
 ;       |ADC_Conversion_wrapper:ADC_ins|                                             ; 54 (0)              ; 90 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins                                                                                                                                                                                                                                   ; ADC_Conversion_wrapper                 ; work         ;
 ;          |ADC_Conversion:ADC_Conversion_ins|                                       ; 54 (5)              ; 90 (29)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins                                                                                                                                                                                                 ; ADC_Conversion                         ; work         ;
 ;             |adc_qsys:u0|                                                          ; 49 (0)              ; 61 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0                                                                                                                                                                                     ; adc_qsys                               ; adc_qsys     ;
@@ -360,8 +360,7 @@ https://fpgasoftware.intel.com/eula.
 ;                |mpar_add:sub_par_add|                                              ; 13 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add                                                                                                                                                                                           ; mpar_add                               ; work         ;
 ;                   |lpm_add_sub:adder[0]|                                           ; 13 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]                                                                                                                                                                      ; lpm_add_sub                            ; work         ;
 ;                      |add_sub_arg:auto_generated|                                  ; 13 (13)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]|add_sub_arg:auto_generated                                                                                                                                           ; add_sub_arg                            ; work         ;
-;       |voltage2distance_array2:voltage2distance_ins|                               ; 2876 (2876)         ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|voltage2distance_array2:voltage2distance_ins                                                                                                                                                                                                                     ; voltage2distance_array2                ; work         ;
-;    |MUX4TO1:DP_MUX4TO1|                                                            ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|MUX4TO1:DP_MUX4TO1                                                                                                                                                                                                                                                                 ; MUX4TO1                                ; work         ;
+;       |voltage2distance_array2:voltage2distance_ins|                               ; 3013 (3013)         ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|ADC_Data:ADC_ins0|voltage2distance_array2:voltage2distance_ins                                                                                                                                                                                                                     ; voltage2distance_array2                ; work         ;
 ;    |MUX4TO1:data_MUX4TO1|                                                          ; 20 (20)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|MUX4TO1:data_MUX4TO1                                                                                                                                                                                                                                                               ; MUX4TO1                                ; work         ;
 ;    |Register_16bits:Hold_Register|                                                 ; 5 (5)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Register_16bits:Hold_Register                                                                                                                                                                                                                                                      ; Register_16bits                        ; work         ;
 ;    |SevenSegment:SevenSegment_ins|                                                 ; 42 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|SevenSegment:SevenSegment_ins                                                                                                                                                                                                                                                      ; SevenSegment                           ; work         ;
@@ -374,7 +373,7 @@ https://fpgasoftware.intel.com/eula.
 ;       |Register_10bits:Register_10bits_ins1|                                       ; 0 (0)               ; 10 (10)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Synchronizer:switch_synchronizer|Register_10bits:Register_10bits_ins1                                                                                                                                                                                                              ; Register_10bits                        ; work         ;
 ;    |binary_bcd:distance_binary_bcd|                                                ; 133 (133)           ; 84 (84)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|binary_bcd:distance_binary_bcd                                                                                                                                                                                                                                                     ; binary_bcd                             ; work         ;
 ;    |binary_bcd:voltage_binary_bcd|                                                 ; 95 (95)             ; 45 (45)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|binary_bcd:voltage_binary_bcd                                                                                                                                                                                                                                                      ; binary_bcd                             ; work         ;
-;    |blank_select:blank_select_ins0|                                                ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|blank_select:blank_select_ins0                                                                                                                                                                                                                                                     ; blank_select                           ; work         ;
+;    |blank_select:blank_select_ins0|                                                ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|blank_select:blank_select_ins0                                                                                                                                                                                                                                                     ; blank_select                           ; work         ;
 ;    |debounce:btn_debounce|                                                         ; 29 (29)             ; 24 (24)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|debounce:btn_debounce                                                                                                                                                                                                                                                              ; debounce                               ; work         ;
 +------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -5856,9 +5855,9 @@ Encoding Type:  One-Hot
 ; Total registers                              ; 6905  ;
 ; Number of registers using Synchronous Clear  ; 80    ;
 ; Number of registers using Synchronous Load   ; 24    ;
-; Number of registers using Asynchronous Clear ; 6822  ;
+; Number of registers using Asynchronous Clear ; 6842  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 6831  ;
+; Number of registers using Clock Enable       ; 6851  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -6698,26 +6697,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; cycloneiii_ff         ; 6905                        ;
 ;     CLR               ; 48                          ;
 ;     ENA               ; 36                          ;
-;     ENA CLR           ; 6715                        ;
+;     ENA CLR           ; 6735                        ;
 ;     ENA CLR SCLR      ; 35                          ;
 ;     ENA CLR SCLR SLD  ; 24                          ;
 ;     ENA SCLR          ; 21                          ;
-;     plain             ; 26                          ;
-; cycloneiii_lcell_comb ; 6889                        ;
+;     plain             ; 6                           ;
+; cycloneiii_lcell_comb ; 7026                        ;
 ;     arith             ; 3456                        ;
 ;         2 data inputs ; 129                         ;
 ;         3 data inputs ; 3327                        ;
-;     normal            ; 3433                        ;
+;     normal            ; 3570                        ;
 ;         0 data inputs ; 261                         ;
 ;         1 data inputs ; 26                          ;
-;         2 data inputs ; 68                          ;
-;         3 data inputs ; 273                         ;
-;         4 data inputs ; 2805                        ;
+;         2 data inputs ; 70                          ;
+;         3 data inputs ; 269                         ;
+;         4 data inputs ; 2944                        ;
 ; cycloneiii_pll        ; 1                           ;
 ; fiftyfivenm_adcblock  ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 14.40                       ;
-; Average LUT depth     ; 3.58                        ;
+; Max LUT depth         ; 14.50                       ;
+; Average LUT depth     ; 3.65                        ;
 +-----------------------+-----------------------------+
 
 
@@ -6726,7 +6725,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:48     ;
+; Top            ; 00:00:53     ;
 +----------------+--------------+
 
 
@@ -6736,7 +6735,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Nov 11 11:39:18 2020
+    Info: Processing started: Thu Nov 12 14:21:57 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c top_level
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -6821,10 +6820,10 @@ Info (12021): Found 2 design units, including 1 entities, in source file registe
     Info (12022): Found design unit 1: Register_16bits-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd Line: 14
     Info (12023): Found entity 1: Register_16bits File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_16bits.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file register_10bits.vhd
-    Info (12022): Found design unit 1: Register_10bits-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd Line: 12
+    Info (12022): Found design unit 1: Register_10bits-BEHAVIOR File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd Line: 14
     Info (12023): Found entity 1: Register_10bits File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Register_10bits.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file synchronizer.vhd
-    Info (12022): Found design unit 1: Synchronizer-Behavioural File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd Line: 12
+    Info (12022): Found design unit 1: Synchronizer-Behavioural File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd Line: 14
     Info (12023): Found entity 1: Synchronizer File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd Line: 4
 Info (12021): Found 3 design units, including 1 entities, in source file tb_register_16bits.vhd
     Info (12022): Found design unit 1: tb_Register_16bits-tb File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_Register_16bits.vhd Line: 7
@@ -6835,7 +6834,7 @@ Info (12021): Found 3 design units, including 1 entities, in source file tb_mux4
     Info (12022): Found design unit 2: cfg_tb_MUX4TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd Line: 61
     Info (12023): Found entity 1: tb_MUX4TO1 File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/tb_MUX4TO1.vhd Line: 8
 Info (12127): Elaborating entity "top_level" for the top level hierarchy
-Info (12128): Elaborating entity "ADC_Data" for hierarchy "ADC_Data:ADC_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 132
+Info (12128): Elaborating entity "ADC_Data" for hierarchy "ADC_Data:ADC_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 134
 Info (12128): Elaborating entity "voltage2distance_array2" for hierarchy "ADC_Data:ADC_ins0|voltage2distance_array2:voltage2distance_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd Line: 64
 Info (12129): Elaborating entity "ADC_Conversion_wrapper" using architecture "A:rtl" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd Line: 72
 Info (12128): Elaborating entity "ADC_Conversion" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Conversion_wrapper.vhd Line: 21
@@ -6894,14 +6893,14 @@ Info (12128): Elaborating entity "altera_reset_controller" for hierarchy "ADC_Da
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.v Line: 208
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "ADC_Data:ADC_ins0|ADC_Conversion_wrapper:ADC_ins|ADC_Conversion:ADC_Conversion_ins|adc_qsys:u0|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_req_sync_uq1" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.v Line: 220
 Info (12128): Elaborating entity "averager256" for hierarchy "ADC_Data:ADC_ins0|averager256:averager" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/ADC_Data.vhd Line: 78
-Info (12128): Elaborating entity "debounce" for hierarchy "debounce:btn_debounce" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 141
-Info (12128): Elaborating entity "Synchronizer" for hierarchy "Synchronizer:switch_synchronizer" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 148
-Info (12128): Elaborating entity "Register_10bits" for hierarchy "Synchronizer:switch_synchronizer|Register_10bits:Register_10bits_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd Line: 28
-Info (12128): Elaborating entity "Register_16bits" for hierarchy "Register_16bits:Hold_Register" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 155
-Info (12128): Elaborating entity "binary_bcd" for hierarchy "binary_bcd:voltage_binary_bcd" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 164
-Info (12128): Elaborating entity "MUX4TO1" for hierarchy "MUX4TO1:data_MUX4TO1" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 181
-Info (12128): Elaborating entity "blank_select" for hierarchy "blank_select:blank_select_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 201
-Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:SevenSegment_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 209
+Info (12128): Elaborating entity "debounce" for hierarchy "debounce:btn_debounce" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 143
+Info (12128): Elaborating entity "Synchronizer" for hierarchy "Synchronizer:switch_synchronizer" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 150
+Info (12128): Elaborating entity "Register_10bits" for hierarchy "Synchronizer:switch_synchronizer|Register_10bits:Register_10bits_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/Synchronizer.vhd Line: 32
+Info (12128): Elaborating entity "Register_16bits" for hierarchy "Register_16bits:Hold_Register" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 159
+Info (12128): Elaborating entity "binary_bcd" for hierarchy "binary_bcd:voltage_binary_bcd" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 168
+Info (12128): Elaborating entity "MUX4TO1" for hierarchy "MUX4TO1:data_MUX4TO1" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 185
+Info (12128): Elaborating entity "blank_select" for hierarchy "blank_select:blank_select_ins0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 205
+Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:SevenSegment_ins" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.vhd Line: 213
 Info (12128): Elaborating entity "SevenSegment_decoder" for hierarchy "SevenSegment:SevenSegment_ins|SevenSegment_decoder:decoder0" File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/SevenSegment.vhd Line: 24
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
@@ -7224,16 +7223,16 @@ Info (17016): Found the following redundant logic cells in design
 Info (144001): Generated suppressed messages file C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/output_files/top_level.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 10139 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 10276 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 58 output pins
-    Info (21061): Implemented 10066 logic cells
+    Info (21061): Implemented 10203 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 293 warnings
-    Info: Peak virtual memory: 4890 megabytes
-    Info: Processing ended: Wed Nov 11 11:40:26 2020
-    Info: Elapsed time: 00:01:08
-    Info: Total CPU time (on all processors): 00:01:31
+    Info: Peak virtual memory: 4874 megabytes
+    Info: Processing ended: Thu Nov 12 14:23:08 2020
+    Info: Elapsed time: 00:01:11
+    Info: Total CPU time (on all processors): 00:01:30
 
 
 +------------------------------------------+
