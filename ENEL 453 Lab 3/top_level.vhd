@@ -64,7 +64,12 @@ Component ADC_Data IS
 	);
 END Component;
 
-Component debounce IS 
+Component debounce IS
+	GENERIC(
+    clk_freq    : INTEGER := 50_000_000;  --system clock frequency in Hz
+    stable_time : INTEGER := 30 				--time button must remain stable in ms
+	 );         
+	 
 	PORT(
 		clk    	: in std_logic; 
 		button  	: in std_logic;
@@ -141,6 +146,10 @@ ADC_ins0: ADC_Data
 	);
 
 btn_debounce: debounce 
+	Generic map (
+		stable_time => 1 --when running a simulation make it 1ms so it runs faster
+		--stable_time => 30 --when compiling and moving the code to the board use this
+	)
 	PORT MAP (
 		clk      => clk,
 		button   => set,

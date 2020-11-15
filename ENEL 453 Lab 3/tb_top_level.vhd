@@ -66,8 +66,7 @@ begin
         -- EDIT Adapt initialization as needed
        
         SW <= (others => '0');
-		  set <= '1'; wait for 31 ms;wait for 1000 * TbPeriod;  
-
+		  
 
         -- Reset generation
         -- EDIT: Check that reset_n is really your reset signal
@@ -75,15 +74,17 @@ begin
         wait for 100 ns;
         reset_n <= '1';
         wait for 100 ns;
+		 
+		 
+		  set <= '1'; wait for 1 ms;
 		  
 		  
         -- EDIT Add stimuli here
-        wait for 1000 * TbPeriod;
-		  SW <= "0011111111"; wait for 1000 * TbPeriod; 				  -- mode 1, hex
-		  SW <= "0111111111"; wait for 1000 * TbPeriod; 				  -- mode 2, distance
-		  set <= '0'; wait for 31 ms;		wait for 1000 * TbPeriod;  
-		  set <= '1'; wait for 31 ms;	wait for 1000 * TbPeriod; 
-		  SW <= "1011111111"; wait for 1000 * TbPeriod; 				  -- mode 3, voltage
+		  SW <= "0011111111"; wait for 10000 * TbPeriod; 				  -- mode 1, hex (FF)
+		  SW <= "0111111111"; wait for 20000 * TbPeriod; 				  -- mode 2, distance
+		  set <= '0'; wait for 1.2 ms; 
+		  SW <= "1011111111"; wait for 10000 * TbPeriod; 				  -- mode 3, voltage
+		  set <= '1'; wait for 1.2 ms;
 		  SW <= "1111111111"; wait for 1000 * TbPeriod; 				  -- mode 4, average
 		  
 		  
