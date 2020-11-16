@@ -80,13 +80,19 @@ begin
 		  
 		  
         -- EDIT Add stimuli here
-		  SW <= "0011111111"; wait for 10000 * TbPeriod; 				  -- mode 1, hex (FF)
-		  SW <= "0111111111"; wait for 20000 * TbPeriod; 				  -- mode 2, distance
+		  SW <= "0011111111"; wait for 10000 * TbPeriod; 			-- mode 1, hex (FF)
+		  SW <= "0111111111"; wait for 20000 * TbPeriod; 			-- mode 2, distance
 		  set <= '0'; wait for 1.2 ms; 
-		  SW <= "1011111111"; wait for 10000 * TbPeriod; 				  -- mode 3, voltage
+		  SW <= "1011111111"; wait for 10000 * TbPeriod; 			-- mode 3, voltage
 		  set <= '1'; wait for 1.2 ms;
-		  SW <= "1111111111"; wait for 1000 * TbPeriod; 				  -- mode 4, average
+		  SW <= "1111111111"; wait for 10000 * TbPeriod; 			-- mode 4, average
 		  
+		  SW <= "0011111111"; wait for 10000 * TbPeriod; 		
+		  reset_n <= '0'; 	 wait for 10000 * TbPeriod; 
+		  SW <= "0111111111"; wait for 10000 * TbPeriod; 		
+		  SW <= "1011111111"; wait for 10000 * TbPeriod; 				
+		  SW <= "1111111111"; wait for 10000 * TbPeriod; 
+		  reset_n <= '1';
 		  
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
