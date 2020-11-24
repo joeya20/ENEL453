@@ -11,11 +11,14 @@ end tb_blank_select;
 architecture tb of tb_blank_select is
 
     component blank_select
-        port (num1      : in std_logic_vector (3 downto 0);
+        port (
+				  state		: in std_logic_vector (1 downto 0);
+				  num1      : in std_logic_vector (3 downto 0);
               num2      : in std_logic_vector (3 downto 0);
               blank_out : out std_logic_vector (5 downto 0));
     end component;
 
+	 signal state		: std_logic_vector (1 downto 0);
     signal num1      : std_logic_vector (3 downto 0);
     signal num2      : std_logic_vector (3 downto 0);
     signal blank_out : std_logic_vector (5 downto 0);
@@ -23,23 +26,32 @@ architecture tb of tb_blank_select is
 begin
 
     dut : blank_select
-    port map (num1      => num1,
+    port map (
+				  state		=> state,
+				  num1      => num1,
               num2      => num2,
               blank_out => blank_out);
 
     stimuli : process
     begin
         -- EDIT Adapt initialization as needed
-        num1 <= (others => '0');
-        num2 <= (others => '0');
+        num1 <= (others => '0');						-- setting num1 to 0
+        num2 <= (others => '0');						-- setting num2 to 0
+		  state <= "11";
+		  wait for 1000 ns;								-- should blank LEDs 6-3 (111100)
+		  num2 <= (others => '1');						-- setting num2 to 1
+		  wait for 1000 ns;								-- should blank LEDs 6-4 (111000)
+		  state <= "01";
 		  wait for 1000 ns;
-		  num2 <= (others => '1');
+		  num1 <= (others => '1');						-- setting num1 to 1
 		  wait for 1000 ns;
-		  num1 <= (others => '1');
+		  state <= "11";
+		  wait for 1000 ns;
+		  
+																-- should blank LEDs 6-5 (110000)
+        -- EDIT Add stimuli here						
 
-        -- EDIT Add stimuli here
-
-        wait for 1000 ns;
+			assert false report "Simulation ended" severity failure; -- need this line to halt the testbench  
     end process;
 
 end tb;
