@@ -1,0 +1,76 @@
+-- Testbench automatically generated online
+-- at https://vhdl.lapinoo.net
+-- Generation date : 15.11.2020 18:54:37 UTC
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb_averager256 is
+end tb_averager256;
+
+architecture tb of tb_averager256 is
+
+    component averager256
+        port (clk     : in std_logic;
+              EN      : in std_logic;
+              reset_n : in std_logic;
+              Din     : in std_logic_vector (bits downto 0);
+              Q       : out std_logic_vector (bits downto 0));
+    end component;
+
+    signal clk     : std_logic;
+    signal EN      : std_logic;
+    signal reset_n : std_logic;
+    signal Din     : std_logic_vector (bits downto 0);
+    signal Q       : std_logic_vector (bits downto 0);
+
+    constant TbPeriod : time := 1000 ns; -- EDIT Put right period here
+    signal TbClock : std_logic := '0';
+    signal TbSimEnded : std_logic := '0';
+
+begin
+
+    dut : averager256
+    port map (clk     => clk,
+              EN      => EN,
+              reset_n => reset_n,
+              Din     => Din,
+              Q       => Q);
+
+    -- Clock generation
+    TbClock <= not TbClock after TbPeriod/2 when TbSimEnded /= '1' else '0';
+
+    -- EDIT: Check that clk is really your main clock signal
+    clk <= TbClock;
+
+    stimuli : process
+    begin
+        -- EDIT Adapt initialization as needed
+        EN <= '0';
+        Din <= (others => '0');
+		 
+        -- Reset generation
+        -- EDIT: Check that reset_n is really your reset signal
+        reset_n <= '0';
+        wait for 100 ns;
+        reset_n <= '1';
+        wait for 100 ns;
+
+        -- EDIT Add stimuli here
+        wait for 100 * TbPeriod;
+		  Din <= "100011000000";
+		  
+
+        -- Stop the clock and hence terminate the simulation
+        TbSimEnded <= '1';
+        wait;
+    end process;
+
+end tb;
+
+-- Configuration block below is required by some simulators. Usually no need to edit.
+
+configuration cfg_tb_averager256 of tb_averager256 is
+    for tb
+    end for;
+end cfg_tb_averager256;

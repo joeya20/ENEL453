@@ -1,5 +1,5 @@
 Timing Analyzer report for top_level
-Sun Nov 15 12:09:34 2020
+Tue Nov 24 12:19:53 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -95,14 +95,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 2.09        ;
+; Average used               ; 2.29        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  38.3%      ;
-;     Processor 3            ;  36.0%      ;
-;     Processor 4            ;  34.4%      ;
+;     Processor 2            ;  44.4%      ;
+;     Processor 3            ;  42.8%      ;
+;     Processor 4            ;  41.8%      ;
 +----------------------------+-------------+
 
 
@@ -111,9 +111,9 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                                         ; Status ; Read at                  ;
 +-----------------------------------------------------------------------+--------+--------------------------+
-; adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.sdc    ; OK     ; Sun Nov 15 12:09:20 2020 ;
-; adc_qsys/adc_qsys/synthesis/submodules/altera_modular_adc_control.sdc ; OK     ; Sun Nov 15 12:09:20 2020 ;
-; top_level.SDC                                                         ; OK     ; Sun Nov 15 12:09:20 2020 ;
+; adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.sdc    ; OK     ; Tue Nov 24 12:19:45 2020 ;
+; adc_qsys/adc_qsys/synthesis/submodules/altera_modular_adc_control.sdc ; OK     ; Tue Nov 24 12:19:46 2020 ;
+; top_level.SDC                                                         ; OK     ; Tue Nov 24 12:19:46 2020 ;
 +-----------------------------------------------------------------------+--------+--------------------------+
 
 
@@ -906,7 +906,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Sun Nov 15 12:09:15 2020
+    Info: Processing started: Tue Nov 24 12:19:43 2020
 Info: Command: quartus_sta lab3 -c top_level
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -919,12 +919,12 @@ Info (332164): Evaluating HDL-embedded SDC commands
 Info (332104): Reading SDC File: 'adc_qsys/adc_qsys/synthesis/submodules/altera_reset_controller.sdc'
 Info (332104): Reading SDC File: 'adc_qsys/adc_qsys/synthesis/submodules/altera_modular_adc_control.sdc'
 Info (332104): Reading SDC File: 'top_level.SDC'
-Warning (332174): Ignored filter at top_level.sdc(9): ADC_CLK_10 could not be matched with a port File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
-Warning (332049): Ignored create_clock at top_level.sdc(9): Argument <targets> is an empty collection File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
-    Info (332050): create_clock -period "10.0 MHz" [get_ports ADC_CLK_10] File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
-Warning (332174): Ignored filter at top_level.sdc(11): MAX10_CLK2_50 could not be matched with a port File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
-Warning (332049): Ignored create_clock at top_level.sdc(11): Argument <targets> is an empty collection File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
-    Info (332050): create_clock -period "50.0 MHz" [get_ports MAX10_CLK2_50] File: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
+Warning (332174): Ignored filter at top_level.sdc(9): ADC_CLK_10 could not be matched with a port File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
+Warning (332049): Ignored create_clock at top_level.sdc(9): Argument <targets> is an empty collection File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
+    Info (332050): create_clock -period "10.0 MHz" [get_ports ADC_CLK_10] File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 9
+Warning (332174): Ignored filter at top_level.sdc(11): MAX10_CLK2_50 could not be matched with a port File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
+Warning (332049): Ignored create_clock at top_level.sdc(11): Argument <targets> is an empty collection File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
+    Info (332050): create_clock -period "50.0 MHz" [get_ports MAX10_CLK2_50] File: C:/Users/JoeyD/Desktop/Third Year/3.ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 3/top_level.sdc Line: 11
 Info (332110): Deriving PLL clocks
     Info (332110): create_generated_clock -source {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|inclk[0]} -divide_by 2 -duty_cycle 50.00 -name {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[0]} {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[0]}
     Info (332110): create_generated_clock -source {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|inclk[0]} -divide_by 25 -duty_cycle 50.00 -name {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[1]} {ADC_ins0|ADC_ins|ADC_Conversion_ins|u0|altpll_sys|sd1|pll7|clk[1]}
@@ -1060,9 +1060,9 @@ Info (332114): Report Metastability: Found 12 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4911 megabytes
-    Info: Processing ended: Sun Nov 15 12:09:34 2020
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:34
+    Info: Peak virtual memory: 4930 megabytes
+    Info: Processing ended: Tue Nov 24 12:19:53 2020
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:20
 
 
