@@ -164,7 +164,27 @@
 					"strict" : false
 				},
 				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "SW[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[9]",
+					"strict" : false
+				},
+				{
 					"name" : "SW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "set",
 					"strict" : false
 				},
 				{
@@ -193,26 +213,6 @@
 				},
 				{
 					"name" : "SW[7]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[8]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[9]",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
-					"strict" : false
-				},
-				{
-					"name" : "reset_n",
-					"strict" : false
-				},
-				{
-					"name" : "set",
 					"strict" : false
 				}
 			]

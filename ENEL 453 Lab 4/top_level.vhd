@@ -34,7 +34,7 @@ signal bcd_distance:		STD_LOGIC_VECTOR(15 downto 0);
 -- adc out signals
 signal ADC_avg_out:		STD_LOGIC_VECTOR(11 downto 0);
 signal ADC_avg_mux_in:	STD_LOGIC_VECTOR(15 downto 0);
-
+signal PWM_LED_OUT: STD_LOGIC;
 -- Components
 Component SevenSegment IS
 	PORT( 
@@ -123,6 +123,16 @@ Component blank_select IS
       num2			: in  STD_LOGIC_VECTOR(3 downto 0);
       blank_out 	: out STD_LOGIC_VECTOR(5 DOWNTO 0)
 	);           
+END Component;
+
+Component PWM_DAC IS
+	Generic ( width : integer := 13);
+	PORT(
+		reset_n    : in  STD_LOGIC;
+      clk        : in  STD_LOGIC;
+      duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
+      inverted_pwm_out    : out STD_LOGIC
+	);
 END Component;
 
 begin
@@ -234,7 +244,17 @@ SevenSegment_ins: SevenSegment
 		DP_in    => DP_in(5 downto 0),
 		Blank    => Blank
 	);
+	
+LEDR_PWM : PWM_DAC
+	PORT MAP(
+		reset_n    => reset_n,
+      clk        => clk,
+      duty_cycle => ADC_distance,
+		inverted_pwm_out	  => PWM_LED_OUT
+	);
 
-LEDR(9 downto 0) <= sw(9 downto 0); -- gives visual display of the switch inputs to the LEDs on board
+LEDR(9 downto 0) <= PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT; -- gives visual display of the switch inputs to the LEDs on board
+
+--LEDR(9 downto 0) <= sw(9 downto 0);
 
 end Behavioral;

@@ -3,7 +3,11 @@ use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
 entity PWM_DAC is
+<<<<<<< HEAD
    Generic ( width : integer := 9);
+=======
+   Generic ( width : integer := 13);
+>>>>>>> 81c56ff0be76072e465c51b4ba39bc955d5c8050
    Port    ( reset_n    : in  STD_LOGIC;
              clk        : in  STD_LOGIC;
              duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
