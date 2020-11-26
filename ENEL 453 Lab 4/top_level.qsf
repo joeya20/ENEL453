@@ -435,6 +435,13 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to reset_n
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to set
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VHDL_FILE tb_PWM_SEVENSEG.vhd
+set_global_assignment -name VHDL_FILE PWM_SEVENSEG.vhd
+set_global_assignment -name VHDL_FILE downcounter.vhd
 set_global_assignment -name VHDL_FILE blank_select.vhd
 set_global_assignment -name QIP_FILE adc_qsys/adc_qsys/synthesis/adc_qsys.qip
 set_global_assignment -name VHDL_FILE voltage2distance_array2.vhd
@@ -461,11 +468,10 @@ set_global_assignment -name VHDL_FILE Register_10bits.vhd
 set_global_assignment -name VHDL_FILE Synchronizer.vhd
 set_global_assignment -name VHDL_FILE tb_Register_16bits.vhd
 set_global_assignment -name VHDL_FILE tb_MUX4TO1.vhd
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VHDL_FILE tb_MUX2TO1.vhd
 set_global_assignment -name VHDL_FILE tb_blank_select.vhd
 set_global_assignment -name VHDL_FILE PWM_DAC.vhd
 set_global_assignment -name VHDL_FILE MUX2TO1.vhd
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VHDL_FILE tb_downcounter.vhd
+set_global_assignment -name VHDL_FILE PWM_DAC_2.vhd
+set_global_assignment -name VHDL_FILE tb_PWM_DAC_2.vhd
