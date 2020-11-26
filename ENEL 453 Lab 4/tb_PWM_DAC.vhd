@@ -14,15 +14,14 @@ architecture tb of tb_PWM_DAC is
         port (reset_n    : in std_logic;
               clk        : in std_logic;
               duty_cycle : in std_logic_vector (12 downto 0);
-              pwm_out    : out std_logic);
+              inverted_pwm_out    : out std_logic);
     end component;
 	 
 	
     signal reset_n    : std_logic;
     signal clk        : std_logic;
     signal duty_cycle : std_logic_vector (12 downto 0);
-    signal pwm_out    : std_logic;
-
+    signal inverted_pwm_out    : std_logic;
     constant TbPeriod : time := 1000 ns; -- EDIT Put right period here
     signal TbClock : std_logic := '0';
     signal TbSimEnded : std_logic := '0';
@@ -33,7 +32,7 @@ begin
     port map (reset_n    => reset_n,
               clk        => clk,
               duty_cycle => duty_cycle,
-              pwm_out    => pwm_out);
+              inverted_pwm_out    => inverted_pwm_out);
 
     -- Clock generation
     TbClock <= not TbClock after TbPeriod/2 when TbSimEnded /= '1' else '0';
@@ -56,8 +55,9 @@ begin
         -- EDIT Add stimuli here
         wait for 100 * TbPeriod;
 		  
-		  duty_cycle <= "0000110010000";  wait for 100 * TbPeriod;
-		  duty_cycle <= "0111110100000";  wait for 1000 * TbPeriod;	
+		  duty_cycle <= "0000110010000";  wait for 1000 * TbPeriod;
+		  duty_cycle <= "0111110100000";  wait for 1000 * TbPeriod;
+		  duty_cycle <= "0111111111111";  wait for 10000 * TbPeriod;
 
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
