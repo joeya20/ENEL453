@@ -2,9 +2,8 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
-entity PWM_DAC is
-   Generic ( width : integer := 13;
-				 mid_length : integer := 2000); -- stop flashing when greater than 20cm
+entity PWM_SEVENSEG is
+   Generic ( width : integer := 13); -- stop flashing when greater than 20cm
 
    Port    ( reset_n    : in  STD_LOGIC;
              clk        : in  STD_LOGIC;
@@ -12,7 +11,7 @@ entity PWM_DAC is
              duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
              inverted_pwm_out    : out STD_LOGIC
            );
-end PWM_DAC;
+end PWM_SEVENSEG;
 
 architecture Behavioral of PWM_DAC is
    signal counter : unsigned (width-1 downto 0);
@@ -21,7 +20,7 @@ architecture Behavioral of PWM_DAC is
 begin
    count : process(clk,reset_n)
    begin
-       if( reset_n = '0' or counter = mid_length) then
+       if( reset_n = '0') then
            counter <= (others => '0');
        elsif (rising_edge(clk)) then
 			if(enable = '1') then
