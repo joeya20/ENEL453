@@ -35,12 +35,17 @@ signal bcd_distance:		STD_LOGIC_VECTOR(15 downto 0);
 signal ADC_avg_out:		STD_LOGIC_VECTOR(11 downto 0);
 signal ADC_avg_mux_in:	STD_LOGIC_VECTOR(15 downto 0);
 signal PWM_LED_OUT: STD_LOGIC;
+
+
+--module output
+signal module_output : STD_LOGIC;
 -- Components
 Component SevenSegment IS
 	PORT( 
 		Num_Hex0,Num_Hex1,Num_Hex2,Num_Hex3,Num_Hex4,Num_Hex5 : in  STD_LOGIC_VECTOR (3 downto 0);
 		Hex0,Hex1,Hex2,Hex3,Hex4,Hex5                         : out STD_LOGIC_VECTOR (7 downto 0);
-		DP_in,Blank                                           : in  STD_LOGIC_VECTOR (5 downto 0)
+		DP_in,Blank                                           : in  STD_LOGIC_VECTOR (5 downto 0);
+		enable                                                : in STD_LOGIC
 	);
 END Component;
 
@@ -135,6 +140,15 @@ Component PWM_DAC IS
 	);
 END Component;
 
+Component module IS
+			Generic (width : integer := 13);
+	PORT    ( reset_n    : in  STD_LOGIC;
+				 clk        : in  STD_LOGIC;
+				 distance : in  STD_LOGIC_VECTOR (width-1 downto 0);
+				 inverted_pwm_out    : out STD_LOGIC
+				 
+						);
+END Component;
 begin
 Num_Hex0 <= reg_out(3  downto  0); 
 Num_Hex1 <= reg_out(7  downto  4);
@@ -242,7 +256,8 @@ SevenSegment_ins: SevenSegment
 		Hex4     => Hex4,
 		Hex5     => Hex5,
 		DP_in    => DP_in(5 downto 0),
-		Blank    => Blank
+		Blank    => Blank,
+		enable => module_output
 	);
 	
 LEDR_PWM : PWM_DAC
@@ -251,6 +266,14 @@ LEDR_PWM : PWM_DAC
       clk        => clk,
       duty_cycle => ADC_distance,
 		inverted_pwm_out	  => PWM_LED_OUT
+	);
+	
+module_ins : module
+	PORT MAP(
+	reset_n => reset_n,
+	clk     => clk,
+	distance => ADC_distance,
+	inverted_pwm_out  => module_output
 	);
 
 LEDR(9 downto 0) <= PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT; -- gives visual display of the switch inputs to the LEDs on board

@@ -7,25 +7,25 @@ entity PWM_SEVENSEG is
 
    Port    ( reset_n    : in  STD_LOGIC;
              clk        : in  STD_LOGIC;
-				 enable 		: in  STD_LOGIC;
              duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
              inverted_pwm_out    : out STD_LOGIC
            );
 end PWM_SEVENSEG;
 
-architecture Behavioral of PWM_DAC is
+	-- eqn = 34.2424 - 1.21212x
+	-- eqn = -9x/2600 + 148/15
+
+architecture Behavioral of PWM_SEVENSEG is
    signal counter : unsigned (width-1 downto 0);
    signal pwm_out	: STD_LOGIC;
 	
 begin
    count : process(clk,reset_n)
    begin
-       if( reset_n = '0') then
+       if( reset_n = '0' or counter = 2000) then
            counter <= (others => '0');
        elsif (rising_edge(clk)) then
-			if(enable = '1') then
            counter <= counter + 1;
-			  end if;
        end if;
    end process;
 	
