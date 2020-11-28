@@ -9,7 +9,7 @@ entity downcounter is
               reset_n : in  STD_LOGIC; -- active-high reset
               enable  : in  STD_LOGIC; -- active-high enable
               zero    : out STD_LOGIC;  -- creates a positive pulse every time current_count hits zero
-              period  : integer -- number to count                             -- useful to enable another device, like to slow down a counter
+              period  : in integer -- number to count                             -- useful to enable another device, like to slow down a counter
               -- value  : out STD_LOGIC_VECTOR(integer(ceil(log2(real(period)))) - 1 downto 0) -- outputs the current_count value, if needed
          );
 end downcounter;

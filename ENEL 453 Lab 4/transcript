@@ -1,4 +1,21 @@
 # Loading project lab4-tb123
+# Compile of tb_module.vhd failed with 1 errors.
+# Compile of tb_module.vhd was successful.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 14:00:52 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+add wave -position end sim:/tb_module/*
+run -all
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 14:14:58 on Nov 28,2020, Elapsed time: 0:14:06
+# Errors: 0, Warnings: 5
 # Compile of ADC_Conversion_wrapper.vhd was successful.
 # Compile of ADC_Data.vhd was successful.
 # Compile of averager256.vhd was successful.
@@ -9,10 +26,9 @@
 # Compile of LUT_pkg.vhd was successful.
 # Compile of MUX2TO1.vhd was successful.
 # Compile of MUX4TO1.vhd was successful.
-# Compile of PWM_SEVENSEG.vhd failed with 2 errors.
 # Compile of Register_10bits.vhd was successful.
 # Compile of Register_16bits.vhd was successful.
-# Compile of SevenSegment.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
 # Compile of SevenSegment_decoder.vhd was successful.
 # Compile of Synchronizer.vhd was successful.
 # Compile of tb_ADC_data.vhd was successful.
@@ -30,17 +46,17 @@
 # Compile of voltage2distance_array2.vhd was successful.
 # Compile of PWM_DAC.vhd was successful.
 # Compile of tb_PWM_DAC.vhd was successful.
-# 31 compiles, 2 failed with 3 errors.
-vsim work.tb_downcounter
-# vsim work.tb_downcounter 
-# Start time: 15:41:34 on Nov 26,2020
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 14:17:10 on Nov 28,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.tb_downcounter(tb)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.downcounter(behavioral)
-add wave -position end sim:/tb_downcounter/*
-add wave -position end sim:/tb_downcounter/dut/*
+# Loading work.tb_module(tb)
+# ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+add wave -position end sim:/tb_module/*
 run -all
