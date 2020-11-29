@@ -14,15 +14,17 @@ architecture tb of tb_downcounter is
         port (clk     : in std_logic;
               reset_n : in std_logic;
               enable  : in std_logic;
-              zero    : out std_logic);
+              zero    : out std_logic;
+				  period  : in integer);
     end component;
 
     signal clk     : std_logic;
     signal reset_n : std_logic;
     signal enable  : std_logic;
     signal zero    : std_logic;
+	 signal period  : integer;
 
-    constant TbPeriod : time := 1000 ns; -- EDIT Put right period here
+    constant TbPeriod : time := 20 ns; -- EDIT Put right period here
     signal TbClock : std_logic := '0';
     signal TbSimEnded : std_logic := '0';
 
@@ -32,7 +34,8 @@ begin
     port map (clk     => clk,
               reset_n => reset_n,
               enable  => enable,
-              zero    => zero);
+              zero    => zero,
+				  period   => period);
 
     -- Clock generation
     TbClock <= not TbClock after TbPeriod/2 when TbSimEnded /= '1' else '0';
@@ -51,7 +54,7 @@ begin
         wait for 100 ns;
         reset_n <= '1';
         wait for 100 ns;
-
+			period <= 1000; wait for 100 * TbPeriod; 
         -- EDIT Add stimuli here
         wait for 100 * TbPeriod;
 		  enable <= '1';

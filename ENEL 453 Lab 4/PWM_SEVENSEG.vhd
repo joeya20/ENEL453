@@ -8,7 +8,7 @@ entity PWM_SEVENSEG is
    Port    ( reset_n    : in  STD_LOGIC;
              clk        : in  STD_LOGIC;
              duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
-             inverted_pwm_out    : out STD_LOGIC
+              inverted_pwm_out    : out STD_LOGIC
            );
 end PWM_SEVENSEG;
 
@@ -17,16 +17,18 @@ end PWM_SEVENSEG;
 
 architecture Behavioral of PWM_SEVENSEG is
    signal counter : unsigned (width-1 downto 0);
+	signal max_count : unsigned (width-1 downto 0) := (others => '1');
    signal pwm_out	: STD_LOGIC;
 	
 begin
    count : process(clk,reset_n)
    begin
-       if( reset_n = '0' or counter = 2000) then
+       if( reset_n = '0' or counter >= max_count) then
            counter <= (others => '0');
        elsif (rising_edge(clk)) then
            counter <= counter + 1;
-       end if;
+      
+		 end if;
    end process;
 	
    compare : process(counter, duty_cycle)
@@ -39,7 +41,7 @@ begin
        end if;
    end process;
   
-  inverted_pwm_out <= not pwm_out;
+  inverted_pwm_out <=  pwm_out;
   
 end Behavioral;
 

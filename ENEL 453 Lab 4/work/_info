@@ -13,7 +13,7 @@ Eadc_conversion_wrapper
 Z1 w1606240398
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 688
+!i122 1112
 R0
 Z4 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd
 Z5 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd
@@ -23,9 +23,9 @@ VB?86R5UoX7S2lmRYIzIMS2
 !s100 KH;=f<oN;9WCTDm@QNBBJ1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1606598180
+Z7 !s110 1606610897
 !i10b 1
-Z8 !s108 1606598179.000000
+Z8 !s108 1606610897.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd|
 Z10 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Asimulation
 R2
 R3
 Z13 DEx4 work 22 adc_conversion_wrapper 0 22 B?86R5UoX7S2lmRYIzIMS2
-!i122 688
+!i122 1112
 l32
 L29 69
 Vi2kh07eNkFdL;49Y3n6MP2
@@ -54,7 +54,7 @@ Artl
 R2
 R3
 R13
-!i122 688
+!i122 1112
 l20
 L11 17
 V0hdTc:nn_LghWHZXNG^5S1
@@ -74,7 +74,7 @@ R1
 Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R2
 R3
-!i122 689
+!i122 1113
 R0
 Z15 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd
 Z16 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd
@@ -86,9 +86,9 @@ R6
 32
 R7
 !i10b 1
-Z17 !s108 1606598180.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd|
-Z19 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd|
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd|
+Z18 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd|
 !i113 1
 R11
 R12
@@ -97,8 +97,8 @@ R13
 R14
 R2
 R3
-Z20 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
-!i122 689
+Z19 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
+!i122 1113
 l62
 L15 91
 VO^R5<P`?U50`l00_YID>@3
@@ -107,9 +107,9 @@ R6
 32
 R7
 !i10b 1
+R8
 R17
 R18
-R19
 !i113 1
 R11
 R12
@@ -118,21 +118,21 @@ R1
 R14
 R2
 R3
-!i122 690
+!i122 1114
 R0
-Z21 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd
-Z22 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd
+Z20 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd
+Z21 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd
 l0
-Z23 L10 1
+Z22 L10 1
 V_CUX^0>VNcl[Eh>P]8Za^3
 !s100 PTQlD5=WnNQ@eNmcPZ4:[2
 R6
 32
 R7
 !i10b 1
-R17
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd|
-Z25 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd|
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd|
+Z24 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd|
 !i113 1
 R11
 R12
@@ -141,7 +141,7 @@ R14
 R2
 R3
 DEx4 work 11 averager256 0 22 _CUX^0>VNcl[Eh>P]8Za^3
-!i122 690
+!i122 1114
 l41
 L26 52
 VaAoP5C?JT3`FEL<=61K_I2
@@ -150,9 +150,9 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
+R23
 R24
-R25
 !i113 1
 R11
 R12
@@ -161,10 +161,10 @@ R1
 R14
 R2
 R3
-!i122 691
+!i122 1115
 R0
-Z26 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd
-Z27 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd
+Z25 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd
+Z26 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd
 l0
 L8 1
 V0:9zdOIA`o`LF2cmkOC^P3
@@ -173,9 +173,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd|
-Z29 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd|
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd|
+Z28 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd|
 !i113 1
 R11
 R12
@@ -184,7 +184,7 @@ R14
 R2
 R3
 DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
-!i122 691
+!i122 1115
 l27
 L17 68
 Vkk0@KWb1@9aV]WcFQb8d>1
@@ -193,9 +193,9 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
+R27
 R28
-R29
 !i113 1
 R11
 R12
@@ -203,10 +203,10 @@ Eblank_select
 R1
 R2
 R3
-!i122 692
+!i122 1116
 R0
-Z30 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd
-Z31 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd
+Z29 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd
+Z30 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd
 l0
 L4 1
 VANaEk2RfR>oo0z?7Rezo01
@@ -215,17 +215,17 @@ R6
 32
 R7
 !i10b 1
-R17
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd|
-Z33 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd|
+R8
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd|
+Z32 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd|
 !i113 1
 R11
 R12
 Abehavioural
 R2
 R3
-Z34 DEx4 work 12 blank_select 0 22 ANaEk2RfR>oo0z?7Rezo01
-!i122 692
+Z33 DEx4 work 12 blank_select 0 22 ANaEk2RfR>oo0z?7Rezo01
+!i122 1116
 l15
 L14 6
 V@GHj4dJodY9K?S]]SU_0A3
@@ -234,9 +234,9 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
+R31
 R32
-R33
 !i113 1
 R11
 R12
@@ -244,54 +244,54 @@ Ccfg_tb_adc_data
 etb_ADC_Data
 atb
 R14
-R20
+R19
 DAx4 work 11 tb_adc_data 2 tb 22 2[P3WYUn^GW[A6j=>UhNJ0
 R2
 R3
-Z35 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
-!i122 703
+Z34 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
+!i122 1127
 R1
 R0
-Z36 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd
-Z37 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd
+Z35 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd
+Z36 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd
 l0
-Z38 L78 1
+Z37 L78 1
 V<XCj?3HN7YR>koNkEm^`j0
 !s100 DhEC5OjeD1dD8XhZK6HkV3
 R6
 32
 R7
 !i10b 0
-R17
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd|
-Z40 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd|
+R8
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd|
+Z39 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_blank_select
 etb_blank_select
 atb
-R34
+R33
 DAx4 work 15 tb_blank_select 2 tb 22 ]@F3@1h`<JY7GZMSEiz6l0
 R2
 R3
-Z41 DEx4 work 15 tb_blank_select 0 22 jSVc77J3aW;EKKz2<VSeN0
-!i122 705
+Z40 DEx4 work 15 tb_blank_select 0 22 jSVc77J3aW;EKKz2<VSeN0
+!i122 1129
 R1
 R0
-Z42 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd
-Z43 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd
+Z41 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd
+Z42 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd
 l0
-Z44 L61 1
+Z43 L61 1
 VPZZ9OD=YAl?nO?>>33TP:3
 !s100 Hh6fZgSYVIbn<EdoNE]FT2
 R6
 32
-R7
+Z44 !s110 1606610898
 !i10b 0
-R17
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd|
-Z46 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd|
+Z45 !s108 1606610898.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd|
+Z47 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd|
 !i113 1
 R11
 R12
@@ -299,108 +299,110 @@ Ccfg_tb_downcounter
 etb_downcounter
 atb
 R14
-Z47 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-Z48 DEx4 work 11 downcounter 0 22 f?S9fF?Mo1oV=;?fEh^Un3
-DAx4 work 14 tb_downcounter 2 tb 22 hOhJ3RP[>Rjje:]NIKnh^3
+Z48 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z49 DEx4 work 11 downcounter 0 22 f?S9fF?Mo1oV=;?fEh^Un3
+DAx4 work 14 tb_downcounter 2 tb 22 lLTI?T<0JRoh>BFAMWAg@1
 R2
 R3
-Z49 DEx4 work 14 tb_downcounter 0 22 6k^VW]FF=:?Im4[J]33ZA0
-!i122 707
-Z50 w1606419879
+Z50 DEx4 work 14 tb_downcounter 0 22 6k^VW]FF=:?Im4[J]33ZA0
+!i122 1131
+Z51 w1606606702
 R0
-Z51 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd
-Z52 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd
+Z52 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd
+Z53 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd
 l0
-Z53 L71 1
-VSk:eK0ORMA6mznd6YbQOC2
-!s100 Sk4c@^1GDO^WlL;<fUFm^0
+L74 1
+V^ld68Q[CMMK_KzIV_G[bY0
+!s100 9TRL:^`UD0JUHPNJ^6R7f0
 R6
 32
-Z54 !s110 1606598181
+R44
 !i10b 0
-R17
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd|
-Z56 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd|
+R45
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd|
+Z55 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_module
 etb_module
 atb
-DAx4 work 9 tb_module 2 tb 22 ]l3_J:MiULiP]__Fo]e2R2
+R14
+Z56 DEx4 work 6 module 0 22 86h0gB]Fl>;PzlN<>iP8o2
+DAx4 work 9 tb_module 2 tb 22 Z`Efhf4^c3o5g4]GnYQ3F3
 R2
 R3
 Z57 DEx4 work 9 tb_module 0 22 ^6E8c=00@TSZXR@WBAdPF1
-!i122 718
-Z58 w1606597225
+!i122 1142
+Z58 w1606610888
 R0
 Z59 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
 Z60 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
 l0
-L69 1
-V9kTI7LJ5S1Z[dg_H@aaf`2
-!s100 IBfZbzB13iKj`e:W:zN7]3
+L70 1
+Vi?n2P?L5XR0^gfk5m<2gI3
+!s100 ;DN3JJ6XWWjFkgzTA8Lh50
 R6
 32
-R54
+R44
 !i10b 0
-Z61 !s108 1606598181.000000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd|
-Z63 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd|
+R45
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd|
+Z62 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_mux2to1
 etb_MUX2TO1
 atb
-Z64 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
+Z63 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
 DAx4 work 10 tb_mux2to1 2 tb 22 =UYE>bWmjCD@m10_1VI=z1
 R2
 R3
-Z65 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
-!i122 708
+Z64 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
+!i122 1132
 R1
 R0
-Z66 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd
-Z67 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd
+Z65 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd
+Z66 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd
 l0
 L55 1
 Ve8izW2[n24JS=G>S0`CaO0
 !s100 J@DHRZba3YTWX936zF`I80
 R6
 32
-R54
+R44
 !i10b 0
-R61
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
-Z69 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
+R45
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
+Z68 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_mux4to1
 etb_MUX4TO1
 atb
-Z70 DEx4 work 7 mux4to1 0 22 >c>edKQ6bg2m^bD79zNQ=1
+Z69 DEx4 work 7 mux4to1 0 22 >c>edKQ6bg2m^bD79zNQ=1
 DAx4 work 10 tb_mux4to1 2 tb 22 fUGh>>me2XV`EzUggSRmz0
 R2
 R3
-Z71 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
-!i122 709
+Z70 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
+!i122 1133
 R1
 R0
-Z72 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd
-Z73 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd
+Z71 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd
+Z72 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd
 l0
-R44
+R43
 V=39e8?E[27mP?fWY9K^AB1
 !s100 :H2YA_:X7c9a^RXTRjQR]1
 R6
 32
-R54
+R44
 !i10b 0
-R61
-Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
-Z75 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
+R45
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
+Z74 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
 !i113 1
 R11
 R12
@@ -408,81 +410,81 @@ Ccfg_tb_pwm_dac
 etb_PWM_DAC
 atb
 R14
-Z76 DEx4 work 7 pwm_dac 0 22 Z:5=kIcbK8?gaka?H9o<70
+Z75 DEx4 work 7 pwm_dac 0 22 LEE9Q7aTI1<LJ6?Uh^MU82
 DAx4 work 10 tb_pwm_dac 2 tb 22 :@A<2i^9Rz1?2`eH9dzc]3
 R2
 R3
-Z77 DEx4 work 10 tb_pwm_dac 0 22 EhMFC_N=eHBa<gFX:0]OS0
-!i122 717
-Z78 w1606427898
+Z76 DEx4 work 10 tb_pwm_dac 0 22 EhMFC_N=eHBa<gFX:0]OS0
+!i122 1141
+Z77 w1606427898
 R0
-Z79 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd
-Z80 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd
+Z78 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd
+Z79 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd
 l0
-R53
+L71 1
 V0:K58>_RR]9B2hbzYdjT70
 !s100 De0<Vn815URV]OBk]hDAA0
 R6
 32
-R54
+R44
 !i10b 0
-R61
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd|
-Z82 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd|
+R45
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd|
+Z81 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_register_16bits
 etb_Register_16bits
 atb
-Z83 DEx4 work 15 register_16bits 0 22 T`4BE6Fj;d6iC_>z^dHQX3
+Z82 DEx4 work 15 register_16bits 0 22 T`4BE6Fj;d6iC_>z^dHQX3
 DAx4 work 18 tb_register_16bits 2 tb 22 IkF8geDkU3Z]BbEQKAza82
 R2
 R3
-Z84 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
-!i122 711
+Z83 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
+!i122 1135
 R1
 R0
-Z85 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd
-Z86 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd
+Z84 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd
+Z85 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd
 l0
-R38
+R37
 VH:>OcdKOc[@DA^;O;>Y;o2
 !s100 @P1T9HA_TOOnG5PL<mJEf1
 R6
 32
-R54
+R44
 !i10b 0
-R61
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd|
-Z88 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd|
+R45
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd|
+Z87 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_synchronizer
 etb_Synchronizer
 atb
-Z89 DEx4 work 12 synchronizer 0 22 MN0OZDjkP_US]EWLAMl250
+Z88 DEx4 work 12 synchronizer 0 22 MN0OZDjkP_US]EWLAMl250
 DAx4 work 15 tb_synchronizer 2 tb 22 Rc`cfm5JREK6Si@BTJaJk0
 R2
 R3
-Z90 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
-!i122 712
+Z89 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
+!i122 1136
 R1
 R0
-Z91 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd
-Z92 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd
+Z90 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd
+Z91 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd
 l0
 L64 1
 V[_;BQHX1g00bao:z2F[ln2
 !s100 olJAFj4z8Vj9Uld1W^lZV1
 R6
 32
-R54
+R44
 !i10b 0
-R61
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd|
-Z94 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd|
+R45
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd|
+Z93 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd|
 !i113 1
 R11
 R12
@@ -490,10 +492,10 @@ Edebounce
 R1
 R2
 R3
-!i122 693
+!i122 1117
 R0
-Z95 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd
-Z96 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd
+Z94 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd
+Z95 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd
 l0
 L29 1
 V@:59AM=ljIR?D1gDRW7W=0
@@ -502,9 +504,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd|
-Z98 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd|
+R8
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd|
+Z97 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd|
 !i113 1
 R11
 R12
@@ -512,7 +514,7 @@ Alogic
 R2
 R3
 DEx4 work 8 debounce 0 22 @:59AM=ljIR?D1gDRW7W=0
-!i122 693
+!i122 1117
 l42
 L39 24
 VX^;WOnj0o;zdPQgHU2;6H0
@@ -521,22 +523,22 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
+R96
 R97
-R98
 !i113 1
 R11
 R12
 Edowncounter
-Z99 w1606593779
-R47
+Z98 w1606606317
+R48
 R14
 R2
 R3
-!i122 694
+!i122 1118
 R0
-Z100 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd
-Z101 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd
+Z99 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd
+Z100 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd
 l0
 L7 1
 Vf?S9fF?Mo1oV=;?fEh^Un3
@@ -545,37 +547,37 @@ R6
 32
 R7
 !i10b 1
-R17
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd|
-Z103 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd|
+R8
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd|
+Z102 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R47
+R48
 R14
 R2
 R3
-R48
-!i122 694
+R49
+!i122 1118
 l20
 L17 27
-V;MG7L;KQEZYnknXEE``zS0
-!s100 m1gC2<65VoZ=1PPiGjIka2
+VkCNS;YA96^UB;92oHF1G;2
+!s100 6BkOF@Ja[iGNRkJ_F9XXl2
 R6
 32
 R7
 !i10b 1
-R17
+R8
+R101
 R102
-R103
 !i113 1
 R11
 R12
 Plut_pkg
 R2
 R3
-!i122 695
+!i122 1119
 R1
 R0
 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd
@@ -588,9 +590,52 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd|
 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd|
+!i113 1
+R11
+R12
+Emodule
+Z103 w1606610690
+R14
+R2
+R3
+!i122 1144
+R0
+Z104 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd
+Z105 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd
+l0
+L5 1
+V86h0gB]Fl>;PzlN<>iP8o2
+!s100 ]DmM^gG[FJb7<PG=UPbB>0
+R6
+32
+R44
+!i10b 1
+R45
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd|
+Z107 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+R56
+!i122 1144
+l39
+Z108 L13 62
+Z109 V]2Q?RoCicB`3@MdNelH=E3
+Z110 !s100 IjFfFo7g]b:XAdAQ8S5Id0
+R6
+32
+R44
+!i10b 1
+R45
+R106
+R107
 !i113 1
 R11
 R12
@@ -598,10 +643,10 @@ Emux2to1
 R1
 R2
 R3
-!i122 696
+!i122 1120
 R0
-Z104 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd
-Z105 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd
+Z111 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd
+Z112 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd
 l0
 L4 1
 V@0S`EKP00^0KG5?aDAn@53
@@ -610,17 +655,17 @@ R6
 32
 R7
 !i10b 1
-R17
-Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd|
-Z107 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd|
+R8
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd|
+Z114 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R2
 R3
-R64
-!i122 696
+R63
+!i122 1120
 l13
 L12 6
 VfVUU`<XQ^7T<4EBOFU?De3
@@ -629,9 +674,9 @@ R6
 32
 R7
 !i10b 1
-R17
-R106
-R107
+R8
+R113
+R114
 !i113 1
 R11
 R12
@@ -639,10 +684,10 @@ Emux4to1
 R1
 R2
 R3
-!i122 697
+!i122 1121
 R0
-Z108 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd
-Z109 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd
+Z115 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd
+Z116 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd
 l0
 L4 1
 V>c>edKQ6bg2m^bD79zNQ=1
@@ -651,17 +696,17 @@ R6
 32
 R7
 !i10b 1
-R17
-Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd|
-Z111 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd|
+R8
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd|
+Z118 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R2
 R3
-R70
-!i122 697
+R69
+!i122 1121
 l16
 L15 8
 VOVcn3a5EYH0_c:1m8z60b2
@@ -670,32 +715,32 @@ R6
 32
 R7
 !i10b 1
-R17
-R110
-R111
+R8
+R117
+R118
 !i113 1
 R11
 R12
 Epwm_dac
-Z112 w1606427952
+Z119 w1606609197
 R14
 R2
 R3
-!i122 716
+!i122 1140
 R0
-Z113 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd
-Z114 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd
+Z120 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd
+Z121 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd
 l0
 L5 1
-VZ:5=kIcbK8?gaka?H9o<70
-!s100 YiG?c:8ZlKU3iDieLOR?i3
+VLEE9Q7aTI1<LJ6?Uh^MU82
+!s100 Sz9l:g9c>:ATL4VOGd;]K1
 R6
 32
-R54
+R44
 !i10b 1
-R61
-Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd|
-Z116 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd|
+R45
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd|
+Z123 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd|
 !i113 1
 R11
 R12
@@ -703,42 +748,42 @@ Abehavioral
 R14
 R2
 R3
-R76
-!i122 716
+R75
+!i122 1140
 l21
 L15 29
 Vk2NgFzfd42knNC@E4>mKV1
 !s100 0Jk87W5LoG<IX_3MLaXEB1
 R6
 32
-R54
+R44
 !i10b 1
-R61
-R115
-R116
+R45
+R122
+R123
 !i113 1
 R11
 R12
 Epwm_sevenseg
-Z117 w1606593280
+Z124 w1606610415
 R14
 R2
 R3
-!i122 719
+!i122 1143
 R0
-Z118 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
-Z119 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
+Z125 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
+Z126 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
 l0
 L5 1
-VJI`SofO5d=:[KFDKEO1no1
-!s100 fF<UC19zS9[z8@M;cYnU30
+VEOH;]?2C2b@9?Y_L39WmB2
+!s100 2cmjC]G[O1aU20<ilEdV91
 R6
 32
-R54
+R44
 !i10b 1
-R61
-Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
-!s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
+R45
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
+Z128 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
 !i113 1
 R11
 R12
@@ -746,19 +791,19 @@ Abehavioral
 R14
 R2
 R3
-DEx4 work 12 pwm_sevenseg 0 22 JI`SofO5d=:[KFDKEO1no1
-!i122 719
-l22
-L18 27
-VmDiOjVnF:an70PJ1Mn9S01
-!s100 8A9fi^nm98C202`64>hA53
+DEx4 work 12 pwm_sevenseg 0 22 EOH;]?2C2b@9?Y_L39WmB2
+!i122 1143
+l24
+L19 30
+VnF_RDCBkU__5eRX^Jb@b90
+!s100 ^`CHNgoNWK<MP`g`263i81
 R6
 32
-R54
+R44
 !i10b 1
-R61
-R120
-Z121 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
+R45
+R127
+R128
 !i113 1
 R11
 R12
@@ -766,10 +811,10 @@ Eregister_10bits
 R1
 R2
 R3
-!i122 698
+!i122 1122
 R0
-Z122 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd
-Z123 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd
+Z129 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd
+Z130 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd
 l0
 L4 1
 V?zj7dhn70[O^L<4ZLWGzI1
@@ -778,9 +823,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd|
-Z125 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd|
+R8
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd|
+Z132 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd|
 !i113 1
 R11
 R12
@@ -788,7 +833,7 @@ Abehavior
 R2
 R3
 DEx4 work 15 register_10bits 0 22 ?zj7dhn70[O^L<4ZLWGzI1
-!i122 698
+!i122 1122
 l15
 L14 19
 Viz5NYZ[LAXY1^DTP_:kg10
@@ -797,9 +842,9 @@ R6
 32
 R7
 !i10b 1
-R17
-R124
-R125
+R8
+R131
+R132
 !i113 1
 R11
 R12
@@ -807,10 +852,10 @@ Eregister_16bits
 R1
 R2
 R3
-!i122 699
+!i122 1123
 R0
-Z126 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd
-Z127 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd
+Z133 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd
+Z134 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd
 l0
 L4 1
 VT`4BE6Fj;d6iC_>z^dHQX3
@@ -819,17 +864,17 @@ R6
 32
 R7
 !i10b 1
-R17
-Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd|
-Z129 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd|
+R8
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd|
+Z136 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R2
 R3
-R83
-!i122 699
+R82
+!i122 1123
 l15
 L14 15
 Vg7<AzXYE_kQfiem^08?B`0
@@ -838,20 +883,20 @@ R6
 32
 R7
 !i10b 1
-R17
-R128
-R129
+R8
+R135
+R136
 !i113 1
 R11
 R12
 Esevensegment
-R117
+Z137 w1606593280
 R2
 R3
-!i122 700
+!i122 1124
 R0
-Z130 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd
-Z131 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd
+Z138 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd
+Z139 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd
 l0
 L5 1
 VjD>E0E^GTaedo@fo>ePY13
@@ -860,9 +905,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd|
-Z133 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd|
+R8
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd|
+Z141 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd|
 !i113 1
 R11
 R12
@@ -872,7 +917,7 @@ R3
 DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
 !i122 668
 l20
-Z134 L11 50
+Z142 L11 50
 VZg=eT^T6U1XLQZSJ:@@gb3
 !s100 dcYihQ@U4TXj]105NfLck3
 R6
@@ -880,8 +925,8 @@ R6
 !s110 1606430468
 !i10b 1
 !s108 1606430468.000000
-R132
-R133
+R140
+R141
 !i113 1
 R11
 R12
@@ -889,10 +934,10 @@ Esevensegment_decoder
 R1
 R2
 R3
-!i122 701
+!i122 1125
 R0
-Z135 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd
-Z136 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd
+Z143 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd
+Z144 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd
 l0
 L5 1
 VKjE^A[JI58zIZ_l229BiF2
@@ -901,9 +946,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
-Z138 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
+R8
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
+Z146 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
 !i113 1
 R11
 R12
@@ -911,7 +956,7 @@ Abehavioral
 R2
 R3
 DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
-!i122 701
+!i122 1125
 l17
 L13 41
 VG3hVD5C8G24Y5@Gz8RQQi2
@@ -920,9 +965,9 @@ R6
 32
 R7
 !i10b 1
-R17
-R137
-R138
+R8
+R145
+R146
 !i113 1
 R11
 R12
@@ -930,10 +975,10 @@ Esynchronizer
 R1
 R2
 R3
-!i122 702
+!i122 1126
 R0
-Z139 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd
-Z140 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd
+Z147 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd
+Z148 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd
 l0
 L4 1
 VMN0OZDjkP_US]EWLAMl250
@@ -942,17 +987,17 @@ R6
 32
 R7
 !i10b 1
-R17
-Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd|
-Z142 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd|
+R8
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd|
+Z150 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd|
 !i113 1
 R11
 R12
 Abehavioural
 R2
 R3
-R89
-!i122 702
+R88
+!i122 1126
 l30
 L14 37
 V:f@e_1?g>J<JO>Y5ShFoz2
@@ -961,9 +1006,9 @@ R6
 32
 R7
 !i10b 1
-R17
-R141
-R142
+R8
+R149
+R150
 !i113 1
 R11
 R12
@@ -971,10 +1016,10 @@ Etb_adc_data
 R1
 R2
 R3
-!i122 703
+!i122 1127
 R0
+R35
 R36
-R37
 l0
 L8 1
 V[?lm[l=lU]Mf^aJ=5DKVD1
@@ -983,17 +1028,17 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
+R38
 R39
-R40
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R35
-!i122 703
+R34
+!i122 1127
 l36
 L11 64
 V2[P3WYUn^GW[A6j=>UhNJ0
@@ -1002,9 +1047,9 @@ R6
 32
 R7
 !i10b 1
-R17
+R8
+R38
 R39
-R40
 !i113 1
 R11
 R12
@@ -1012,7 +1057,7 @@ Etb_averager256
 w1606406269
 R2
 R3
-!i122 704
+!i122 1128
 R0
 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd
 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd
@@ -1022,9 +1067,9 @@ V@2jZ>[c<9lBAVMfPH7c`R3
 !s100 ZOGVmigDVJ8lJY_]=;i3J1
 R6
 32
-R7
+R44
 !i10b 1
-R17
+R8
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd|
 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd|
 !i113 1
@@ -1034,40 +1079,40 @@ Etb_blank_select
 R1
 R2
 R3
-!i122 705
+!i122 1129
 R0
+R41
 R42
-R43
 l0
 L8 1
 VjSVc77J3aW;EKKz2<VSeN0
 !s100 ^lLS5:gj`7TdIMmeFa`0g3
 R6
 32
-R7
+R44
 !i10b 1
-R17
 R45
 R46
+R47
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R41
-!i122 705
+R40
+!i122 1129
 l26
-Z143 L11 47
+Z151 L11 47
 V]@F3@1h`<JY7GZMSEiz6l0
 !s100 WnEK?86MASYD79:OgB^AF0
 R6
 32
-R7
+R44
 !i10b 1
-R17
 R45
 R46
+R47
 !i113 1
 R11
 R12
@@ -1075,21 +1120,21 @@ Etb_debounce
 R1
 R2
 R3
-!i122 706
+!i122 1130
 R0
-Z144 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd
-Z145 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd
+Z152 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd
+Z153 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd
 l0
-R23
+R22
 VfC6XFVHOhZjf4l8gcO63:1
 !s100 GoKCFGem1>AF?3<JI:R:30
 R6
 32
-R7
+R44
 !i10b 1
-R17
-Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd|
-Z147 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd|
+R45
+Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd|
+Z155 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd|
 !i113 1
 R11
 R12
@@ -1097,59 +1142,59 @@ Abehavioral
 R2
 R3
 DEx4 work 11 tb_debounce 0 22 fC6XFVHOhZjf4l8gcO63:1
-!i122 706
+!i122 1130
 l43
 L13 130
 Vz]4@5;<;kRDK>cZhhC8Se3
 !s100 1l?LmfhB<nn^OjzfZ3ZzA1
 R6
 32
-R7
+R44
 !i10b 1
-R17
-R146
-R147
+R45
+R154
+R155
 !i113 1
 R11
 R12
 Etb_downcounter
-R50
+R51
 R2
 R3
-!i122 707
+!i122 1131
 R0
-R51
 R52
+R53
 l0
 L8 1
 V6k^VW]FF=:?Im4[J]33ZA0
 !s100 kW?j:]4T;akk]2nV5U6Oh3
 R6
 32
-R7
+R44
 !i10b 1
-R17
+R45
+R54
 R55
-R56
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R49
-!i122 707
-l29
-Z148 L11 57
-VhOhJ3RP[>Rjje:]NIKnh^3
-!s100 ]]MmOZdCoETz>50h^`oZM0
+R50
+!i122 1131
+l31
+L11 60
+VlLTI?T<0JRoh>BFAMWAg@1
+!s100 DdS2f;=H_NW<^k6Jgj8Kf0
 R6
 32
-R7
+R44
 !i10b 1
-R17
+R45
+R54
 R55
-R56
 !i113 1
 R11
 R12
@@ -1157,7 +1202,7 @@ Etb_module
 R58
 R2
 R3
-!i122 718
+!i122 1142
 R0
 R59
 R60
@@ -1167,11 +1212,11 @@ V^6E8c=00@TSZXR@WBAdPF1
 !s100 RoOEXh=N<9R89CDY3EGn[3
 R6
 32
-R54
+R44
 !i10b 1
+R45
 R61
 R62
-R63
 !i113 1
 R11
 R12
@@ -1179,18 +1224,18 @@ Atb
 R2
 R3
 R57
-!i122 718
+!i122 1142
 l29
-L11 55
-V]l3_J:MiULiP]__Fo]e2R2
-!s100 1j[`abFD`YKYckOALMk3i0
+L11 56
+VZ`Efhf4^c3o5g4]GnYQ3F3
+!s100 _Xnjm5HTHD_j3:8ja<BXL2
 R6
 32
-R54
+R44
 !i10b 1
+R45
 R61
 R62
-R63
 !i113 1
 R11
 R12
@@ -1198,40 +1243,40 @@ Etb_mux2to1
 R1
 R2
 R3
-!i122 708
+!i122 1132
 R0
+R65
 R66
-R67
 l0
 L4 1
 VIb@2L6>4m?I`INR>md?>;2
 !s100 MXTn`=C41mc0Pab1_8j`P0
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R67
 R68
-R69
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R65
-!i122 708
+R64
+!i122 1132
 l25
 L7 45
 V=UYE>bWmjCD@m10_1VI=z1
 !s100 Q9Y[N;5[M]5D2=??4RIDM0
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R67
 R68
-R69
 !i113 1
 R11
 R12
@@ -1239,81 +1284,81 @@ Etb_mux4to1
 R1
 R2
 R3
-!i122 709
+!i122 1133
 R0
+R71
 R72
-R73
 l0
 L8 1
 VWE<afC8WU7fQ_oB`A203J2
 !s100 g?aTQ81l9bHihkJfXCgT`3
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R73
 R74
-R75
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R71
-!i122 709
+R70
+!i122 1133
 l29
-R143
+R151
 VfUGh>>me2XV`EzUggSRmz0
 !s100 8Li63`T9o[e;BBm82O13C2
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R73
 R74
-R75
 !i113 1
 R11
 R12
 Etb_pwm_dac
-R78
+R77
 R2
 R3
-!i122 717
+!i122 1141
 R0
+R78
 R79
-R80
 l0
 L8 1
 VEhMFC_N=eHBa<gFX:0]OS0
 !s100 F`ojo60TRjPXz5Anh:B[P2
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R80
 R81
-R82
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R77
-!i122 717
+R76
+!i122 1141
 l29
-R148
+L11 57
 V:@A<2i^9Rz1?2`eH9dzc]3
 !s100 KdiVEgZ39Uml_mWakGCDL1
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R80
 R81
-R82
 !i113 1
 R11
 R12
@@ -1321,40 +1366,40 @@ Etb_register_16bits
 R1
 R2
 R3
-!i122 711
+!i122 1135
 R0
+R84
 R85
-R86
 l0
 L4 1
 VFzV@^Kl6L8ELdkPK22:z:0
 !s100 QFL9=iA@:I72o`9ZKQV2`3
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R86
 R87
-R88
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R84
-!i122 711
+R83
+!i122 1135
 l27
 L7 68
 VIkF8geDkU3Z]BbEQKAza82
 !s100 7C?^Rbz@fi[nFNC6G1j5F0
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R86
 R87
-R88
 !i113 1
 R11
 R12
@@ -1362,40 +1407,40 @@ Etb_synchronizer
 R1
 R2
 R3
-!i122 712
+!i122 1136
 R0
+R90
 R91
-R92
 l0
 L8 1
 VeLKCQWi];U]XmbE2aVB_e0
 !s100 OSTJhXDBDlYCj;XjRhJ<f1
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R92
 R93
-R94
 !i113 1
 R11
 R12
 Atb
 R2
 R3
-R90
-!i122 712
+R89
+!i122 1136
 l27
-R134
+R142
 VRc`cfm5JREK6Si@BTJaJk0
 !s100 Ia^SF]gf:V;54^=e`RFBO3
 R6
 32
-R54
+R44
 !i10b 1
-R61
+R45
+R92
 R93
-R94
 !i113 1
 R11
 R12
@@ -1403,21 +1448,21 @@ Etb_top_level
 R1
 R2
 R3
-!i122 713
+!i122 1137
 R0
-Z149 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd
-Z150 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd
+Z156 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd
+Z157 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd
 l0
 L8 1
 VzIJcR]GGPS23@TVK:g=SK1
 !s100 2e@ZcHec5JS2MgNF8KA`21
 R6
 32
-R54
+R44
 !i10b 1
-R61
-Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd|
-Z152 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd|
+R45
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd|
+Z159 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd|
 !i113 1
 R11
 R12
@@ -1425,41 +1470,41 @@ Atb
 R2
 R3
 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
-!i122 713
+!i122 1137
 l43
 L11 92
 V7G_4`o;S>C^Sf2`4j@PbY0
 !s100 :Wl_nln[F4VGQOCDiFi2E1
 R6
 32
-R54
+R44
 !i10b 1
-R61
-R151
-R152
+R45
+R158
+R159
 !i113 1
 R11
 R12
 Etop_level
-R117
+R137
 R14
 R2
 R3
-!i122 714
+!i122 1138
 R0
-Z153 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd
-Z154 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd
+Z160 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd
+Z161 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd
 l0
 L5 1
 VHnQk4Hd3T8QKGIcP<G6IR1
 !s100 ITFU]DlaFbN1Mf]C=:FYU2
 R6
 32
-R54
+R44
 !i10b 1
-R61
-Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd|
-Z156 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd|
+R45
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd|
+Z163 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd|
 !i113 1
 R11
 R12
@@ -1468,63 +1513,63 @@ R14
 R2
 R3
 DEx4 work 9 top_level 0 22 HnQk4Hd3T8QKGIcP<G6IR1
-!i122 714
+!i122 1138
 l152
 L16 268
 V9=aQiCnOa^W?jZ?h;Xn]I1
 !s100 FN17;eHddP[E[BPmPfglH0
 R6
 32
-R54
+R44
 !i10b 1
-R61
-R155
-R156
+R45
+R162
+R163
 !i113 1
 R11
 R12
 Evoltage2distance_array2
 R1
-Z157 DPx4 work 7 lut_pkg 0 22 3@55<F2A7IM3LZnW??mP>2
+Z164 DPx4 work 7 lut_pkg 0 22 3@55<F2A7IM3LZnW??mP>2
 R14
 R2
 R3
-!i122 715
+!i122 1139
 R0
-Z158 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd
-Z159 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd
+Z165 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd
+Z166 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd
 l0
 L24 1
 V=NDCVZciz^K^bX6GaO`oT3
 !s100 `A`mdf8ondemfJ_=[hYQd1
 R6
 32
-R54
+R44
 !i10b 1
-R61
-Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd|
-Z161 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd|
+R45
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd|
+Z168 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R157
+R164
 R14
 R2
 R3
 DEx4 work 23 voltage2distance_array2 0 22 =NDCVZciz^K^bX6GaO`oT3
-!i122 715
+!i122 1139
 l35
 L32 11
 VEeH?6UUEXf92ElUkXFl4d3
 !s100 [6Lk_@eYiRP^?7Woz^lK[0
 R6
 32
-R54
+R44
 !i10b 1
-R61
-R160
-R161
+R45
+R167
+R168
 !i113 1
 R11
 R12

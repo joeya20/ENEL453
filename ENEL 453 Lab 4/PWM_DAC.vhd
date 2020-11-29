@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
 entity PWM_DAC is
-   Generic ( width : integer := 12);
+   Generic ( width : integer := 13);
 
    Port    ( reset_n    : in  STD_LOGIC;
              clk        : in  STD_LOGIC;
@@ -15,7 +15,7 @@ end PWM_DAC;
 architecture Behavioral of PWM_DAC is
    signal counter : unsigned (width-1 downto 0);
    signal pwm_out	: STD_LOGIC;
-	constant max_length : integer := 4000;
+	constant max_length : integer := 4095;
 	signal toCompare : unsigned (width-1 downto 0);
 	
 begin
@@ -38,7 +38,7 @@ begin
        end if;
    end process;
   
-  inverted_pwm_out <= not pwm_out;
+  inverted_pwm_out <=  pwm_out;
   
 end Behavioral;
 

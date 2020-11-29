@@ -55,7 +55,8 @@ begin
         -- EDIT Add stimuli here
         wait for 100 * TbPeriod;
 		  
-		  distance <= "0000111000010"; wait for 10000 * TbPeriod;
+		  distance <= "0000111000010"; wait for 1000000 * TbPeriod;
+		  distance <= "0001111101000"; wait for 1000000 * TbPeriod;
 
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';

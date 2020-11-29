@@ -15,7 +15,7 @@ entity downcounter is
 end downcounter;
 
 architecture Behavioral of downcounter is
-   signal current_count : natural;
+   signal current_count : integer;
   
 BEGIN
    

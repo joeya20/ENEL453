@@ -141,11 +141,10 @@ Component PWM_DAC IS
 END Component;
 
 Component module IS
-			Generic (width : integer := 13);
 	PORT    ( reset_n    : in  STD_LOGIC;
 				 clk        : in  STD_LOGIC;
-				 distance : in  STD_LOGIC_VECTOR (width-1 downto 0);
-				 inverted_pwm_out    : out STD_LOGIC
+				 distance : in  STD_LOGIC_VECTOR (12 downto 0);
+				 output    : out STD_LOGIC
 				 
 						);
 END Component;
@@ -273,7 +272,7 @@ module_ins : module
 	reset_n => reset_n,
 	clk     => clk,
 	distance => ADC_distance,
-	inverted_pwm_out  => module_output
+	output  => module_output
 	);
 
 LEDR(9 downto 0) <= PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT; -- gives visual display of the switch inputs to the LEDs on board

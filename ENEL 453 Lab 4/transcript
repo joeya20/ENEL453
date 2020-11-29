@@ -1,9 +1,7 @@
 # Loading project lab4-tb123
-# Compile of tb_module.vhd failed with 1 errors.
-# Compile of tb_module.vhd was successful.
 vsim work.tb_module
 # vsim work.tb_module 
-# Start time: 14:00:52 on Nov 28,2020
+# Start time: 16:24:45 on Nov 28,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -11,11 +9,15 @@ vsim work.tb_module
 # ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
 add wave -position end sim:/tb_module/*
+# Load canceled
+add wave -position end sim:/tb_module/line__38/*
+# (vish-4014) No objects found matching 'sim:/tb_module/line__38/*'.
+add wave -position end sim:/tb_module/line__41/*
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_module/line__41/*'.
 run -all
-# WARNING: No extended dataflow license exists
 quit -sim
-# End time: 14:14:58 on Nov 28,2020, Elapsed time: 0:14:06
-# Errors: 0, Warnings: 5
+# End time: 16:32:27 on Nov 28,2020, Elapsed time: 0:07:42
+# Errors: 0, Warnings: 2
 # Compile of ADC_Conversion_wrapper.vhd was successful.
 # Compile of ADC_Data.vhd was successful.
 # Compile of averager256.vhd was successful.
@@ -51,7 +53,7 @@ quit -sim
 # 32 compiles, 2 failed with 7 errors.
 vsim work.tb_module
 # vsim work.tb_module 
-# Start time: 14:17:10 on Nov 28,2020
+# Start time: 16:32:53 on Nov 28,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -60,3 +62,621 @@ vsim work.tb_module
 #    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
 add wave -position end sim:/tb_module/*
 run -all
+quit -sim
+# End time: 16:35:21 on Nov 28,2020, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd failed with 3 errors.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 3 failed with 10 errors.
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 2 failed with 7 errors.
+vsim work.tb_downcounter
+# vsim work.tb_downcounter 
+# Start time: 16:36:14 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_downcounter(tb)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+add wave -position end sim:/tb_downcounter/*
+add wave -position end sim:/tb_downcounter/dut/*
+run -all
+quit -sim
+# End time: 16:48:33 on Nov 28,2020, Elapsed time: 0:12:19
+# Errors: 0, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 16:51:11 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+add wave -position end sim:/tb_module/*
+run -all
+quit -sim
+# End time: 17:23:51 on Nov 28,2020, Elapsed time: 0:32:40
+# Errors: 0, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:24:30 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 13 (1 downto -11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd Line: 68
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:24:30 on Nov 28,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:26:23 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+add wave -position end sim:/tb_module/*
+add wave -position end sim:/tb_module/dut/*
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+add wave -position end sim:/tb_module/dut/downcounter_instantiation/*
+# Break key hit
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+quit -sim
+# End time: 17:29:27 on Nov 28,2020, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 2
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:29:43 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+add wave -position end sim:/tb_module/*
+add wave -position end sim:/tb_module/dut/*
+add wave -position end sim:/tb_module/dut/downcounter_instantiation/*
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+add wave -position end sim:/tb_module/dut/PWM_SEVENSEG_instantiation/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd failed with 3 errors.
+# 33 compiles, 3 failed with 10 errors.
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 13 (1 downto -11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd Line: 69
+# FATAL ERROR while loading design
+# Load canceled
+# Break key hit
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:29:43 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 13 (1 downto -11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd Line: 69
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:43:52 on Nov 28,2020, Elapsed time: 0:14:09
+# Errors: 1, Warnings: 1
+restart -f
+# No Design Loaded!
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:45:27 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
