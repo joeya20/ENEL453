@@ -8,6 +8,7 @@ entity PWM_SEVENSEG is
    Port    ( reset_n    : in  STD_LOGIC;
              clk        : in  STD_LOGIC;
              duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
+				 pwm_enable : in 	STD_LOGIC;
               inverted_pwm_out    : out STD_LOGIC
            );
 end PWM_SEVENSEG;
@@ -26,8 +27,9 @@ begin
        if( reset_n = '0' or counter >= max_count) then
            counter <= (others => '0');
        elsif (rising_edge(clk)) then
+			  if(pwm_enable = '1') then
            counter <= counter + 1;
-      
+			  end if;
 		 end if;
    end process;
 	

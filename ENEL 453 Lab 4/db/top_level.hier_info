@@ -36337,6 +36337,7 @@ clk => period[28].CLK
 clk => period[29].CLK
 clk => period[30].CLK
 clk => period[31].CLK
+clk => PWM_SEVENSEG:PWM_SEVENSEG_instantiation.clk
 distance[0] => LessThan0.IN26
 distance[0] => LessThan1.IN26
 distance[0] => Add0.IN26
@@ -36533,6 +36534,8 @@ clk => counter[0].CLK
 clk => counter[1].CLK
 duty_cycle[0] => LessThan1.IN2
 duty_cycle[1] => LessThan1.IN1
+pwm_enable => counter[1].ENA
+pwm_enable => counter[0].ENA
 inverted_pwm_out <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
 
 

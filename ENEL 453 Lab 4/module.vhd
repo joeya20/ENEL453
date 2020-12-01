@@ -34,6 +34,7 @@ component PWM_SEVENSEG is
 			Port ( reset_n    : in  STD_LOGIC;
 					 clk        : in  STD_LOGIC;
 					 duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
+					 pwm_enable : in 	STD_LOGIC;
 					 inverted_pwm_out    : out STD_LOGIC
 					 );
 end component;
@@ -74,7 +75,8 @@ downcounter_instantiation : downcounter
 PWM_SEVENSEG_instantiation : PWM_SEVENSEG
 						Generic map (width => 2)
 						Port Map(
-									clk => downcounter_output,
+									clk => clk,
+									pwm_enable => enable,
 									reset_n => reset_n,
 									duty_cycle => "10",
 									inverted_pwm_out => output_pwm
