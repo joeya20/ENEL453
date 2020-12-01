@@ -3,6 +3,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
 entity module is
+			Generic (A : integer := 2000;
+						B : integer := 9;
+						C : integer := 1600;
+						D : integer := 49;
+						E : integer := 4;
+						max_f : integer := 10;
+						min_f : integer := 1
+						);
 			Port    ( reset_n    : in  STD_LOGIC;
 						 clk        : in  STD_LOGIC;
 						 distance : in  STD_LOGIC_VECTOR (12 downto 0);
@@ -41,15 +49,15 @@ end component;
 
 begin
 			max_flag <= '1' when (to_integer(unsigned(distance)) <= 400) else '0';
-			min_flag <= '1' when(to_integer(unsigned(distance)) >= 2000
+			min_flag <= '1' when(to_integer(unsigned(distance)) >= A
 			) else '0';
 			
 			s <= max_flag & min_flag;
 			
 			with s select 
-				temp_period <= 50000000/(10) when "10",--max
-									50000000/(1) when "01", --min
-									50000000/(((-9*(to_integer(unsigned(distance)))/1600)+(49/4))) when "00",
+				temp_period <= 50000000/(max_f) when "10",--max
+									50000000/(min_f) when "01", --min
+									50000000/(((-B*(to_integer(unsigned(distance)))/C)+(D/E))) when "00",
 									0 when others;
 									
 			with s select 
@@ -76,7 +84,7 @@ PWM_SEVENSEG_instantiation : PWM_SEVENSEG
 						Generic map (width => 2)
 						Port Map(
 									clk => clk,
-									pwm_enable => enable,
+									pwm_enable => downcounter_output,
 									reset_n => reset_n,
 									duty_cycle => "10",
 									inverted_pwm_out => output_pwm
@@ -92,20 +100,4 @@ end Behavioral;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						
+			

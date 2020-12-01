@@ -9,7 +9,8 @@ entity top_level IS
 		set 						        	: in  STD_LOGIC;
 		SW                            : in  STD_LOGIC_VECTOR (9 downto 0);
 		LEDR                          : out STD_LOGIC_VECTOR (9 downto 0);
-		HEX0,HEX1,HEX2,HEX3,HEX4,HEX5 : out STD_LOGIC_VECTOR (7 downto 0)
+		HEX0,HEX1,HEX2,HEX3,HEX4,HEX5 : out STD_LOGIC_VECTOR (7 downto 0);
+		buzz_out								: out STD_LOGIC
 	);
 END top_level;
 
@@ -141,6 +142,14 @@ Component PWM_DAC IS
 END Component;
 
 Component module IS
+	GENERIC (A : integer;
+				B : integer;
+				C : integer;
+				D : integer;
+				E : integer;
+				max_f : integer;
+				min_f : integer
+				);
 	PORT    ( reset_n    : in  STD_LOGIC;
 				 clk        : in  STD_LOGIC;
 				 distance : in  STD_LOGIC_VECTOR (12 downto 0);
@@ -268,12 +277,38 @@ LEDR_PWM : PWM_DAC
 	);
 	
 module_ins : module
+	GENERIC MAP(A => 2000,
+					B => 9,
+					C => 1600,
+					D => 49,
+					E => 4,
+					max_f => 10,
+					min_f => 1
+					)
 	PORT MAP(
 	reset_n => reset_n,
 	clk     => clk,
 	distance => ADC_distance,
 	output  => module_output
 	);
+	
+module_buzz : module
+	GENERIC MAP(A => 4095,
+					B => 910,
+					C => 739,
+					D => 40955000,
+					E => 739,
+					max_f => 5000,
+					min_f => 450
+					)
+	PORT MAP(
+	reset_n => reset_n,
+	clk     => clk,
+	distance => ADC_distance,
+	output  => buzz_out
+	);
+
+--buzz_out <= PWM_LED_OUT;
 
 LEDR(9 downto 0) <= PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT; -- gives visual display of the switch inputs to the LEDs on board
 

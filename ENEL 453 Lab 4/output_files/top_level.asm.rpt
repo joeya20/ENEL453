@@ -1,5 +1,5 @@
 Assembler report for top_level
-Mon Nov 30 17:35:37 2020
+Tue Dec 01 12:32:52 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: top_level.sof
+  5. Assembler Device Options: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/output_files/top_level.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Nov 30 17:35:37 2020 ;
+; Assembler Status      ; Successful - Tue Dec 01 12:32:52 2020 ;
 ; Revision Name         ; top_level                             ;
 ; Top-level Entity Name ; top_level                             ;
 ; Family                ; MAX 10                                ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+------------------------------------------------------------------------------+
-; Assembler Generated Files                                                    ;
-+------------------------------------------------------------------------------+
-; File Name                                                                    ;
-+------------------------------------------------------------------------------+
-; /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/output_files/top_level.sof ;
-+------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                               ;
++-----------------------------------------------------------------------------------------+
+; File Name                                                                               ;
++-----------------------------------------------------------------------------------------+
+; C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/output_files/top_level.sof ;
++-----------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------+
-; Assembler Device Options: top_level.sof ;
-+----------------+------------------------+
-; Option         ; Setting                ;
-+----------------+------------------------+
-; JTAG usercode  ; 0x00730C6D             ;
-; Checksum       ; 0x00730C6D             ;
-+----------------+------------------------+
++-------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/output_files/top_level.sof ;
++----------------+--------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                          ;
++----------------+--------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x0082C67C                                                                                       ;
+; Checksum       ; 0x0082C67C                                                                                       ;
++----------------+--------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,16 +78,16 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Mon Nov 30 17:35:34 2020
+    Info: Processing started: Tue Dec 01 12:32:44 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Lab4 -c top_level
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Warning (12914): The file, /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/adc_qsys/adc_qsys.sopcinfo, is not embedded into sof file as expected.  Some tools, such as System Console, may not function fully.
+Warning (12914): The file, C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/adc_qsys/adc_qsys.sopcinfo, is not embedded into sof file as expected.  Some tools, such as System Console, may not function fully.
 Info: Quartus Prime Assembler was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 389 megabytes
-    Info: Processing ended: Mon Nov 30 17:35:37 2020
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4717 megabytes
+    Info: Processing ended: Tue Dec 01 12:32:52 2020
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:07
 
 
