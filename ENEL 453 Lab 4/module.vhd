@@ -58,7 +58,7 @@ begin
 									'1' when "00",
 									'0' when others;
 									
-			denis: process(clk) begin
+			assignvalues: process(clk) begin
 				if(rising_edge(clk)) then
 					period <= temp_period;
 					enable <= temp_enable;
