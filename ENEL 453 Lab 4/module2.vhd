@@ -16,7 +16,6 @@ architecture Behavioral of module2 is
 	signal period : integer;
 	signal downcounter_output : STD_LOGIC;
 	signal output_pwm: STD_LOGIC;
-	signal enable : STD_LOGIC;
 
 component downcounter is
 			Port ( clk     : in  STD_LOGIC; -- clock to be divided
@@ -39,20 +38,13 @@ end component;
 
 begin
 
-emma : process(distance) begin
 	period <= d2b_LUT(to_integer(unsigned(distance)));
-	
-	if to_integer(unsigned(distance)) >= 2000 then
-		enable <= '0';
-	else
-		enable <= '1';
-	end if;
-end process;
+
 		
 downcounter_instantiation : downcounter
 						Port Map(clk => clk,
 									period => period,
-									enable => enable,
+									enable => '1',
 									reset_n => reset_n,
 									zero => downcounter_output
 									);
