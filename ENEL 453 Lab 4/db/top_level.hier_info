@@ -84,7 +84,11 @@ HEX5[4] << SevenSegment:SevenSegment_ins.Hex5[4]
 HEX5[5] << SevenSegment:SevenSegment_ins.Hex5[5]
 HEX5[6] << SevenSegment:SevenSegment_ins.Hex5[6]
 HEX5[7] << SevenSegment:SevenSegment_ins.Hex5[7]
+<<<<<<< HEAD
 buzz_out << module2:module_buzz.output
+=======
+buzz_out << module:module_buzz.output
+>>>>>>> e229f7d1eca5e30e53d9a4b40e5b729adca517e8
 
 
 |top_level|ADC_Data:ADC_ins0
@@ -36755,14 +36759,15 @@ period[31] => Add0.IN33
 
 
 |top_level|module:module_ins|PWM_SEVENSEG:PWM_SEVENSEG_instantiation
-reset_n => count.IN1
+reset_n => counter[0].ACLR
+reset_n => counter[1].ACLR
 clk => counter[0].CLK
 clk => counter[1].CLK
-duty_cycle[0] => LessThan1.IN2
-duty_cycle[1] => LessThan1.IN1
+duty_cycle[0] => LessThan0.IN2
+duty_cycle[1] => LessThan0.IN1
 pwm_enable => counter[1].ENA
 pwm_enable => counter[0].ENA
-inverted_pwm_out <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+inverted_pwm_out <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level|module2:module_buzz
@@ -36770,6 +36775,7 @@ reset_n => downcounter:downcounter_instantiation.reset_n
 reset_n => PWM_SEVENSEG:PWM_SEVENSEG_instantiation.reset_n
 clk => downcounter:downcounter_instantiation.clk
 clk => PWM_SEVENSEG:PWM_SEVENSEG_instantiation.clk
+<<<<<<< HEAD
 distance[0] => Mux2.IN4107
 distance[0] => Mux3.IN4107
 distance[0] => Mux4.IN4107
@@ -36979,6 +36985,47 @@ distance[11] => Mux15.IN4096
 distance[11] => Mux16.IN4096
 distance[11] => Mux17.IN4096
 distance[12] => ~NO_FANOUT~
+=======
+distance[0] => LessThan0.IN26
+distance[0] => LessThan1.IN26
+distance[0] => Mult0.IN19
+distance[1] => LessThan0.IN25
+distance[1] => LessThan1.IN25
+distance[1] => Mult0.IN18
+distance[2] => LessThan0.IN24
+distance[2] => LessThan1.IN24
+distance[2] => Mult0.IN17
+distance[3] => LessThan0.IN23
+distance[3] => LessThan1.IN23
+distance[3] => Mult0.IN16
+distance[4] => LessThan0.IN22
+distance[4] => LessThan1.IN22
+distance[4] => Mult0.IN15
+distance[5] => LessThan0.IN21
+distance[5] => LessThan1.IN21
+distance[5] => Mult0.IN14
+distance[6] => LessThan0.IN20
+distance[6] => LessThan1.IN20
+distance[6] => Mult0.IN13
+distance[7] => LessThan0.IN19
+distance[7] => LessThan1.IN19
+distance[7] => Mult0.IN12
+distance[8] => LessThan0.IN18
+distance[8] => LessThan1.IN18
+distance[8] => Mult0.IN11
+distance[9] => LessThan0.IN17
+distance[9] => LessThan1.IN17
+distance[9] => Mult0.IN10
+distance[10] => LessThan0.IN16
+distance[10] => LessThan1.IN16
+distance[10] => Mult0.IN9
+distance[11] => LessThan0.IN15
+distance[11] => LessThan1.IN15
+distance[11] => Mult0.IN8
+distance[12] => LessThan0.IN14
+distance[12] => LessThan1.IN14
+distance[12] => Mult0.IN7
+>>>>>>> e229f7d1eca5e30e53d9a4b40e5b729adca517e8
 output <= PWM_SEVENSEG:PWM_SEVENSEG_instantiation.inverted_pwm_out
 
 
@@ -37117,14 +37164,20 @@ period[30] => Add0.IN34
 period[31] => Add0.IN33
 
 
+<<<<<<< HEAD
 |top_level|module2:module_buzz|PWM_SEVENSEG:PWM_SEVENSEG_instantiation
 reset_n => count.IN1
+=======
+|top_level|module:module_buzz|PWM_SEVENSEG:PWM_SEVENSEG_instantiation
+reset_n => counter[0].ACLR
+reset_n => counter[1].ACLR
+>>>>>>> e229f7d1eca5e30e53d9a4b40e5b729adca517e8
 clk => counter[0].CLK
 clk => counter[1].CLK
-duty_cycle[0] => LessThan1.IN2
-duty_cycle[1] => LessThan1.IN1
+duty_cycle[0] => LessThan0.IN2
+duty_cycle[1] => LessThan0.IN1
 pwm_enable => counter[1].ENA
 pwm_enable => counter[0].ENA
-inverted_pwm_out <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+inverted_pwm_out <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 

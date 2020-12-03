@@ -35,8 +35,14 @@ signal bcd_distance:		STD_LOGIC_VECTOR(15 downto 0);
 -- adc out signals
 signal ADC_avg_out:		STD_LOGIC_VECTOR(11 downto 0);
 signal ADC_avg_mux_in:	STD_LOGIC_VECTOR(15 downto 0);
+<<<<<<< HEAD
 signal PWM_LED_OUT: STD_LOGIC;
 signal buzzer_in :STD_LOGIC;
+=======
+signal PWM_LED_OUT: 		STD_LOGIC;
+signal buzz_output:		STD_LOGIC;
+
+>>>>>>> e229f7d1eca5e30e53d9a4b40e5b729adca517e8
 
 --module output
 signal module_output : STD_LOGIC;
@@ -285,13 +291,31 @@ module_ins : module
 	output  => module_output
 	);
 	
+<<<<<<< HEAD
 module_buzz : module2
+=======
+module_buzz : module
+	GENERIC MAP(A => 4000,
+					B => 91,
+					C => 72,
+					D => 49550,
+					E => 9,
+					max_f => 5000,
+					min_f => 450
+					)
+>>>>>>> e229f7d1eca5e30e53d9a4b40e5b729adca517e8
 	PORT MAP(
 	reset_n => reset_n,
 	clk     => clk,
 	distance => ADC_distance,
+<<<<<<< HEAD
 	output  => buzzer_in
+=======
+	output  => buzz_output
+>>>>>>> e229f7d1eca5e30e53d9a4b40e5b729adca517e8
 	);
+	
+buzz_out <= not buzz_output;
 
 buzz_out <=  buzzer_in;
 

@@ -24,7 +24,7 @@ architecture Behavioral of PWM_SEVENSEG is
 begin
    count : process(clk,reset_n)
    begin
-       if( reset_n = '0' or counter >= max_count) then
+       if( reset_n = '0') then
            counter <= (others => '0');
        elsif (rising_edge(clk)) then
 			  if(pwm_enable = '1') then
