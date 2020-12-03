@@ -38,7 +38,7 @@ architecture tb of tb_top_level is
     signal HEX5     : std_logic_vector (7 downto 0);
     signal buzz_out : std_logic;
 
-    constant TbPeriod : time := 1000 ns; -- EDIT Put right period here
+    constant TbPeriod : time := 20 ns; -- EDIT Put right period here
     signal TbClock : std_logic := '0';
     signal TbSimEnded : std_logic := '0';
 
@@ -78,11 +78,11 @@ begin
         wait for 100 ns;
 
         -- EDIT Add stimuli here
-        wait for 100 * TbPeriod;
-
+        wait for 1000000 * TbPeriod;
+		
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
-        wait;
+        assert false report "Simulation ended" severity failure; -- need this line to halt the testbench  
     end process;
 
 end tb;
