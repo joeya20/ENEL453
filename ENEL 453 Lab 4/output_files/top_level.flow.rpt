@@ -1,5 +1,5 @@
 Flow report for top_level
-Tue Dec 01 12:33:18 2020
+Thu Dec  3 10:40:36 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,17 +41,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Dec 01 12:32:52 2020       ;
+; Flow Status                        ; Successful - Thu Dec  3 10:40:25 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 10,829 / 49,760 ( 22 % )                    ;
-;     Total combinational functions  ; 7,676 / 49,760 ( 15 % )                     ;
-;     Dedicated logic registers      ; 7,041 / 49,760 ( 14 % )                     ;
-; Total registers                    ; 7041                                        ;
+; Total logic elements               ; 11,927 / 49,760 ( 24 % )                    ;
+;     Total combinational functions  ; 8,760 / 49,760 ( 18 % )                     ;
+;     Dedicated logic registers      ; 6,983 / 49,760 ( 14 % )                     ;
+; Total registers                    ; 6983                                        ;
 ; Total pins                         ; 72 / 360 ( 20 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/01/2020 12:26:55 ;
+; Start date & time ; 12/03/2020 10:37:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; top_level           ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                      ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 46276802957288.160685081422540                             ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 619751273534.160701703003424                               ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                         ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                          ; --            ; --          ; --         ;
 ; MISC_FILE                           ; adc_qsys/adc_qsys/synthesis/../adc_qsys.cmp                ; --            ; --          ; --         ;
@@ -101,24 +101,24 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:02:00     ; 1.0                     ; 4925 MB             ; 00:02:09                           ;
-; Fitter               ; 00:03:38     ; 1.4                     ; 5708 MB             ; 00:05:31                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 4717 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:23     ; 2.3                     ; 4906 MB             ; 00:00:40                           ;
-; Total                ; 00:06:09     ; --                      ; --                  ; 00:08:27                           ;
+; Analysis & Synthesis ; 00:01:49     ; 1.0                     ; 549 MB              ; 00:02:01                           ;
+; Fitter               ; 00:01:19     ; 1.4                     ; 1285 MB             ; 00:02:24                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 396 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:10     ; 2.4                     ; 636 MB              ; 00:00:22                           ;
+; Total                ; 00:03:21     ; --                      ; --                  ; 00:04:50                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++----------------------+------------------+--------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name      ; OS Version ; Processor type ;
++----------------------+------------------+--------------+------------+----------------+
+; Analysis & Synthesis ; yazan-MacBookPro ; Ubuntu 20.04 ; 20         ; x86_64         ;
+; Fitter               ; yazan-MacBookPro ; Ubuntu 20.04 ; 20         ; x86_64         ;
+; Assembler            ; yazan-MacBookPro ; Ubuntu 20.04 ; 20         ; x86_64         ;
+; Timing Analyzer      ; yazan-MacBookPro ; Ubuntu 20.04 ; 20         ; x86_64         ;
++----------------------+------------------+--------------+------------+----------------+
 
 
 ------------

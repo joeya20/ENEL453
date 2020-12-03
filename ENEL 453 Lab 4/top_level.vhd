@@ -36,7 +36,7 @@ signal bcd_distance:		STD_LOGIC_VECTOR(15 downto 0);
 signal ADC_avg_out:		STD_LOGIC_VECTOR(11 downto 0);
 signal ADC_avg_mux_in:	STD_LOGIC_VECTOR(15 downto 0);
 signal PWM_LED_OUT: STD_LOGIC;
-
+signal buzzer_in :STD_LOGIC;
 
 --module output
 signal module_output : STD_LOGIC;
@@ -142,14 +142,15 @@ Component PWM_DAC IS
 END Component;
 
 Component module IS
-	GENERIC (A : integer;
-				B : integer;
-				C : integer;
-				D : integer;
-				E : integer;
-				max_f : integer;
-				min_f : integer
-				);
+	PORT    ( reset_n    : in  STD_LOGIC;
+				 clk        : in  STD_LOGIC;
+				 distance : in  STD_LOGIC_VECTOR (12 downto 0);
+				 output    : out STD_LOGIC
+				 
+						);
+END Component;
+
+Component module2 IS
 	PORT    ( reset_n    : in  STD_LOGIC;
 				 clk        : in  STD_LOGIC;
 				 distance : in  STD_LOGIC_VECTOR (12 downto 0);
@@ -277,14 +278,6 @@ LEDR_PWM : PWM_DAC
 	);
 	
 module_ins : module
-	GENERIC MAP(A => 2000,
-					B => 9,
-					C => 1600,
-					D => 49,
-					E => 4,
-					max_f => 10,
-					min_f => 1
-					)
 	PORT MAP(
 	reset_n => reset_n,
 	clk     => clk,
@@ -292,23 +285,15 @@ module_ins : module
 	output  => module_output
 	);
 	
-module_buzz : module
-	GENERIC MAP(A => 4095,
-					B => 910,
-					C => 739,
-					D => 40955000,
-					E => 739,
-					max_f => 5000,
-					min_f => 450
-					)
+module_buzz : module2
 	PORT MAP(
 	reset_n => reset_n,
 	clk     => clk,
 	distance => ADC_distance,
-	output  => buzz_out
+	output  => buzzer_in
 	);
 
---buzz_out <= PWM_LED_OUT;
+buzz_out <=  buzzer_in;
 
 LEDR(9 downto 0) <= PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT & PWM_LED_OUT; -- gives visual display of the switch inputs to the LEDs on board
 
