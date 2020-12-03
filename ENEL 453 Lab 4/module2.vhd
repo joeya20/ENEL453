@@ -38,7 +38,7 @@ end component;
 
 begin
 
-period <= d2b_LUT(to_integer(unsigned(distance)));
+	period <= d2b_LUT(to_integer(unsigned(distance)));
 
 		
 downcounter_instantiation : downcounter

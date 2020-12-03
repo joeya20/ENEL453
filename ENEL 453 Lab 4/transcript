@@ -1,1914 +1,682 @@
-# Compile of ADC_Conversion.v failed with 9 errors.
-# Compile of ADC_Conversion_wrapper.vhd was successful.
-# Compile of ADC_Data.vhd was successful.
-# Compile of averager256.vhd was successful.
-# Compile of binary_bcd.vhd was successful.
-# Compile of blank_select.vhd was successful.
-# Compile of debounce.vhd was successful.
-# Compile of downcounter.vhd was successful.
-# Compile of LUT_pkg.vhd was successful.
-# Compile of module.vhd was successful.
-# Compile of module2.vhd was successful.
-# Compile of MUX2TO1.vhd was successful.
-# Compile of MUX4TO1.vhd was successful.
-# Compile of PWM_DAC.vhd was successful.
-# Compile of PWM_SEVENSEG.vhd was successful.
-# Compile of Register_10bits.vhd was successful.
-# Compile of Register_16bits.vhd was successful.
-# Compile of SevenSegment.vhd was successful.
-# Compile of SevenSegment_decoder.vhd was successful.
-# Compile of Synchronizer.vhd was successful.
-# Compile of tb_ADC_data.vhd was successful.
-# Compile of tb_blank_select.vhd was successful.
-# Compile of tb_debounce.vhd was successful.
-# Compile of tb_downcounter.vhd was successful.
-# Compile of tb_module.vhd was successful.
-# Compile of tb_MUX2TO1.vhd was successful.
-# Compile of tb_MUX4TO1.vhd was successful.
-# Compile of tb_PWM_DAC.vhd was successful.
-# Compile of tb_PWM_SEVENSEG.vhd was successful.
-# Compile of tb_Register_16bits.vhd was successful.
-# Compile of tb_synchronizer.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of voltage2distance_array2.vhd was successful.
-# 34 compiles, 1 failed with 9 errors.
-# Compile of ADC_Conversion_wrapper.vhd was successful.
-# Compile of ADC_Data.vhd was successful.
-# Compile of averager256.vhd was successful.
-# Compile of binary_bcd.vhd was successful.
-# Compile of blank_select.vhd was successful.
-# Compile of debounce.vhd was successful.
-# Compile of downcounter.vhd was successful.
-# Compile of LUT_pkg.vhd was successful.
-# Compile of module.vhd was successful.
-# Compile of module2.vhd was successful.
-# Compile of MUX2TO1.vhd was successful.
-# Compile of MUX4TO1.vhd was successful.
-# Compile of PWM_DAC.vhd was successful.
-# Compile of PWM_SEVENSEG.vhd was successful.
-# Compile of Register_10bits.vhd was successful.
-# Compile of Register_16bits.vhd was successful.
-# Compile of SevenSegment.vhd was successful.
-# Compile of SevenSegment_decoder.vhd was successful.
-# Compile of Synchronizer.vhd was successful.
-# Compile of tb_ADC_data.vhd was successful.
-# Compile of tb_blank_select.vhd was successful.
-# Compile of tb_debounce.vhd was successful.
-# Compile of tb_downcounter.vhd was successful.
-# Compile of tb_module.vhd was successful.
-# Compile of tb_MUX2TO1.vhd was successful.
-# Compile of tb_MUX4TO1.vhd was successful.
-# Compile of tb_PWM_DAC.vhd was successful.
-# Compile of tb_PWM_SEVENSEG.vhd was successful.
-# Compile of tb_Register_16bits.vhd was successful.
-# Compile of tb_synchronizer.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of voltage2distance_array2.vhd was successful.
-# 33 compiles, 0 failed with no errors.
-vsim -gui work.tb_top_level
-# vsim -gui work.tb_top_level 
-# Start time: 11:40:31 on Dec 03,2020
+# Loading project lab4-tb123
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 16:24:45 on Nov 28,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.tb_top_level(tb)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level(behavioral)
-# Loading work.adc_data(rtl)
-# Loading work.lut_pkg
-# Loading work.voltage2distance_array2(behavior)
-# Loading work.adc_conversion_wrapper(simulation)
-# Loading work.averager256(rtl)
-# Loading work.debounce(logic)
-# Loading work.synchronizer(behavioural)
-# Loading work.register_10bits(behavior)
-# Loading work.register_16bits(behavior)
-# Loading work.binary_bcd(behavior)
-# Loading work.mux4to1(behavior)
-# Loading work.blank_select(behavioural)
-# Loading work.sevensegment(behavioral)
-# Loading work.sevensegment_decoder(behavioral)
-# Loading work.pwm_dac(behavioral)
-# Loading work.module(behavioral)
-# Loading ieee.math_real(body)
-# Loading work.downcounter(behavioral)
-# Loading work.pwm_sevenseg(behavioral)
-# Loading work.module2(behavioral)
+# Loading work.tb_module(tb)
+# ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+add wave -position end sim:/tb_module/*
 # Load canceled
-vsim -gui work.tb_top_level
-# End time: 11:41:25 on Dec 03,2020, Elapsed time: 0:00:54
-# Errors: 0, Warnings: 7
-# vsim -gui work.tb_top_level 
-# Start time: 11:41:25 on Dec 03,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_top_level(tb)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level(behavioral)
-# Loading work.adc_data(rtl)
-# Loading work.lut_pkg
-# Loading work.voltage2distance_array2(behavior)
-# Loading work.adc_conversion_wrapper(simulation)
-# Loading work.averager256(rtl)
-# Loading work.debounce(logic)
-# Loading work.synchronizer(behavioural)
-# Loading work.register_10bits(behavior)
-# Loading work.register_16bits(behavior)
-# Loading work.binary_bcd(behavior)
-# Loading work.mux4to1(behavior)
-# Loading work.blank_select(behavioural)
-# Loading work.sevensegment(behavioral)
-# Loading work.sevensegment_decoder(behavioral)
-# Loading work.pwm_dac(behavioral)
-# Loading work.module(behavioral)
-# Loading ieee.math_real(body)
-# Loading work.downcounter(behavioral)
-# Loading work.pwm_sevenseg(behavioral)
-# Loading work.module2(behavioral)
-add wave -position end sim:/tb_top_level/dut/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: yazan  Hostname: yazan-MacBookPro  ProcessID: 8911
-#           Attempting to use alternate WLF file "./wlftnmqa8e".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftnmqa8e
+add wave -position end sim:/tb_module/line__38/*
+# (vish-4014) No objects found matching 'sim:/tb_module/line__38/*'.
+add wave -position end sim:/tb_module/line__41/*
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_module/line__41/*'.
 run -all
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_buzz/PWM_SEVENSEG_instantiation
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_buzz
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_ins/PWM_SEVENSEG_instantiation
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_ins
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/LEDR_PWM
-# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/ADC_ins0/averager
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(128)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(128)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(127)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(127)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(126)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(126)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(125)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(125)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(124)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(124)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(123)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(123)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(122)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(122)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(121)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(121)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(120)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(120)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(119)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(119)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(118)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(118)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(117)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(117)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(116)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(116)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(115)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(115)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(114)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(114)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(113)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(113)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(112)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(112)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(111)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(111)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(110)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(110)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(109)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(109)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(108)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(108)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(107)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(107)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(106)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(106)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(105)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(105)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(104)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(104)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(103)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(103)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(102)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(102)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(101)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(101)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(100)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(100)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(99)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(99)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(98)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(98)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(97)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(97)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(96)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(96)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(95)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(95)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(94)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(94)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(93)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(93)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(92)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(92)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(91)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(91)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(90)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(90)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(89)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(89)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(88)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(88)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(87)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(87)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(86)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(86)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(85)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(85)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(84)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(84)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(83)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(83)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(82)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(82)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(81)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(81)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(80)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(80)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(79)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(79)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(78)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(78)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(77)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(77)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(76)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(76)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(75)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(75)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(74)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(74)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(73)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(73)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(72)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(72)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(71)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(71)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(70)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(70)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(69)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(69)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(68)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(68)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(67)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(67)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(66)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(66)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(65)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(65)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(64)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(64)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(63)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(63)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(62)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(62)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(61)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(61)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(60)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(60)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(59)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(59)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(58)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(58)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(57)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(57)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(56)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(56)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(55)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(55)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(54)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(54)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(53)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(53)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(52)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(52)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(51)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(51)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(50)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(50)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(49)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(49)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(48)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(48)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(47)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(47)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(46)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(46)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(45)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(45)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(44)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(44)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(43)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(43)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(42)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(42)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(41)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(41)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(40)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(40)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(39)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(39)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(38)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(38)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(37)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(37)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(36)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(36)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(35)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(35)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(34)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(34)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(33)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(33)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(32)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(32)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(31)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(31)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(30)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(30)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(29)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(29)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(28)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(28)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(27)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(27)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(26)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(26)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(25)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(25)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(24)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(24)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(23)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(23)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(22)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(22)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(21)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(21)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(20)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(20)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(19)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(19)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(18)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(18)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(17)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(17)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(16)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(16)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(15)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(15)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(14)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(14)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(13)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(13)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(12)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(12)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(11)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(11)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(10)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(10)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(9)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(9)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(8)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(8)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(7)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(7)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(6)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(6)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(5)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(5)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(4)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(4)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(3)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(3)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(2)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(2)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(1)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(1)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/ADC_ins0/voltage2distance_ins
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 1  Instance: /tb_top_level/dut/LEDR_PWM
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /tb_top_level/dut/ADC_ins0/voltage2distance_ins
-# Break key hit
-# Break in Process response_valid_out_process at C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd line 40
-# Compile of ADC_Conversion_wrapper.vhd was successful.
-# Compile of ADC_Data.vhd was successful.
-# Compile of averager256.vhd was successful.
-# Compile of binary_bcd.vhd was successful.
-# Compile of blank_select.vhd was successful.
-# Compile of debounce.vhd was successful.
-# Compile of downcounter.vhd was successful.
-# Compile of LUT_pkg.vhd was successful.
-# Compile of module.vhd was successful.
-# Compile of module2.vhd was successful.
-# Compile of MUX2TO1.vhd was successful.
-# Compile of MUX4TO1.vhd was successful.
-# Compile of PWM_DAC.vhd was successful.
-# Compile of PWM_SEVENSEG.vhd was successful.
-# Compile of Register_10bits.vhd was successful.
-# Compile of Register_16bits.vhd was successful.
-# Compile of SevenSegment.vhd was successful.
-# Compile of SevenSegment_decoder.vhd was successful.
-# Compile of Synchronizer.vhd was successful.
-# Compile of tb_ADC_data.vhd was successful.
-# Compile of tb_blank_select.vhd was successful.
-# Compile of tb_debounce.vhd was successful.
-# Compile of tb_downcounter.vhd was successful.
-# Compile of tb_module.vhd was successful.
-# Compile of tb_MUX2TO1.vhd was successful.
-# Compile of tb_MUX4TO1.vhd was successful.
-# Compile of tb_PWM_DAC.vhd was successful.
-# Compile of tb_PWM_SEVENSEG.vhd was successful.
-# Compile of tb_Register_16bits.vhd was successful.
-# Compile of tb_synchronizer.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of voltage2distance_array2.vhd was successful.
-# 33 compiles, 0 failed with no errors.
-vsim -gui work.tb_top_level
-# End time: 11:46:07 on Dec 03,2020, Elapsed time: 0:04:42
-# Errors: 1, Warnings: 268
-# vsim -gui work.tb_top_level 
-# Start time: 11:46:07 on Dec 03,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_top_level(tb)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level(behavioral)
-# Loading work.adc_data(rtl)
-# Loading work.lut_pkg
-# Loading work.voltage2distance_array2(behavior)
-# Loading work.adc_conversion_wrapper(simulation)
-# Loading work.averager256(rtl)
-# Loading work.debounce(logic)
-# Loading work.synchronizer(behavioural)
-# Loading work.register_10bits(behavior)
-# Loading work.register_16bits(behavior)
-# Loading work.binary_bcd(behavior)
-# Loading work.mux4to1(behavior)
-# Loading work.blank_select(behavioural)
-# Loading work.sevensegment(behavioral)
-# Loading work.sevensegment_decoder(behavioral)
-# Loading work.pwm_dac(behavioral)
-# Loading work.module(behavioral)
-# Loading ieee.math_real(body)
-# Loading work.downcounter(behavioral)
-# Loading work.pwm_sevenseg(behavioral)
-# Loading work.module2(behavioral)
-add wave -position end sim:/tb_top_level/dut/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: yazan  Hostname: yazan-MacBookPro  ProcessID: 8911
-#           Attempting to use alternate WLF file "./wlftkz5g61".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftkz5g61
-run -all
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_buzz/PWM_SEVENSEG_instantiation
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_buzz
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_ins/PWM_SEVENSEG_instantiation
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_ins
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/LEDR_PWM
-# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/ADC_ins0/averager
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(128)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(128)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(127)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(127)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(126)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(126)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(125)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(125)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(124)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(124)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(123)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(123)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(122)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(122)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(121)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(121)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(120)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(120)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(119)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(119)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(118)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(118)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(117)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(117)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(116)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(116)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(115)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(115)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(114)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(114)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(113)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(113)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(112)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(112)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(111)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(111)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(110)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(110)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(109)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(109)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(108)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(108)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(107)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(107)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(106)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(106)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(105)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(105)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(104)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(104)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(103)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(103)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(102)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(102)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(101)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(101)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(100)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(100)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(99)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(99)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(98)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(98)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(97)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(97)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(96)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(96)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(95)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(95)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(94)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(94)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(93)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(93)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(92)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(92)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(91)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(91)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(90)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(90)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(89)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(89)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(88)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(88)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(87)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(87)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(86)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(86)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(85)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(85)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(84)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(84)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(83)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(83)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(82)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(82)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(81)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(81)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(80)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(80)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(79)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(79)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(78)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(78)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(77)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(77)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(76)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(76)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(75)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(75)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(74)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(74)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(73)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(73)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(72)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(72)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(71)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(71)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(70)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(70)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(69)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(69)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(68)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(68)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(67)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(67)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(66)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(66)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(65)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(65)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(64)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(64)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(63)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(63)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(62)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(62)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(61)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(61)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(60)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(60)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(59)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(59)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(58)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(58)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(57)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(57)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(56)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(56)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(55)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(55)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(54)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(54)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(53)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(53)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(52)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(52)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(51)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(51)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(50)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(50)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(49)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(49)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(48)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(48)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(47)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(47)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(46)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(46)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(45)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(45)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(44)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(44)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(43)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(43)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(42)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(42)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(41)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(41)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(40)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(40)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(39)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(39)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(38)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(38)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(37)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(37)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(36)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(36)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(35)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(35)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(34)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(34)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(33)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(33)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(32)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(32)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(31)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(31)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(30)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(30)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(29)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(29)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(28)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(28)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(27)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(27)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(26)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(26)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(25)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(25)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(24)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(24)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(23)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(23)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(22)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(22)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(21)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(21)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(20)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(20)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(19)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(19)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(18)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(18)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(17)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(17)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(16)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(16)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(15)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(15)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(14)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(14)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(13)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(13)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(12)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(12)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(11)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(11)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(10)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(10)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(9)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(9)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(8)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(8)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(7)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(7)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(6)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(6)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(5)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(5)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(4)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(4)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(3)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(3)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(2)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(2)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(1)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(1)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/ADC_ins0/voltage2distance_ins
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 1  Instance: /tb_top_level/dut/LEDR_PWM
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /tb_top_level/dut/ADC_ins0/voltage2distance_ins
-# ** Failure: Simulation ended
-#    Time: 100200 ns  Iteration: 0  Process: /tb_top_level/stimuli File: C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_top_level.vhd
-# Break in Process stimuli at C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_top_level.vhd line 85
-# WARNING: No extended dataflow license exists
-# WARNING: No extended dataflow license exists
-# Compile of ADC_Conversion_wrapper.vhd was successful.
-# Compile of ADC_Data.vhd was successful.
-# Compile of averager256.vhd was successful.
-# Compile of binary_bcd.vhd was successful.
-# Compile of blank_select.vhd was successful.
-# Compile of debounce.vhd was successful.
-# Compile of downcounter.vhd was successful.
-# Compile of LUT_pkg.vhd was successful.
-# Compile of module.vhd was successful.
-# Compile of module2.vhd was successful.
-# Compile of MUX2TO1.vhd was successful.
-# Compile of MUX4TO1.vhd was successful.
-# Compile of PWM_DAC.vhd was successful.
-# Compile of PWM_SEVENSEG.vhd was successful.
-# Compile of Register_10bits.vhd was successful.
-# Compile of Register_16bits.vhd was successful.
-vsim -gui work.tb_top_level
-# End time: 11:52:35 on Dec 03,2020, Elapsed time: 0:06:28
-# Errors: 2, Warnings: 267
-# vsim -gui work.tb_top_level 
-# Start time: 11:52:35 on Dec 03,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_top_level(tb)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level(behavioral)
-# Loading work.adc_data(rtl)
-# Loading work.lut_pkg
-# Loading work.voltage2distance_array2(behavior)
-# Loading work.adc_conversion_wrapper(simulation)
-# Loading work.averager256(rtl)
-# Loading work.debounce(logic)
-# Loading work.synchronizer(behavioural)
-# Loading work.register_10bits(behavior)
-# Loading work.register_16bits(behavior)
-# Loading work.binary_bcd(behavior)
-# Loading work.mux4to1(behavior)
-# Loading work.blank_select(behavioural)
-# Loading work.sevensegment(behavioral)
-# Loading work.sevensegment_decoder(behavioral)
-# Loading work.pwm_dac(behavioral)
-# Loading work.module(behavioral)
-# Loading ieee.math_real(body)
-# Loading work.downcounter(behavioral)
-# Loading work.pwm_sevenseg(behavioral)
-# Loading work.module2(behavioral)
-# Compile of SevenSegment.vhd was successful.
-# Compile of SevenSegment_decoder.vhd was successful.
-# Compile of Synchronizer.vhd was successful.
-# Compile of tb_ADC_data.vhd was successful.
-# Compile of tb_blank_select.vhd was successful.
-# Compile of tb_debounce.vhd was successful.
-# Compile of tb_downcounter.vhd was successful.
-# Compile of tb_module.vhd was successful.
-# Compile of tb_MUX2TO1.vhd was successful.
-# Compile of tb_MUX4TO1.vhd was successful.
-# Compile of tb_PWM_DAC.vhd was successful.
-# Compile of tb_PWM_SEVENSEG.vhd was successful.
-# Compile of tb_Register_16bits.vhd was successful.
-# Compile of tb_synchronizer.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of voltage2distance_array2.vhd was successful.
-# 33 compiles, 0 failed with no errors.
-vsim -gui work.tb_top_level
-# End time: 11:52:57 on Dec 03,2020, Elapsed time: 0:00:22
+quit -sim
+# End time: 16:32:27 on Nov 28,2020, Elapsed time: 0:07:42
 # Errors: 0, Warnings: 2
-# vsim -gui work.tb_top_level 
-# Start time: 11:52:57 on Dec 03,2020
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 16:32:53 on Nov 28,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.tb_top_level(tb)
+# Loading work.tb_module(tb)
+# ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+add wave -position end sim:/tb_module/*
+run -all
+quit -sim
+# End time: 16:35:21 on Nov 28,2020, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd failed with 3 errors.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 3 failed with 10 errors.
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 2 failed with 7 errors.
+vsim work.tb_downcounter
+# vsim work.tb_downcounter 
+# Start time: 16:36:14 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_downcounter(tb)
 # Loading ieee.numeric_std(body)
-# Loading work.top_level(behavioral)
-# Loading work.adc_data(rtl)
-# Loading work.lut_pkg
-# Loading work.voltage2distance_array2(behavior)
-# Loading work.adc_conversion_wrapper(simulation)
-# Loading work.averager256(rtl)
-# Loading work.debounce(logic)
-# Loading work.synchronizer(behavioural)
-# Loading work.register_10bits(behavior)
-# Loading work.register_16bits(behavior)
-# Loading work.binary_bcd(behavior)
-# Loading work.mux4to1(behavior)
-# Loading work.blank_select(behavioural)
-# Loading work.sevensegment(behavioral)
-# Loading work.sevensegment_decoder(behavioral)
-# Loading work.pwm_dac(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+add wave -position end sim:/tb_downcounter/*
+add wave -position end sim:/tb_downcounter/dut/*
+run -all
+quit -sim
+# End time: 16:48:33 on Nov 28,2020, Elapsed time: 0:12:19
+# Errors: 0, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# 32 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 16:51:11 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# ** Warning: (vsim-3473) Component instance "dut : module" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+add wave -position end sim:/tb_module/*
+run -all
+quit -sim
+# End time: 17:23:51 on Nov 28,2020, Elapsed time: 0:32:40
+# Errors: 0, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:24:30 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 13 (1 downto -11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd Line: 68
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:24:30 on Nov 28,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:26:23 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
 # Loading work.module(behavioral)
 # Loading ieee.math_real(body)
 # Loading work.downcounter(behavioral)
 # Loading work.pwm_sevenseg(behavioral)
-# Loading work.module2(behavioral)
-add wave -position end sim:/tb_top_level/dut/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: yazan  Hostname: yazan-MacBookPro  ProcessID: 8911
-#           Attempting to use alternate WLF file "./wlftfnx01f".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftfnx01f
+add wave -position end sim:/tb_module/*
+add wave -position end sim:/tb_module/dut/*
 run -all
 # ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_buzz/PWM_SEVENSEG_instantiation
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_buzz
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+add wave -position end sim:/tb_module/dut/downcounter_instantiation/*
+# Break key hit
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
 # ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_ins/PWM_SEVENSEG_instantiation
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/module_ins
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+quit -sim
+# End time: 17:29:27 on Nov 28,2020, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 2
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:29:43 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+add wave -position end sim:/tb_module/*
+add wave -position end sim:/tb_module/dut/*
+add wave -position end sim:/tb_module/dut/downcounter_instantiation/*
+run -all
 # ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/LEDR_PWM
-# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/ADC_ins0/averager
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(128)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(128)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(127)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(127)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(126)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(126)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(125)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(125)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(124)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(124)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(123)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(123)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(122)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(122)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(121)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(121)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(120)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(120)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(119)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(119)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(118)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(118)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(117)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(117)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(116)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(116)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(115)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(115)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(114)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(114)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(113)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(113)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(112)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(112)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(111)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(111)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(110)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(110)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(109)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(109)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(108)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(108)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(107)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(107)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(106)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(106)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(105)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(105)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(104)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(104)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(103)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(103)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(102)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(102)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(101)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(101)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(100)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(100)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(99)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(99)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(98)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(98)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(97)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(97)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(96)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(96)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(95)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(95)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(94)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(94)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(93)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(93)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(92)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(92)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(91)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(91)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(90)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(90)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(89)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(89)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(88)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(88)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(87)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(87)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(86)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(86)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(85)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(85)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(84)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(84)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(83)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(83)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(82)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(82)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(81)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(81)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(80)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(80)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(79)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(79)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(78)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(78)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(77)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(77)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(76)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(76)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(75)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(75)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(74)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(74)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(73)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(73)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(72)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(72)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(71)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(71)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(70)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(70)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(69)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(69)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(68)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(68)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(67)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(67)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(66)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(66)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(65)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(65)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(64)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(64)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(63)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(63)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(62)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(62)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(61)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(61)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(60)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(60)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(59)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(59)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(58)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(58)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(57)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(57)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(56)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(56)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(55)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(55)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(54)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(54)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(53)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(53)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(52)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(52)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(51)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(51)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(50)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(50)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(49)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(49)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(48)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(48)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(47)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(47)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(46)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(46)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(45)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(45)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(44)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(44)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(43)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(43)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(42)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(42)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(41)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(41)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(40)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(40)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(39)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(39)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(38)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(38)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(37)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(37)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(36)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(36)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(35)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(35)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(34)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(34)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(33)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(33)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(32)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(32)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(31)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(31)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(30)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(30)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(29)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(29)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(28)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(28)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(27)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(27)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(26)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(26)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(25)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(25)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(24)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(24)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(23)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(23)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(22)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(22)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(21)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(21)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(20)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(20)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(19)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(19)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(18)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(18)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(17)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(17)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(16)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(16)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(15)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(15)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(14)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(14)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(13)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(13)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(12)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(12)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(11)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(11)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(10)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(10)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(9)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(9)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(8)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(8)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(7)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(7)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(6)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(6)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(5)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(5)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(4)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(4)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(3)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(3)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(2)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(2)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(1)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Region: /tb_top_level/dut/ADC_ins0/averager/LoopB1(1)
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/dut/ADC_ins0/voltage2distance_ins
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+add wave -position end sim:/tb_module/dut/PWM_SEVENSEG_instantiation/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
 # ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 1  Instance: /tb_top_level/dut/LEDR_PWM
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /tb_top_level/dut/ADC_ins0/voltage2distance_ins
-# ** Failure: Simulation ended
-#    Time: 20000200 ns  Iteration: 0  Process: /tb_top_level/stimuli File: C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_top_level.vhd
-# Break in Process stimuli at C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_top_level.vhd line 85
-# End time: 13:24:15 on Dec 03,2020, Elapsed time: 1:31:18
-# Errors: 2, Warnings: 267
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd failed with 3 errors.
+# 33 compiles, 3 failed with 10 errors.
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 13 (1 downto -11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd Line: 69
+# FATAL ERROR while loading design
+# Load canceled
+# Break key hit
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:29:43 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 13 (1 downto -11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut File: /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd Line: 69
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:43:52 on Nov 28,2020, Elapsed time: 0:14:09
+# Errors: 1, Warnings: 1
+restart -f
+# No Design Loaded!
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+vsim work.tb_module
+# vsim work.tb_module 
+# Start time: 17:45:27 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_module(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.module(behavioral)
+# Loading ieee.math_real(body)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# Compile of ADC_Conversion_wrapper.vhd was successful.
+# Compile of ADC_Data.vhd was successful.
+# Compile of averager256.vhd was successful.
+# Compile of binary_bcd.vhd was successful.
+# Compile of blank_select.vhd was successful.
+# Compile of debounce.vhd was successful.
+# Compile of downcounter.vhd was successful.
+# Compile of LUT_pkg.vhd was successful.
+# Compile of MUX2TO1.vhd was successful.
+# Compile of MUX4TO1.vhd was successful.
+# Compile of Register_10bits.vhd was successful.
+# Compile of Register_16bits.vhd was successful.
+# Compile of SevenSegment.vhd failed with 6 errors.
+# Compile of SevenSegment_decoder.vhd was successful.
+# Compile of Synchronizer.vhd was successful.
+# Compile of tb_ADC_data.vhd was successful.
+# Compile of tb_averager256.vhd failed with 1 errors.
+# Compile of tb_blank_select.vhd was successful.
+# Compile of tb_debounce.vhd was successful.
+# Compile of tb_downcounter.vhd was successful.
+# Compile of tb_MUX2TO1.vhd was successful.
+# Compile of tb_MUX4TO1.vhd was successful.
+# Compile of tb_PWM_SEVENSEG.vhd was successful.
+# Compile of tb_Register_16bits.vhd was successful.
+# Compile of tb_synchronizer.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of voltage2distance_array2.vhd was successful.
+# Compile of PWM_DAC.vhd was successful.
+# Compile of tb_PWM_DAC.vhd was successful.
+# Compile of tb_module.vhd was successful.
+# Compile of PWM_SEVENSEG.vhd was successful.
+# Compile of module.vhd was successful.
+# 33 compiles, 2 failed with 7 errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_module(tb)
+# Loading work.module(behavioral)
+# Loading work.downcounter(behavioral)
+# Loading work.pwm_sevenseg(behavioral)
+run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut/PWM_SEVENSEG_instantiation
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_module/dut
