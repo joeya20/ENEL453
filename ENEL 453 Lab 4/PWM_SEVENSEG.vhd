@@ -9,7 +9,7 @@ entity PWM_SEVENSEG is
              clk        : in  STD_LOGIC;
              duty_cycle : in  STD_LOGIC_VECTOR (width-1 downto 0);
 				 pwm_enable : in 	STD_LOGIC;
-              inverted_pwm_out    : out STD_LOGIC
+             inverted_pwm_out    : out STD_LOGIC
            );
 end PWM_SEVENSEG;
 
@@ -18,7 +18,6 @@ end PWM_SEVENSEG;
 
 architecture Behavioral of PWM_SEVENSEG is
    signal counter : unsigned (width-1 downto 0);
-	signal max_count : unsigned (width-1 downto 0) := (others => '1');
    signal pwm_out	: STD_LOGIC;
 	
 begin
@@ -43,7 +42,7 @@ begin
        end if;
    end process;
   
-  inverted_pwm_out <=  pwm_out;
+  inverted_pwm_out <= not pwm_out;
   
 end Behavioral;
 

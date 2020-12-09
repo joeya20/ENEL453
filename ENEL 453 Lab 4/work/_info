@@ -8,34 +8,34 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4
+Z0 d/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4
 Eadc_conversion_wrapper
-Z0 w1607020572
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 1377
-Z3 dC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4
-Z4 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd
-Z5 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd
+Z1 w1606240398
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3686
+R0
+Z4 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd
+Z5 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd
 l0
 L4 1
 VB?86R5UoX7S2lmRYIzIMS2
 !s100 KH;=f<oN;9WCTDm@QNBBJ1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1607021537
+Z7 !s110 1607476912
 !i10b 1
-Z8 !s108 1607021537.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd|
-Z10 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd|
+Z8 !s108 1607476912.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd|
+Z10 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Conversion_wrapper.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
 Asimulation
-R1
 R2
+R3
 Z13 DEx4 work 22 adc_conversion_wrapper 0 22 B?86R5UoX7S2lmRYIzIMS2
-!i122 1377
+!i122 3686
 l32
 L29 69
 Vi2kh07eNkFdL;49Y3n6MP2
@@ -51,10 +51,10 @@ R10
 R11
 R12
 Artl
-R1
 R2
+R3
 R13
-!i122 1377
+!i122 3686
 l20
 L11 17
 V0hdTc:nn_LghWHZXNG^5S1
@@ -70,14 +70,14 @@ R10
 R11
 R12
 Eadc_data
-R0
-Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-R1
+Z14 w1607476893
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R2
-!i122 1378
 R3
-Z15 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Data.vhd
-Z16 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Data.vhd
+!i122 3687
+R0
+Z16 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd
+Z17 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd
 l0
 L5 1
 V3n4fooJXC0K:cdF`D0ON[0
@@ -87,18 +87,18 @@ R6
 R7
 !i10b 1
 R8
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Data.vhd|
-Z18 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/ADC_Data.vhd|
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd|
+Z19 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/ADC_Data.vhd|
 !i113 1
 R11
 R12
 Artl
 R13
-R14
-R1
+R15
 R2
-Z19 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
-!i122 1378
+R3
+Z20 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
+!i122 3687
 l62
 L15 91
 V4PJKQIG`Se:_:eSMWUG@W3
@@ -108,22 +108,22 @@ R6
 R7
 !i10b 1
 R8
-R17
 R18
+R19
 !i113 1
 R11
 R12
 Eaverager256
-R0
-R14
 R1
+R15
 R2
-!i122 1379
 R3
-Z20 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/averager256.vhd
-Z21 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/averager256.vhd
+!i122 3688
+R0
+Z21 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd
+Z22 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd
 l0
-Z22 L10 1
+Z23 L10 1
 V_CUX^0>VNcl[Eh>P]8Za^3
 !s100 PTQlD5=WnNQ@eNmcPZ4:[2
 R6
@@ -131,17 +131,17 @@ R6
 R7
 !i10b 1
 R8
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/averager256.vhd|
-Z24 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/averager256.vhd|
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd|
+Z25 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/averager256.vhd|
 !i113 1
 R11
 R12
 Artl
-R14
-R1
+R15
 R2
+R3
 DEx4 work 11 averager256 0 22 _CUX^0>VNcl[Eh>P]8Za^3
-!i122 1379
+!i122 3688
 l41
 L26 52
 VaAoP5C?JT3`FEL<=61K_I2
@@ -151,20 +151,20 @@ R6
 R7
 !i10b 1
 R8
-R23
 R24
+R25
 !i113 1
 R11
 R12
 Ebinary_bcd
-R0
-R14
 R1
+R15
 R2
-!i122 1380
 R3
-Z25 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/binary_bcd.vhd
-Z26 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/binary_bcd.vhd
+!i122 3689
+R0
+Z26 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd
+Z27 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd
 l0
 L8 1
 V0:9zdOIA`o`LF2cmkOC^P3
@@ -174,17 +174,17 @@ R6
 R7
 !i10b 1
 R8
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/binary_bcd.vhd|
-Z28 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/binary_bcd.vhd|
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd|
+Z29 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/binary_bcd.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R14
-R1
+R15
 R2
+R3
 DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
-!i122 1380
+!i122 3689
 l27
 L17 68
 Vkk0@KWb1@9aV]WcFQb8d>1
@@ -194,45 +194,45 @@ R6
 R7
 !i10b 1
 R8
-R27
 R28
+R29
 !i113 1
 R11
 R12
 Eblank_select
-R0
 R1
 R2
-!i122 1381
 R3
-Z29 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/blank_select.vhd
-Z30 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/blank_select.vhd
+!i122 3690
+R0
+Z30 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd
+Z31 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd
 l0
 L4 1
 VANaEk2RfR>oo0z?7Rezo01
 !s100 0Bk1e2FW^;;gklU8lc@mY1
 R6
 32
-Z31 !s110 1607021538
+R7
 !i10b 1
 R8
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/blank_select.vhd|
-Z33 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/blank_select.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd|
+Z33 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/blank_select.vhd|
 !i113 1
 R11
 R12
 Abehavioural
-R1
 R2
+R3
 Z34 DEx4 work 12 blank_select 0 22 ANaEk2RfR>oo0z?7Rezo01
-!i122 1381
+!i122 3690
 l15
 L14 6
 V@GHj4dJodY9K?S]]SU_0A3
 !s100 jQC>?<Z09Df;]KAZ@0D<I3
 R6
 32
-R31
+R7
 !i10b 1
 R8
 R32
@@ -243,28 +243,28 @@ R12
 Ccfg_tb_adc_data
 etb_ADC_Data
 atb
-R14
-R19
+R15
+R20
 DAx4 work 11 tb_adc_data 2 tb 22 2[P3WYUn^GW[A6j=>UhNJ0
-R1
 R2
-Z35 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
-!i122 1396
-R0
 R3
-Z36 8C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_ADC_data.vhd
-Z37 FC:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_ADC_data.vhd
+Z35 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
+!i122 3705
+R1
+R0
+Z36 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd
+Z37 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd
 l0
 Z38 L78 1
 V<XCj?3HN7YR>koNkEm^`j0
 !s100 DhEC5OjeD1dD8XhZK6HkV3
 R6
 32
-Z39 !s110 1607021557
+Z39 !s110 1607476914
 !i10b 0
-Z40 !s108 1607021557.000000
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_ADC_data.vhd|
-Z42 !s107 C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_ADC_data.vhd|
+Z40 !s108 1607476913.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd|
+Z42 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_ADC_data.vhd|
 !i113 1
 R11
 R12
@@ -273,14 +273,14 @@ etb_blank_select
 atb
 R34
 DAx4 work 15 tb_blank_select 2 tb 22 ]@F3@1h`<JY7GZMSEiz6l0
-R1
 R2
-Z43 DEx4 work 15 tb_blank_select 0 22 jSVc77J3aW;EKKz2<VSeN0
-!i122 1397
-R0
 R3
-Z44 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_blank_select.vhd
-Z45 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_blank_select.vhd
+Z43 DEx4 work 15 tb_blank_select 0 22 jSVc77J3aW;EKKz2<VSeN0
+!i122 3706
+R1
+R0
+Z44 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd
+Z45 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd
 l0
 Z46 L61 1
 VPZZ9OD=YAl?nO?>>33TP:3
@@ -289,806 +289,868 @@ R6
 32
 R39
 !i10b 0
-R40
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_blank_select.vhd|
-Z48 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_blank_select.vhd|
+Z47 !s108 1607476914.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd|
+Z49 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_blank_select.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_downcounter
 etb_downcounter
 atb
-R14
-Z49 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-Z50 DEx4 work 11 downcounter 0 22 f?S9fF?Mo1oV=;?fEh^Un3
+R15
+Z50 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z51 DEx4 work 11 downcounter 0 22 f?S9fF?Mo1oV=;?fEh^Un3
 DAx4 work 14 tb_downcounter 2 tb 22 lLTI?T<0JRoh>BFAMWAg@1
-R1
 R2
-Z51 DEx4 work 14 tb_downcounter 0 22 6k^VW]FF=:?Im4[J]33ZA0
-!i122 1399
-R0
 R3
-Z52 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_downcounter.vhd
-Z53 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_downcounter.vhd
+Z52 DEx4 work 14 tb_downcounter 0 22 6k^VW]FF=:?Im4[J]33ZA0
+!i122 3708
+Z53 w1606606702
+R0
+Z54 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd
+Z55 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd
 l0
 L74 1
 V^ld68Q[CMMK_KzIV_G[bY0
 !s100 9TRL:^`UD0JUHPNJ^6R7f0
 R6
 32
-Z54 !s110 1607021558
+R39
 !i10b 0
-Z55 !s108 1607021558.000000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_downcounter.vhd|
-Z57 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_downcounter.vhd|
+R47
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd|
+Z57 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_downcounter.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_module
 etb_module
 atb
-DAx4 work 9 tb_module 2 tb 22 Z`Efhf4^c3o5g4]GnYQ3F3
-R1
+R15
+Z58 DPx4 work 7 lut_pkg 0 22 :WJYgmO9TfV3hnLKXje711
+Z59 DEx4 work 6 module 0 22 1ceZW8d5hgcOTL8zN9:SK2
+DAx4 work 9 tb_module 2 tb 22 26egHS[bZeeNmc?Pfn2]@3
 R2
-Z58 DEx4 work 9 tb_module 0 22 ^6E8c=00@TSZXR@WBAdPF1
-!i122 1400
-R0
 R3
-Z59 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_module.vhd
-Z60 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_module.vhd
+Z60 DEx4 work 9 tb_module 0 22 ^6E8c=00@TSZXR@WBAdPF1
+!i122 3709
+Z61 w1607461013
+R0
+Z62 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
+Z63 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd
 l0
-L70 1
-Vi?n2P?L5XR0^gfk5m<2gI3
-!s100 ;DN3JJ6XWWjFkgzTA8Lh50
+Z64 L71 1
+VP<haah8fe_C@7aISVg]Wn3
+!s100 ]T5IAWS7I;WD5`]dUE`110
 R6
 32
-R54
+R39
 !i10b 0
-R55
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_module.vhd|
-Z62 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_module.vhd|
+R47
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd|
+Z66 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_module.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_module2
+etb_module2
+atb
+R15
+R58
+Z67 DEx4 work 7 module2 0 22 6PAilG1KCRUdhU9?fYZX?2
+DAx4 work 10 tb_module2 2 tb 22 X=47ZD>[R5Hdzg_UPG3;X0
+R2
+R3
+Z68 DEx4 work 10 tb_module2 0 22 ]G8E7j8^JnE0`QDWFWDSG2
+!i122 3718
+Z69 w1607458461
+R0
+Z70 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_mod2.vhd
+Z71 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_mod2.vhd
+l0
+L77 1
+V;^IE@J6N0:IbaTnI5AULD0
+!s100 <?@=>>l=SE@VIAQ_`nlRL0
+R6
+32
+Z72 !s110 1607476915
+!i10b 0
+Z73 !s108 1607476915.000000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_mod2.vhd|
+Z75 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_mod2.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_mux2to1
 etb_MUX2TO1
 atb
-Z63 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
+Z76 DEx4 work 7 mux2to1 0 22 @0S`EKP00^0KG5?aDAn@53
 DAx4 work 10 tb_mux2to1 2 tb 22 =UYE>bWmjCD@m10_1VI=z1
-R1
 R2
-Z64 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
-!i122 1401
-R0
 R3
-Z65 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX2TO1.vhd
-Z66 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX2TO1.vhd
+Z77 DEx4 work 10 tb_mux2to1 0 22 Ib@2L6>4m?I`INR>md?>;2
+!i122 3710
+R1
+R0
+Z78 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd
+Z79 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd
 l0
 L55 1
 Ve8izW2[n24JS=G>S0`CaO0
 !s100 J@DHRZba3YTWX936zF`I80
 R6
 32
-R54
+R39
 !i10b 0
-R55
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
-Z68 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
+R47
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
+Z81 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX2TO1.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_mux4to1
 etb_MUX4TO1
 atb
-Z69 DEx4 work 7 mux4to1 0 22 >c>edKQ6bg2m^bD79zNQ=1
+Z82 DEx4 work 7 mux4to1 0 22 >c>edKQ6bg2m^bD79zNQ=1
 DAx4 work 10 tb_mux4to1 2 tb 22 fUGh>>me2XV`EzUggSRmz0
-R1
 R2
-Z70 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
-!i122 1402
-R0
 R3
-Z71 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX4TO1.vhd
-Z72 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX4TO1.vhd
+Z83 DEx4 work 10 tb_mux4to1 0 22 WE<afC8WU7fQ_oB`A203J2
+!i122 3711
+R1
+R0
+Z84 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd
+Z85 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd
 l0
 R46
 V=39e8?E[27mP?fWY9K^AB1
 !s100 :H2YA_:X7c9a^RXTRjQR]1
 R6
 32
-R54
+R39
 !i10b 0
-R55
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
-Z74 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
+R47
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
+Z87 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_MUX4TO1.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_pwm_dac
 etb_PWM_DAC
 atb
-DAx4 work 10 tb_pwm_dac 2 tb 22 e?D>bkc[jK6I9d^<]jgE31
-R1
+R15
+Z88 DEx4 work 7 pwm_dac 0 22 LEE9Q7aTI1<LJ6?Uh^MU82
+DAx4 work 10 tb_pwm_dac 2 tb 22 QO[cXCmDD9DBj1H61WkKh1
 R2
-Z75 DEx4 work 10 tb_pwm_dac 0 22 EhMFC_N=eHBa<gFX:0]OS0
-!i122 1404
-R0
 R3
-Z76 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_PWM_SEVENSEG.vhd
-Z77 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_PWM_SEVENSEG.vhd
+Z89 DEx4 work 10 tb_pwm_dac 0 22 EhMFC_N=eHBa<gFX:0]OS0
+!i122 3712
+Z90 w1607475580
+R0
+Z91 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd
+Z92 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd
 l0
-R38
-VbGGjPcJjf4>DNzmHXFOQm0
-!s100 :k`Q=^iP^_d4gUk8gBhe;1
+R64
+V0:K58>_RR]9B2hbzYdjT70
+!s100 De0<Vn815URV]OBk]hDAA0
 R6
 32
-Z78 !s110 1607021559
+R39
 !i10b 0
-R55
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_PWM_SEVENSEG.vhd|
-Z80 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_PWM_SEVENSEG.vhd|
+R47
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd|
+Z94 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_PWM_DAC.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_pwm_sevenseg
+etb_PWM_SEVENSEG
+atb
+R15
+Z95 DEx4 work 12 pwm_sevenseg 0 22 jBeMOemUeGMdNK>YOnXO^1
+DAx4 work 15 tb_pwm_sevenseg 2 tb 22 9kYSF_o]^C[Tl3IaPjHJ83
+R2
+R3
+Z96 DEx4 work 15 tb_pwm_sevenseg 0 22 n3beWLDiT6c<NMZ3@=YDe0
+!i122 3719
+Z97 w1607475446
+R0
+Z98 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_pwm_dac_7seg.vhd
+Z99 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_pwm_dac_7seg.vhd
+l0
+L73 1
+V860@4I]GXM?1F3;Oi4a<k3
+!s100 [5lhOcinJkzjWX1OE`V=c0
+R6
+32
+R72
+!i10b 0
+R73
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_pwm_dac_7seg.vhd|
+Z101 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_pwm_dac_7seg.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_register_16bits
 etb_Register_16bits
 atb
-Z81 DEx4 work 15 register_16bits 0 22 T`4BE6Fj;d6iC_>z^dHQX3
+Z102 DEx4 work 15 register_16bits 0 22 T`4BE6Fj;d6iC_>z^dHQX3
 DAx4 work 18 tb_register_16bits 2 tb 22 IkF8geDkU3Z]BbEQKAza82
-R1
 R2
-Z82 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
-!i122 1405
-R0
 R3
-Z83 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_Register_16bits.vhd
-Z84 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_Register_16bits.vhd
+Z103 DEx4 work 18 tb_register_16bits 0 22 FzV@^Kl6L8ELdkPK22:z:0
+!i122 3713
+R1
+R0
+Z104 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd
+Z105 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd
 l0
 R38
 VH:>OcdKOc[@DA^;O;>Y;o2
 !s100 @P1T9HA_TOOnG5PL<mJEf1
 R6
 32
-R78
+R39
 !i10b 0
-Z85 !s108 1607021559.000000
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_Register_16bits.vhd|
-Z87 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_Register_16bits.vhd|
+R47
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd|
+Z107 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_Register_16bits.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_synchronizer
 etb_Synchronizer
 atb
-Z88 DEx4 work 12 synchronizer 0 22 MN0OZDjkP_US]EWLAMl250
+Z108 DEx4 work 12 synchronizer 0 22 MN0OZDjkP_US]EWLAMl250
 DAx4 work 15 tb_synchronizer 2 tb 22 Rc`cfm5JREK6Si@BTJaJk0
-R1
 R2
-Z89 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
-!i122 1406
-R0
 R3
-Z90 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_synchronizer.vhd
-Z91 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_synchronizer.vhd
+Z109 DEx4 work 15 tb_synchronizer 0 22 eLKCQWi];U]XmbE2aVB_e0
+!i122 3714
+R1
+R0
+Z110 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd
+Z111 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd
 l0
 L64 1
 V[_;BQHX1g00bao:z2F[ln2
 !s100 olJAFj4z8Vj9Uld1W^lZV1
 R6
 32
-R78
+R39
 !i10b 0
-R85
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_synchronizer.vhd|
-Z93 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_synchronizer.vhd|
+R47
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd|
+Z113 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_synchronizer.vhd|
 !i113 1
 R11
 R12
 Ccfg_tb_top_level
 etb_top_level
 atb
-R14
-Z94 DEx4 work 9 top_level 0 22 g5beSIMeK=]k];1TA0Yg=3
-DAx4 work 12 tb_top_level 2 tb 22 m>ZX?2Bz1c?2mACR717C20
-R1
+R15
+Z114 DEx4 work 9 top_level 0 22 g5beSIMeK=]k];1TA0Yg=3
+DAx4 work 12 tb_top_level 2 tb 22 Voh>hYcHAVN4;1;^I`eaQ2
 R2
-Z95 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
-!i122 1407
-Z96 w1607021533
 R3
-Z97 8C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_top_level.vhd
-Z98 FC:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_top_level.vhd
+Z115 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
+!i122 3715
+Z116 w1607465607
+R0
+Z117 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd
+Z118 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd
 l0
-L92 1
-VO0F96L<oQ]06BJQEI1gzV1
-!s100 iRFT_bM?nO?6cRAVNU41:0
+L107 1
+VZ@O:Me_G:MX^F_n_SR2Ff0
+!s100 dn8WNc]?NQM5[1`T4?Igc1
 R6
 32
-R78
+R39
 !i10b 0
-R85
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_top_level.vhd|
-Z100 !s107 C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\tb_top_level.vhd|
+R47
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd|
+Z120 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_top_level.vhd|
 !i113 1
 R11
 R12
 Edebounce
-R0
 R1
 R2
-!i122 1382
 R3
-Z101 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/debounce.vhd
-Z102 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/debounce.vhd
+!i122 3691
+R0
+Z121 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd
+Z122 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd
 l0
 L29 1
 V@:59AM=ljIR?D1gDRW7W=0
 !s100 <M9fi1iYe2@AWXSd<LhWz0
 R6
 32
-R31
+R7
 !i10b 1
-Z103 !s108 1607021538.000000
-Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/debounce.vhd|
-Z105 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/debounce.vhd|
+R8
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd|
+Z124 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/debounce.vhd|
 !i113 1
 R11
 R12
 Alogic
-R1
 R2
+R3
 DEx4 work 8 debounce 0 22 @:59AM=ljIR?D1gDRW7W=0
-!i122 1382
+!i122 3691
 l42
 L39 24
 VX^;WOnj0o;zdPQgHU2;6H0
 !s100 QQ@O34Z;U0>19GRHL9J`V1
 R6
 32
-R31
+R7
 !i10b 1
-R103
-R104
-R105
+R8
+R123
+R124
 !i113 1
 R11
 R12
 Edowncounter
-R0
-R49
-R14
-R1
+Z125 w1607400023
+R50
+R15
 R2
-!i122 1383
 R3
-Z106 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/downcounter.vhd
-Z107 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/downcounter.vhd
+!i122 3692
+R0
+Z126 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd
+Z127 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd
 l0
 L7 1
 Vf?S9fF?Mo1oV=;?fEh^Un3
 !s100 dI]M3lSmH:b_Q^MQknk6z3
 R6
 32
-R31
+R7
 !i10b 1
-R103
-Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/downcounter.vhd|
-Z109 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/downcounter.vhd|
+R8
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd|
+Z129 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/downcounter.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R49
-R14
-R1
-R2
 R50
-!i122 1383
+R15
+R2
+R3
+R51
+!i122 3692
 l20
 L17 27
-VkCNS;YA96^UB;92oHF1G;2
-!s100 6BkOF@Ja[iGNRkJ_F9XXl2
+V0JIQG]YbZU?^>b?X2SDAg1
+!s100 _9O9WbPbaoI[a<YPGX1Y31
 R6
 32
-R31
+R7
 !i10b 1
-R103
-R108
-R109
+R8
+R128
+R129
 !i113 1
 R11
 R12
 Plut_pkg
-R1
 R2
-!i122 1384
-R0
 R3
-8C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\LUT_pkg.vhd
-FC:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\LUT_pkg.vhd
+!i122 3693
+w1607453444
+R0
+8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd
+F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd
 l0
 L4 1
-VIgKlI;MNnaa=HE2C02Qlh0
-!s100 LnX0RC`;1SkDOhSMl<TH;1
+V:WJYgmO9TfV3hnLKXje711
+!s100 >3;5:I;^G1@V]D=cGWilh2
 R6
 32
-R31
+Z130 !s110 1607476913
 !i10b 1
-R103
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\LUT_pkg.vhd|
-!s107 C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\LUT_pkg.vhd|
+R40
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd|
+!s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/LUT_pkg.vhd|
 !i113 1
 R11
 R12
 Emodule
-R0
-Z110 DPx4 work 7 lut_pkg 0 22 IgKlI;MNnaa=HE2C02Qlh0
-R14
-R1
+Z131 w1607412765
+R58
+R15
 R2
-!i122 1385
 R3
-Z111 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module.vhd
-Z112 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module.vhd
+!i122 3694
+R0
+Z132 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd
+Z133 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd
 l0
 L7 1
 V1ceZW8d5hgcOTL8zN9:SK2
 !s100 JLnLNRjnW[<2z]T;RGzDf3
 R6
 32
-R31
+R130
 !i10b 1
-R103
-Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module.vhd|
-Z114 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module.vhd|
+R40
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd|
+Z135 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R110
-R14
-R1
+R58
+R15
 R2
-DEx4 work 6 module 0 22 1ceZW8d5hgcOTL8zN9:SK2
-!i122 1385
-l39
-Z115 L15 48
-VTKdEzUz3CS4z`@;D?MC>11
-!s100 WDg8E1KjZRgEVJ03aKz9e1
+R3
+R59
+!i122 3694
+l40
+L15 56
+VY<9V_[fjT;YYRPaX6;Ygz2
+!s100 nlaA99=HLLY4[V7EDZM8@1
 R6
 32
-R31
+R130
 !i10b 1
-R103
-R113
-R114
+R40
+R134
+R135
 !i113 1
 R11
 R12
 Emodule2
-R0
-R110
-R14
-R1
+Z136 w1607207210
+R58
+R15
 R2
-!i122 1386
 R3
-Z116 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module2.vhd
-Z117 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module2.vhd
+!i122 3695
+R0
+Z137 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module2.vhd
+Z138 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module2.vhd
 l0
 L7 1
 V6PAilG1KCRUdhU9?fYZX?2
 !s100 TN>^ozBG3AjN2H1XSiOdg2
 R6
 32
-R31
+R130
 !i10b 1
-R103
-Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module2.vhd|
-Z119 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/module2.vhd|
+R40
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module2.vhd|
+Z140 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/module2.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R110
-R14
-R1
+R58
+R15
 R2
-DEx4 work 7 module2 0 22 6PAilG1KCRUdhU9?fYZX?2
-!i122 1386
+R3
+R67
+!i122 3695
 l39
-R115
-V681iiD8YVAo`=FYfUmZ]12
-!s100 _Ph]Nlm<keKg6l@<CBSA11
+L15 48
+VO1O:K1@09CNNKFPka1iIR2
+!s100 e^UJ5LW`Pan8Bj>on?XAd1
 R6
 32
-R31
+R130
 !i10b 1
-R103
-R118
-R119
+R40
+R139
+R140
 !i113 1
 R11
 R12
 Emux2to1
-R0
 R1
 R2
-!i122 1387
 R3
-Z120 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX2TO1.vhd
-Z121 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX2TO1.vhd
+!i122 3696
+R0
+Z141 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd
+Z142 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd
 l0
 L4 1
 V@0S`EKP00^0KG5?aDAn@53
 !s100 RO3T[f^VWjWjU>4@HiXBV0
 R6
 32
-Z122 !s110 1607021539
+R130
 !i10b 1
-R103
-Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX2TO1.vhd|
-Z124 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX2TO1.vhd|
+R40
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd|
+Z144 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX2TO1.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R1
 R2
-R63
-!i122 1387
+R3
+R76
+!i122 3696
 l13
 L12 6
 VfVUU`<XQ^7T<4EBOFU?De3
 !s100 8zIME]K9O<eKE<V6BEOYP2
 R6
 32
-R122
+R130
 !i10b 1
-R103
-R123
-R124
+R40
+R143
+R144
 !i113 1
 R11
 R12
 Emux4to1
-R0
 R1
 R2
-!i122 1388
 R3
-Z125 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX4TO1.vhd
-Z126 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX4TO1.vhd
+!i122 3697
+R0
+Z145 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd
+Z146 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd
 l0
 L4 1
 V>c>edKQ6bg2m^bD79zNQ=1
 !s100 B?5cDbR4da<MdGjVi;O]N0
 R6
 32
-R122
+R130
 !i10b 1
-Z127 !s108 1607021539.000000
-Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX4TO1.vhd|
-Z129 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/MUX4TO1.vhd|
+R40
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd|
+Z148 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/MUX4TO1.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R1
 R2
-R69
-!i122 1388
+R3
+R82
+!i122 3697
 l16
 L15 8
 VOVcn3a5EYH0_c:1m8z60b2
 !s100 lm=A3RfDYm_2nfQfXfjOz2
 R6
 32
-R122
+R130
 !i10b 1
-R127
-R128
-R129
+R40
+R147
+R148
 !i113 1
 R11
 R12
 Epwm_dac
-R0
-R14
-R1
+Z149 w1607476314
+R15
 R2
-!i122 1389
 R3
-Z130 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_DAC.vhd
-Z131 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_DAC.vhd
+!i122 3698
+R0
+Z150 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd
+Z151 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd
 l0
 L5 1
 VLEE9Q7aTI1<LJ6?Uh^MU82
 !s100 Sz9l:g9c>:ATL4VOGd;]K1
 R6
 32
-R122
+R130
 !i10b 1
-R127
-Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_DAC.vhd|
-Z133 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_DAC.vhd|
+R40
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd|
+Z153 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_DAC.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R14
-R1
+R15
 R2
-DEx4 work 7 pwm_dac 0 22 LEE9Q7aTI1<LJ6?Uh^MU82
-!i122 1389
-l21
-L15 29
-VS[VODG9RS^BBT[6>D9@M:1
-!s100 oKL<K[LcPMbPnzE6`]a>C0
+R3
+R88
+!i122 3698
+l20
+L15 27
+VCP5g]_K83R1P6P@SQ2R9n3
+!s100 A@MY5R79;RzH>8Q5f:TA^3
 R6
 32
-R122
+R130
 !i10b 1
-R127
-R132
-R133
+R40
+R152
+R153
 !i113 1
 R11
 R12
 Epwm_sevenseg
-R0
-R14
-R1
+Z154 w1607476235
+R15
 R2
-!i122 1390
 R3
-Z134 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
-Z135 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
+!i122 3699
+R0
+Z155 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
+Z156 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd
 l0
 L5 1
-V@2]j0F<OTDMDBE7YI28bz3
-!s100 YIW]0R]VYZYZ0da^3MScX2
+VjBeMOemUeGMdNK>YOnXO^1
+!s100 c1h?WZ`njAC?`EOF9_D3d2
 R6
 32
-R122
+R130
 !i10b 1
-R127
-Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
-Z137 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
+R40
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
+Z158 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/PWM_SEVENSEG.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R14
-R1
+R15
 R2
-DEx4 work 12 pwm_sevenseg 0 22 @2]j0F<OTDMDBE7YI28bz3
-!i122 1390
-l24
-L19 30
-V>kc@e>5UAO5Bh`a7c<FbJ3
-!s100 S6ML_TFLE9BVI[CDfa3BN3
+R3
+R95
+!i122 3699
+l23
+L19 29
+VR]VP7B>geBH:F]AcGG9;S3
+!s100 0P=OK?iT70aR;K<X8fh7f2
 R6
 32
-R122
+R130
 !i10b 1
-R127
-R136
-R137
+R40
+R157
+R158
 !i113 1
 R11
 R12
 Eregister_10bits
-R0
 R1
 R2
-!i122 1391
 R3
-Z138 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_10bits.vhd
-Z139 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_10bits.vhd
+!i122 3700
+R0
+Z159 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd
+Z160 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd
 l0
 L4 1
 V?zj7dhn70[O^L<4ZLWGzI1
 !s100 L>H@E9H_PGI5nKThgKFBD2
 R6
 32
-R122
+R130
 !i10b 1
-R127
-Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_10bits.vhd|
-Z141 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_10bits.vhd|
+R40
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd|
+Z162 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_10bits.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R1
 R2
+R3
 DEx4 work 15 register_10bits 0 22 ?zj7dhn70[O^L<4ZLWGzI1
-!i122 1391
+!i122 3700
 l15
 L14 19
 Viz5NYZ[LAXY1^DTP_:kg10
 !s100 n1@=Kf`Nefah?T_=40n;92
 R6
 32
-R122
+R130
 !i10b 1
-R127
-R140
-R141
+R40
+R161
+R162
 !i113 1
 R11
 R12
 Eregister_16bits
-R0
 R1
 R2
-!i122 1392
 R3
-Z142 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_16bits.vhd
-Z143 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_16bits.vhd
+!i122 3701
+R0
+Z163 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd
+Z164 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd
 l0
 L4 1
 VT`4BE6Fj;d6iC_>z^dHQX3
 !s100 PC=gO8zGkGRBdDz8Lke9n1
 R6
 32
-Z144 !s110 1607021541
+R130
 !i10b 1
-Z145 !s108 1607021541.000000
-Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_16bits.vhd|
-Z147 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Register_16bits.vhd|
+R40
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd|
+Z166 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Register_16bits.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R1
 R2
-R81
-!i122 1392
+R3
+R102
+!i122 3701
 l15
 L14 15
 Vg7<AzXYE_kQfiem^08?B`0
 !s100 `j;6a]ZzHUR9b>2S[haS<2
 R6
 32
-R144
+R130
 !i10b 1
-R145
-R146
-R147
+R40
+R165
+R166
 !i113 1
 R11
 R12
 Esevensegment
-R0
-R1
+Z167 w1607024976
 R2
-!i122 1393
 R3
-Z148 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment.vhd
-Z149 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment.vhd
+!i122 3702
+R0
+Z168 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd
+Z169 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd
 l0
 L5 1
 VjD>E0E^GTaedo@fo>ePY13
 !s100 3OOkZa;0z^jS3;AThzPZN3
 R6
 32
-Z150 !s110 1607021549
+R130
 !i10b 1
-Z151 !s108 1607021549.000000
-Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment.vhd|
-Z153 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment.vhd|
+R40
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd|
+Z171 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R1
 R2
+R3
 DEx4 work 12 sevensegment 0 22 jD>E0E^GTaedo@fo>ePY13
-!i122 1393
+!i122 3702
 l24
 L12 60
 VB]NYhl;GzkiO]6W0A]0k`2
 !s100 ZjUXG1NI5Ei>:7XlcI8dn1
 R6
 32
-R150
+R130
 !i10b 1
-R151
-R152
-R153
+R40
+R170
+R171
 !i113 1
 R11
 R12
 Esevensegment_decoder
-R0
 R1
 R2
-!i122 1394
 R3
-Z154 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment_decoder.vhd
-Z155 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment_decoder.vhd
+!i122 3703
+R0
+Z172 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd
+Z173 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd
 l0
 L5 1
 VKjE^A[JI58zIZ_l229BiF2
 !s100 5AALkiToOD1k>]CGcBo?e0
 R6
 32
-R39
+R130
 !i10b 1
 R40
-Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
-Z157 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
+Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
+Z175 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/SevenSegment_decoder.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R1
 R2
+R3
 DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
-!i122 1394
+!i122 3703
 l17
 L13 41
 VG3hVD5C8G24Y5@Gz8RQQi2
 !s100 UnNnHNcOkEJ?F<]0Q;CPb2
 R6
 32
-R39
+R130
 !i10b 1
 R40
-R156
-R157
+R174
+R175
 !i113 1
 R11
 R12
 Esynchronizer
-R0
 R1
 R2
-!i122 1395
 R3
-Z158 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Synchronizer.vhd
-Z159 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Synchronizer.vhd
+!i122 3704
+R0
+Z176 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd
+Z177 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd
 l0
 L4 1
 VMN0OZDjkP_US]EWLAMl250
 !s100 YaT`Y=JzVLk_0QiV8S`Z70
 R6
 32
-R39
+R130
 !i10b 1
 R40
-Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Synchronizer.vhd|
-Z161 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/Synchronizer.vhd|
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd|
+Z179 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/Synchronizer.vhd|
 !i113 1
 R11
 R12
 Abehavioural
-R1
 R2
-R88
-!i122 1395
+R3
+R108
+!i122 3704
 l30
 L14 37
 V:f@e_1?g>J<JO>Y5ShFoz2
 !s100 zGh7eMUfeiC]lje=o`aS13
 R6
 32
-R39
+R130
 !i10b 1
 R40
-R160
-R161
+R178
+R179
 !i113 1
 R11
 R12
 Etb_adc_data
-R0
 R1
 R2
-!i122 1396
 R3
+!i122 3705
+R0
 R36
 R37
 l0
@@ -1106,12 +1168,12 @@ R42
 R11
 R12
 Atb
-R1
 R2
+R3
 R35
-!i122 1396
+!i122 3705
 l36
-Z162 L11 64
+L11 64
 V2[P3WYUn^GW[A6j=>UhNJ0
 !s100 4XmK:gNE:_LWeL4ZWVYU91
 R6
@@ -1125,33 +1187,33 @@ R42
 R11
 R12
 Etb_averager256
-w1606408655
-R1
+w1606406269
 R2
-!i122 1165
-dC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4
-8C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd
-FC:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd
+R3
+!i122 1430
+R0
+8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd
+F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd
 l0
 L8 1
 V@2jZ>[c<9lBAVMfPH7c`R3
 !s100 ZOGVmigDVJ8lJY_]=;i3J1
 R6
 32
-!s110 1607019292
+!s110 1607207450
 !i10b 1
-!s108 1607019291.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd|
-!s107 C:/Users/emman/Desktop/ENEL453/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd|
+!s108 1607207450.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd|
+!s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_averager256.vhd|
 !i113 1
 R11
 R12
 Etb_blank_select
-R0
 R1
 R2
-!i122 1397
 R3
+!i122 3706
+R0
 R44
 R45
 l0
@@ -1162,485 +1224,567 @@ R6
 32
 R39
 !i10b 1
-R40
 R47
 R48
+R49
 !i113 1
 R11
 R12
 Atb
-R1
 R2
+R3
 R43
-!i122 1397
+!i122 3706
 l26
-Z163 L11 47
+Z180 L11 47
 V]@F3@1h`<JY7GZMSEiz6l0
 !s100 WnEK?86MASYD79:OgB^AF0
 R6
 32
 R39
 !i10b 1
-R40
 R47
 R48
+R49
 !i113 1
 R11
 R12
 Etb_debounce
-R0
 R1
 R2
-!i122 1398
 R3
-Z164 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_debounce.vhd
-Z165 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_debounce.vhd
+!i122 3707
+R0
+Z181 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd
+Z182 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd
 l0
-R22
+R23
 VfC6XFVHOhZjf4l8gcO63:1
 !s100 GoKCFGem1>AF?3<JI:R:30
 R6
 32
-R54
+R39
 !i10b 1
-R55
-Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_debounce.vhd|
-Z167 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/tb_debounce.vhd|
+R47
+Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd|
+Z184 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/tb_debounce.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R1
 R2
+R3
 DEx4 work 11 tb_debounce 0 22 fC6XFVHOhZjf4l8gcO63:1
-!i122 1398
+!i122 3707
 l43
 L13 130
 Vz]4@5;<;kRDK>cZhhC8Se3
 !s100 1l?LmfhB<nn^OjzfZ3ZzA1
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R166
-R167
+R47
+R183
+R184
 !i113 1
 R11
 R12
 Etb_downcounter
-R0
-R1
-R2
-!i122 1399
-R3
-R52
 R53
+R2
+R3
+!i122 3708
+R0
+R54
+R55
 l0
 L8 1
 V6k^VW]FF=:?Im4[J]33ZA0
 !s100 kW?j:]4T;akk]2nV5U6Oh3
 R6
 32
-R54
+R39
 !i10b 1
-R55
+R47
 R56
 R57
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R51
-!i122 1399
+R3
+R52
+!i122 3708
 l31
 L11 60
 VlLTI?T<0JRoh>BFAMWAg@1
 !s100 DdS2f;=H_NW<^k6Jgj8Kf0
 R6
 32
-R54
+R39
 !i10b 1
-R55
+R47
 R56
 R57
 !i113 1
 R11
 R12
 Etb_module
-R0
-R1
+R61
 R2
-!i122 1400
 R3
-R59
-R60
+!i122 3709
+R0
+R62
+R63
 l0
 L8 1
 V^6E8c=00@TSZXR@WBAdPF1
 !s100 RoOEXh=N<9R89CDY3EGn[3
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R61
-R62
+R47
+R65
+R66
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R58
-!i122 1400
-l29
-L11 56
-VZ`Efhf4^c3o5g4]GnYQ3F3
-!s100 _Xnjm5HTHD_j3:8ja<BXL2
+R3
+R60
+!i122 3709
+l30
+Z185 L11 57
+V26egHS[bZeeNmc?Pfn2]@3
+!s100 <iJ4hfNo1g=eU7_FC_73;0
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R61
-R62
+R47
+R65
+R66
+!i113 1
+R11
+R12
+Etb_module2
+R69
+R2
+R3
+!i122 3718
+R0
+R70
+R71
+l0
+L8 1
+V]G8E7j8^JnE0`QDWFWDSG2
+!s100 OdDX1JCVTm;eihIc]DhO>0
+R6
+32
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R11
+R12
+Atb
+R2
+R3
+R68
+!i122 3718
+l30
+L11 63
+VX=47ZD>[R5Hdzg_UPG3;X0
+!s100 =EoW?QE[`V>7E9L5fK9MX0
+R6
+32
+R72
+!i10b 1
+R73
+R74
+R75
 !i113 1
 R11
 R12
 Etb_mux2to1
-R0
 R1
 R2
-!i122 1401
 R3
-R65
-R66
+!i122 3710
+R0
+R78
+R79
 l0
 L4 1
 VIb@2L6>4m?I`INR>md?>;2
 !s100 MXTn`=C41mc0Pab1_8j`P0
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R67
-R68
+R47
+R80
+R81
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R64
-!i122 1401
+R3
+R77
+!i122 3710
 l25
 L7 45
 V=UYE>bWmjCD@m10_1VI=z1
 !s100 Q9Y[N;5[M]5D2=??4RIDM0
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R67
-R68
+R47
+R80
+R81
 !i113 1
 R11
 R12
 Etb_mux4to1
-R0
 R1
 R2
-!i122 1402
 R3
-R71
-R72
+!i122 3711
+R0
+R84
+R85
 l0
 L8 1
 VWE<afC8WU7fQ_oB`A203J2
 !s100 g?aTQ81l9bHihkJfXCgT`3
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R73
-R74
+R47
+R86
+R87
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R70
-!i122 1402
+R3
+R83
+!i122 3711
 l29
-R163
+R180
 VfUGh>>me2XV`EzUggSRmz0
 !s100 8Li63`T9o[e;BBm82O13C2
 R6
 32
-R54
+R39
 !i10b 1
-R55
-R73
-R74
+R47
+R86
+R87
 !i113 1
 R11
 R12
 Etb_pwm_dac
-R0
-R1
+R90
 R2
-!i122 1404
 R3
-R76
-R77
+!i122 3712
+R0
+R91
+R92
 l0
 L8 1
 VEhMFC_N=eHBa<gFX:0]OS0
 !s100 F`ojo60TRjPXz5Anh:B[P2
 R6
 32
-R78
+R39
 !i10b 1
-R55
-R79
-R80
+R47
+R93
+R94
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R75
-!i122 1404
-l31
-R162
-Ve?D>bkc[jK6I9d^<]jgE31
-!s100 SAnQQ=B<5Geh>KLGX?]Gk1
+R3
+R89
+!i122 3712
+l29
+R185
+VQO[cXCmDD9DBj1H61WkKh1
+!s100 ^d<lCCOR3@iel[>6z>WVI3
 R6
 32
-R78
+R39
 !i10b 1
-R55
-R79
-R80
+R47
+R93
+R94
+!i113 1
+R11
+R12
+Etb_pwm_sevenseg
+R97
+R2
+R3
+!i122 3719
+R0
+R98
+R99
+l0
+L8 1
+Vn3beWLDiT6c<NMZ3@=YDe0
+!s100 W^KGB5083df@OznAAWZ@L1
+R6
+32
+R72
+!i10b 1
+R73
+R100
+R101
+!i113 1
+R11
+R12
+Atb
+R2
+R3
+R96
+!i122 3719
+l31
+Z186 L11 59
+Z187 V9kYSF_o]^C[Tl3IaPjHJ83
+Z188 !s100 1nb[>E6aL1jl;bGX_eC321
+R6
+32
+R72
+!i10b 1
+R73
+R100
+R101
 !i113 1
 R11
 R12
 Etb_register_16bits
-R0
 R1
 R2
-!i122 1405
 R3
-R83
-R84
+!i122 3713
+R0
+R104
+R105
 l0
 L4 1
 VFzV@^Kl6L8ELdkPK22:z:0
 !s100 QFL9=iA@:I72o`9ZKQV2`3
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R86
-R87
+R47
+R106
+R107
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R82
-!i122 1405
+R3
+R103
+!i122 3713
 l27
 L7 68
 VIkF8geDkU3Z]BbEQKAza82
 !s100 7C?^Rbz@fi[nFNC6G1j5F0
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R86
-R87
+R47
+R106
+R107
 !i113 1
 R11
 R12
 Etb_synchronizer
-R0
 R1
 R2
-!i122 1406
 R3
-R90
-R91
+!i122 3714
+R0
+R110
+R111
 l0
 L8 1
 VeLKCQWi];U]XmbE2aVB_e0
 !s100 OSTJhXDBDlYCj;XjRhJ<f1
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R92
-R93
+R47
+R112
+R113
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R89
-!i122 1406
+R3
+R109
+!i122 3714
 l27
 L11 50
 VRc`cfm5JREK6Si@BTJaJk0
 !s100 Ia^SF]gf:V;54^=e`RFBO3
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R92
-R93
+R47
+R112
+R113
 !i113 1
 R11
 R12
 Etb_top_level
-R96
-R1
+R116
 R2
-!i122 1407
 R3
-R97
-R98
+!i122 3715
+R0
+R117
+R118
 l0
 L8 1
 VzIJcR]GGPS23@TVK:g=SK1
 !s100 2e@ZcHec5JS2MgNF8KA`21
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R99
-R100
+R47
+R119
+R120
 !i113 1
 R11
 R12
 Atb
-R1
 R2
-R95
-!i122 1407
-l45
-L11 78
-Vm>ZX?2Bz1c?2mACR717C20
-!s100 8QR`<QB46G>`MhDnjg1gQ0
+R3
+R115
+!i122 3715
+l46
+L11 93
+VVoh>hYcHAVN4;1;^I`eaQ2
+!s100 @_^CP<abRSMIcRG@_>Jeo0
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R99
-R100
+R47
+R119
+R120
 !i113 1
 R11
 R12
 Etop_level
-R0
-R14
-R1
+Z189 w1607017878
+R15
 R2
-!i122 1408
 R3
-Z168 8C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\top_level.vhd
-Z169 FC:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\top_level.vhd
+!i122 3716
+R0
+Z190 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd
+Z191 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd
 l0
 L5 1
 Vg5beSIMeK=]k];1TA0Yg=3
 !s100 >OaUkd8C^nm@^D[VRdOlE1
 R6
 32
-R78
+R39
 !i10b 1
-R85
-Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\top_level.vhd|
-Z171 !s107 C:\Users\JoeyD\Documents\GitHub\ENEL-453-Lab\ENEL 453 Lab 4\top_level.vhd|
+R47
+Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd|
+Z193 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/top_level.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R14
-R1
+R15
 R2
-R94
-!i122 1408
+R3
+R114
+!i122 3716
 l162
 L17 288
 Vmm6h45996KReO?]z6DkV?3
 !s100 IHnDg`=>9RNHe>9[m1MHJ2
 R6
 32
-R78
+R39
 !i10b 1
-R85
-R170
-R171
+R47
+R192
+R193
 !i113 1
 R11
 R12
 Evoltage2distance_array2
-R0
-R110
-R14
 R1
+R58
+R15
 R2
-!i122 1409
 R3
-Z172 8C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/voltage2distance_array2.vhd
-Z173 FC:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/voltage2distance_array2.vhd
+!i122 3717
+R0
+Z194 8/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd
+Z195 F/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd
 l0
 L24 1
 V=NDCVZciz^K^bX6GaO`oT3
 !s100 `A`mdf8ondemfJ_=[hYQd1
 R6
 32
-R78
+R72
 !i10b 1
-R85
-Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/voltage2distance_array2.vhd|
-Z175 !s107 C:/Users/JoeyD/Documents/GitHub/ENEL-453-Lab/ENEL 453 Lab 4/voltage2distance_array2.vhd|
+R47
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd|
+Z197 !s107 /home/yazan/Desktop/ENEL-453-Lab-1/ENEL 453 Lab 4/voltage2distance_array2.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R110
-R14
-R1
+R58
+R15
 R2
-Z176 DEx4 work 23 voltage2distance_array2 0 22 =NDCVZciz^K^bX6GaO`oT3
-!i122 1409
+R3
+DEx4 work 23 voltage2distance_array2 0 22 =NDCVZciz^K^bX6GaO`oT3
+!i122 3717
 l35
-Z177 L32 11
-Z178 VEeH?6UUEXf92ElUkXFl4d3
-Z179 !s100 [6Lk_@eYiRP^?7Woz^lK[0
+L32 11
+VEeH?6UUEXf92ElUkXFl4d3
+!s100 [6Lk_@eYiRP^?7Woz^lK[0
 R6
 32
-R78
+R72
 !i10b 1
-R85
-R174
-R175
+R47
+R196
+R197
 !i113 1
 R11
 R12

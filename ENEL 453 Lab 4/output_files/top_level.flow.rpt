@@ -1,5 +1,5 @@
 Flow report for top_level
-Thu Dec 03 13:24:44 2020
+Tue Dec  8 18:36:49 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,24 +41,24 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Dec 03 13:24:26 2020       ;
+; Flow Status                        ; Successful - Tue Dec  8 18:36:49 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; top_level                                   ;
 ; Top-level Entity Name              ; top_level                                   ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 11,921 / 49,760 ( 24 % )                    ;
-;     Total combinational functions  ; 8,753 / 49,760 ( 18 % )                     ;
-;     Dedicated logic registers      ; 6,983 / 49,760 ( 14 % )                     ;
-; Total registers                    ; 6983                                        ;
-; Total pins                         ; 72 / 360 ( 20 % )                           ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
-; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
-; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
-; ADC blocks                         ; 1 / 2 ( 50 % )                              ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
+; UFM blocks                         ; N/A until Partition Merge                   ;
+; ADC blocks                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/03/2020 13:18:49 ;
+; Start date & time ; 12/08/2020 18:36:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; top_level           ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                      ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 46276802957288.160702672912724                             ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 619751273534.160747780050581                               ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                         ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                          ; --            ; --          ; --         ;
 ; MISC_FILE                           ; adc_qsys/adc_qsys/synthesis/../adc_qsys.cmp                ; --            ; --          ; --         ;
@@ -96,38 +96,29 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:03:12     ; 1.0                     ; 4913 MB             ; 00:03:32                           ;
-; Fitter               ; 00:02:10     ; 1.4                     ; 5752 MB             ; 00:03:59                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 4716 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:16     ; 2.4                     ; 4923 MB             ; 00:00:34                           ;
-; Total                ; 00:05:45     ; --                      ; --                  ; 00:08:11                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 814 MB              ; 00:00:21                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:21                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-DQAL439  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++------------------------+------------------+--------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name      ; OS Version ; Processor type ;
++------------------------+------------------+--------------+------------+----------------+
+; Analysis & Elaboration ; yazan-MacBookPro ; Ubuntu 20.04 ; 20         ; x86_64         ;
++------------------------+------------------+--------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Lab4 -c top_level
-quartus_fit --read_settings_files=off --write_settings_files=off Lab4 -c top_level
-quartus_asm --read_settings_files=off --write_settings_files=off Lab4 -c top_level
-quartus_sta Lab4 -c top_level
+quartus_map --read_settings_files=on --write_settings_files=off Lab4 -c top_level --analysis_and_elaboration
 
 
 

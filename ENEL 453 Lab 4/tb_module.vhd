@@ -1,6 +1,6 @@
 -- Testbench automatically generated online
 -- at https://vhdl.lapinoo.net
--- Generation date : 28.11.2020 20:54:37 UTC
+-- Generation date : 8.12.2020 19:56:06 UTC
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -11,28 +11,29 @@ end tb_module;
 architecture tb of tb_module is
 
     component module
-        port (reset_n          : in std_logic;
-              clk              : in std_logic;
-              distance         : in std_logic_vector (13-1 downto 0);
-              inverted_pwm_out : out std_logic);
+        port (reset_n  : in std_logic;
+              clk      : in std_logic;
+              distance : in std_logic_vector (12 downto 0);
+              output   : out std_logic);
     end component;
 
-    signal reset_n          : std_logic;
-    signal clk              : std_logic;
-    signal distance         : std_logic_vector (13-1 downto 0);
-    signal inverted_pwm_out : std_logic;
+    signal reset_n  : std_logic;
+    signal clk      : std_logic;
+    signal distance : std_logic_vector (12 downto 0);
+    signal output   : std_logic;
 
     constant TbPeriod : time := 20 ns; -- EDIT Put right period here
+	 constant extra_delay : time:= TbPeriod*10000; 
     signal TbClock : std_logic := '0';
     signal TbSimEnded : std_logic := '0';
 
 begin
 
     dut : module
-    port map (reset_n          => reset_n,
-              clk              => clk,
-              distance         => distance,
-              inverted_pwm_out => inverted_pwm_out);
+    port map (reset_n  => reset_n,
+              clk      => clk,
+              distance => distance,
+              output   => output);
 
     -- Clock generation
     TbClock <= not TbClock after TbPeriod/2 when TbSimEnded /= '1' else '0';
@@ -52,11 +53,11 @@ begin
         reset_n <= '1';
         wait for 100 ns;
 
-        -- EDIT Add stimuli here
-        wait for 100 * TbPeriod;
+         distance <= "0111111111111"; wait for 421ms; -- 4095mm distance 
 		  
-		  distance <= "0000111000010"; wait for 1000000 * TbPeriod;
-		  distance <= "0001111101000"; wait for 1000000 * TbPeriod;
+		  distance <= "0010111011100"; wait for 800ms; -- 1500mm distance
+		 
+		  distance <= "0000110010000"; wait for 400ms; -- 400mm distance
 
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';

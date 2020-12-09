@@ -33,7 +33,7 @@ BEGIN
              zero          <= '0';
            end if;
         else 
-           zero <= '0';
+           zero <= '1';
         end if;
      end if;
    end process;

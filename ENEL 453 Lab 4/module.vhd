@@ -40,7 +40,7 @@ end component;
 begin
 
 emma : process(distance) begin
-	period <= d27seg_LUT(to_integer(unsigned(distance)));
+	period <=  d27seg_LUT(to_integer(unsigned(distance)));
 	
 	if to_integer(unsigned(distance)) >= 2000 then
 		enable <= '0';
@@ -57,15 +57,15 @@ downcounter_instantiation : downcounter
 									zero => downcounter_output
 									);
 PWM_SEVENSEG_instantiation : PWM_SEVENSEG
-						Generic map (width => 2)
+						Generic map (width => 13)
 						Port Map(
 									clk => clk,
 									pwm_enable => downcounter_output,
 									reset_n => reset_n,
-									duty_cycle => "10",
+									duty_cycle => "1000000000000",
 									inverted_pwm_out => output_pwm
 									);
-   output <=  output_pwm;
+   output <= output_pwm;
 
 end Behavioral;
 

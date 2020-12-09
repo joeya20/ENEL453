@@ -39,6 +39,7 @@ architecture tb of tb_top_level is
     signal buzz_out : std_logic;
 
     constant TbPeriod : time := 20 ns; -- EDIT Put right period here
+	 constant extra_delay : time:= TbPeriod*10000; 
     signal TbClock : std_logic := '0';
     signal TbSimEnded : std_logic := '0';
 
@@ -67,18 +68,32 @@ begin
     stimuli : process
     begin
         -- EDIT Adapt initialization as needed
-        set <= '0';
-        SW <= (others => '0');
+		  reset_n <= '0';
+		SW <= (others => '1');
 
-        -- Reset generation
-        -- EDIT: Check that reset_n is really your reset signal
-        reset_n <= '0';
-        wait for 100 ns;
+			wait for 100 ns;
         reset_n <= '1';
         wait for 100 ns;
+		set <= '1';
+		wait for 1 ms; 
+		
+		set <= '0'; wait for 1.1 ms; 
+		
+		SW <= (others => '0'); wait for 20*extra_delay; 
+		set <= '1'; sw <= (others => '1'); wait for 1 ms;
+		
+       wait for 3 ms;
+		reset_n <= '0'; 
+		wait for 1 ms;
+		reset_n <= '1';
+		wait for 100 ms;
+		wait for 225*extra_delay; 
+		
+		SW(9 downto 8) <= "01";
+				
+		wait for 225*extra_delay;
 
         -- EDIT Add stimuli here
-        wait for 1000000 * TbPeriod;
 		
         -- Stop the clock and hence terminate the simulation
         TbSimEnded <= '1';
